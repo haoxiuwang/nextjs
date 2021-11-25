@@ -1,0 +1,15 @@
+import Content from '../../../components/content'
+import Layout from '../../../components/layout'
+
+export const meta = {
+  title: "This book includes tow parts",
+  book: "The Tragedy of Birlstone",
+  children: [
+    {f:"part-01",t:"Part One"},
+    {f:"part-02",t:"Part Two"},
+  ]
+}
+
+<Content ch={meta.children} />
+
+export default ({ children }) => <Layout meta={meta}>{children}</Layout>

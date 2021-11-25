@@ -1,9 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-
+import Layout from '../components/layout'
+import useRouter from 'next/router'
 export default function Home() {
-  return (
+  var R = useRouter()
+  R.push('/docs')
+  return (<Layout>
     <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
@@ -52,6 +55,7 @@ export default function Home() {
         </div>
       </main>
 
+
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
@@ -65,5 +69,6 @@ export default function Home() {
         </a>
       </footer>
     </div>
+    </Layout>
   )
 }
