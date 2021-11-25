@@ -108,8 +108,12 @@
 }
 .card li{
   list-style: none;
-    display: inline-block;
-    text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
+}
+.card ul{
+  padding-left: 0;
+  padding-right: 0;
 }
 .logo {
   height: 1em;
