@@ -8,7 +8,7 @@ import Nav from './Nav'
 export default function Layout({children,meta}) {
 
   var Router = useRouter()
-  console.log({Router});
+
 return (
   <div className={styles.container}>
     <Head>
@@ -25,6 +25,7 @@ return (
         {meta.title}
       </h2>
       {children}
+        <Nav />
       </div>
     </main>
 

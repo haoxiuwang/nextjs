@@ -109,7 +109,6 @@
 .card li{
   list-style: none;
   display: inline-block;
-  text-decoration: none;
 }
 .card ul{
   padding-left: 0;
