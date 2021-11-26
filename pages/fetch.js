@@ -1,9 +1,9 @@
-import {useEffect,useState} from 'react'
+import React, {useEffect,useState} from 'react'
 
 export default function () {
   var [data,setData] = useState(null)
   useEffect(()=>{
-    function fetchdata() {
+    async function fetchdata() {
 
         var res = await fetch('/api/hello')
         var files = await res.json()
