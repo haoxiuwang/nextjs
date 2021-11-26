@@ -1,6 +1,6 @@
 import React, {useEffect,useState} from 'react'
 
-export default function () {
+export default function Myfetch () {
   var [data,setData] = useState(null)
   useEffect(()=>{
     async function fetchdata() {
@@ -9,6 +9,7 @@ export default function () {
         var files = await res.json()
         setData(files.data)
     }
+    if(data)return;
     fetchdata()
   },[data])
   if(!data)return 'nothing'
