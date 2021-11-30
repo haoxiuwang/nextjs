@@ -1,6 +1,6 @@
 export default function handler(req, res) {
-  var {id} = req.query;
-  res.end(req.url)
+  // var {name} = req.query;
+  res.end("hello")
   // ss(req,res,function () {
   //   res.end('hello!');
   // })
