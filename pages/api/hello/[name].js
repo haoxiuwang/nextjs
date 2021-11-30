@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const ss = require('serve-static')(path.join(process.cwd(),htmls));
 export default function handler(req, res) {
+
   ss(req,res,function () {
     res.end('hello!');
   })
