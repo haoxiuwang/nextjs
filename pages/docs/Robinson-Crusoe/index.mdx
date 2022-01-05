@@ -1,0 +1,20 @@
+import Content from '../../../../components/content'
+import Layout from '../../../../components/layout'
+
+export const meta = {
+  title: "PART One, The Tragedy of Birlstone 伯尔斯通的悲剧",
+  book: "The Tragedy of Birlstone",
+  children: [
+    {f:"001",t:"CHAPTER I. START IN LIFE"},
+    {f:"002",t:"Chapter II. Sherlock Holmes Discourses 论述"},
+    {f:"003",t:"Chapter III. The Tragedy of Birlstone 悲剧"},
+    {f:"004",t:"Chapter IV. Darkness 黑暗笼罩"},
+    {f:"005",t:"Chapter V. The People Of the Drama 剧中人"},
+    {f:"006",t:"Chapter VI. A Dawning Light 曙光初露"},
+    {f:"007",t:"Chapter VII. The Solution 真相大白"},
+  ]
+}
+
+<Content ch={meta.children} />
+
+export default ({ children }) => <Layout meta={meta}>{children}</Layout>
