@@ -4,7 +4,8 @@ import { useRouter } from 'next/router'
 import Link from 'next/link'
 export default function Episode() {
   const router = useRouter()
-  const { serie,season,episode,count,path } = router.query
+  const { serie,season,episode,count,path,dir_name } = router.query
+
   const [index,setIndex] = useState(-1)
   const [{parts,error0},setParts] = useState({parts:null,error0:null})
   useEffect(()=>{
@@ -63,10 +64,13 @@ export default function Episode() {
     <div>
     <div className="episode container" style={{minHeight:"calc(100vh - 80px)"}}>
       <div className="episode">
-      <div style={{textAlign:"center",marginBottom:"25px"}}>This episode include {count} parts, please start with one of them:</div>
-      <div className="flex_row_center">
-        {list(count)}
-      </div>
+        <div>
+          <img width="200" src={`series/${dir_name}/cover.jpg`} />
+        </div>
+        <div style={{textAlign:"center",marginBottom:"25px"}}>{`${serie} include ${count} parts, please start with one of them:`}</div>
+        <div className="flex_row_center">
+          {list(count)}
+        </div>
       </div>
     </div>
     <div style={{backgroundColor:"#eceff1",height:"80px"}} className="flex_row_center"><Link href="/"><a>Back to Home Page</a></Link></div>

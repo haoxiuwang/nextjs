@@ -49,7 +49,7 @@ export default function Home() {
                   <div className="flex_row_center" style={{justifyContent:"flex-start"}}>
                   {episodes.length>0&&episodes.map((e,m)=>(
                     <span className="item" key={m}>
-                      <Link href={`/episode?serie=${name}&season=${season}&episode=${e.episode}&count=${e.count}&path=/series/${dir_name}/${e.path}`}>
+                      <Link href={`/episode?serie=${name}&season=${season}&episode=${e.episode}&count=${e.count}&path=/series/${dir_name}/${e.path}&dir_name=${dir_name}`}>
                         <a>{e.episode}</a>
                       </Link>
                     </span>
