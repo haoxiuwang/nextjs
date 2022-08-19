@@ -59,8 +59,8 @@ export default function Episode() {
     setPlayer(new Audio())
   },[episode])
 
-  if (!parts)return(<div className="episode" style={{height:"100vh"}}>loading source.json...</div>)
-  if (error0)return(<div className="episode" style={{height:"100vh"}}>loading source.json error...</div>)
+  if (!parts)return(<div className="episode" style={{height:"100vh"}}>loading text data...</div>)
+  if (error0)return(<div className="episode" style={{height:"100vh"}}>loading text data error...</div>)
   if(index==-1){
   return (
     <div>
