@@ -25,7 +25,7 @@ export default function Home() {
         {list.length>0&&list.map(({name,dir_name,children},i)=>{
 
           return (
-          <div >
+          <div key={i}>
 
             {children.map(({season,episodes},i)=>(
               <div style={{display:"flex",alignItems:"center",justifyContent:"flex-start",margin:"25px"}}  key={i}>
