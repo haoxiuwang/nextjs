@@ -57,8 +57,8 @@ a {
 }
 .progress>div{
   height:10px;
-  background:gray;
+  background:#cfd8dc;
 }
 .progress{
-  border-bottom: gray 1px solid
+  border-bottom: #eceff1 1px solid
 }

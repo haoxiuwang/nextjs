@@ -65,13 +65,13 @@ export default function Episode() {
 
   return(
 
-        blob?(<Card texts={part} blob={blob} time={time} player={player}/>)
+        blob?(<Card texts={part} blob={blob} time={time} player={player} back={setIndex}/>)
         :(<div className="container episode" style={{minHeight:"100vh"}}>Loading...</div>)
 
   )
 
 }
-function Card({texts,blob,time,player}) {
+function Card({texts,blob,time,player,back}) {
   const [index,setIndex] = useState(0)
   var value = (100*(1-index/texts.length))+"%"
   const [repeat,setRepeat] = useState(false)
@@ -117,6 +117,8 @@ function Card({texts,blob,time,player}) {
       }} className="episode" style={{minHeight:"100vh",padding:"25px"}}>
         {texts[index].en}
       </div>
+      <div style={{backgroundColor:"#eceff1",padding:"5px 0"}} className="flex_row_center" onClick={()=>back(-1)}>Back to Parts</div>
+
     </div>
   )
 }
