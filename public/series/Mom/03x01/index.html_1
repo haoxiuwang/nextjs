@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name=viewport content="width=device-width,initial-scale=1,user-scalable=no,viewport-fit=cover">
+<style>
+  body{
+    font-size:25px;
+    box-sizing: border-box;
+  }
+  p{margin:25px}
+  #voices_zh,#voices_en{margin:25px}
+
+  #sections>ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #sections li{
+    margin:14px;
+    list-style: none;
+    font-size: 14px
+  }
+  #player{
+    box-sizing: border-box;
+    padding:25px;
+    position: fixed;
+    top:0;
+    display:none;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: white;
+  }
+  #player_btn{
+    position: absolute;
+    top:25px;
+    right:25px;
+    pading:25px;
+  }
+  button{
+    padding:25px
+  }
+  #article p:nth-child(odd){
+    opacity:0;
+  }
+  #article p:nth-child(odd):hover{
+    opacity:1;
+  }
+  .loading #article{
+    opacity:0
+  }
+
+</style>
+<script src='event.js'>
+
+</script>
+  </head>
+  <body>
+    <audio id="audio" style='display:none' src="0.mp3">
+    </audio>
+    <input id='enable_local' type="radio" onclick='audio.local=!audio.local;this.checked=audio.local'>
+    <div id='voices_zh' onclick="change_voice(this)"></div>
+    <div id='voices_en' onclick="change_voice(this)"></div>
+    <div class="control">
+      <button type="button" onclick="open_player(0,'random')">Randomly</button>
+      <button type="button" onclick="open_player(0,'play_all')">Play All</button>
+    </div>
+    <div id="player">
+      <button id="player_btn">Close</button>
+      <div id="player_content"></div>
+    </div>
+    <div id="sections">
+
+    </div>
+    <div id="article">
+
+    </div>
+    <script src='code.js'>
+
+    </script>
+  </body>
+</html>
+
+
