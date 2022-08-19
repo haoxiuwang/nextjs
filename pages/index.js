@@ -9,7 +9,6 @@ export default function Home() {
       return res.json()
     })
     .then(function (data) {
-      console.log(data);
       setList(data)
     })
   },list)
@@ -30,10 +29,10 @@ export default function Home() {
             {children.map(({season,episodes},i)=>(
               <div className="serie" key={i}>
 
-                {season!=0?(<span> TV Serie: {name}, Season {season} episodes: </span>)
-                :(<span>Book: {name}</span>)}
+                {season!=0?(<span style={{marginRight:"20px"}}> TV Serie: {name}, Season {season} episodes: </span>)
+                :(<span style={{marginRight:"20px"}}>Book: {name}</span>)}
 
-
+                  [
                   {episodes.length>0&&episodes.map((e,m)=>(
                     <span className="item" key={m}>
                       <Link href={`/episode?serie=${name}&season=${season}&episode=${e.episode}&count=${e.count}&path=/series/${dir_name}/${e.path}`}>
@@ -41,7 +40,7 @@ export default function Home() {
                       </Link>
                     </span>
                   ))}
-
+                  ]
               </div>
             ))}
           </div>

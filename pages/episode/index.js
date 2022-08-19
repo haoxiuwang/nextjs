@@ -42,7 +42,11 @@ export default function Episode() {
     }
     return arr
   }
-
+  const [player,setPlayer] = useState(null)
+  useEffect(()=>{
+    if(!player)
+    setPlayer(new Audio())
+  },[episode])
 
   if(index==-1){
 
@@ -61,30 +65,40 @@ export default function Episode() {
 
   return(
 
-        part?(<Card texts={part}/>)
+        blob?(<Card texts={part} blob={blob} time={time} player={player}/>)
         :(<div className="container episode" style={{minHeight:"100vh"}}>Loading...</div>)
 
   )
 
 }
-function Card({texts,blob,time}) {
+function Card({texts,blob,time,player}) {
   const [index,setIndex] = useState(0)
   var value = (100*(1-index/texts.length))+"%"
-  var play
+  const [repeat,setRepeat] = useState(false)
+
   useEffect(()=>{
-    if (!blob)return
-    player = new Audio()
+    if (!blob||!player)return
+    player.ontimeupdate = ()=>{
+      if(player.currentTime>(time[index+1].timeSeconds-0.8)){
+        console.log({index,time:player.currentTime,time1:time[index+1].timeSeconds-0.8});
+        player.pause()
+      }
+    }
     player.src = window.URL.createObjectURL(blob)
-    player.ontimeupdate = function () {
-      if(time[index].timeSeconds>time[index+1].timeSeconds-0.8)
-      player.pause()      
-    }
+
     return function () {
-      if(!blob)return
+      if(!blob||!player)return
       player.ontimeupdate = null
-      player = null
     }
-  },[blob])
+  },[index])
+  useEffect(()=>{
+    if(!player||index<0)return
+    player.pause()
+    player.currentTime = time[index].timeSeconds
+    player.play()
+
+  },[index,repeat])
+
   return(
     <div>
     <div onClick={(e)=>{
@@ -97,11 +111,8 @@ function Card({texts,blob,time}) {
           setIndex(index==texts.length-1?index:index+1)
         else if(e.screenX>window.innerWidth-50)
         setIndex(index==0?index:index-1);
-        else{
-          player.currentTime = time[index].timeSeconds
-          if(player.paused)
-          player.play()
-        }
+        else
+        setRepeat(!repeat)
 
       }} className="episode" style={{minHeight:"100vh"}}>
         {texts[index].en}
