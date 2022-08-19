@@ -106,7 +106,7 @@ function Card({texts,blob,time,player}) {
     }} className="progress">
       <div style={{marginRight:value}}></div>
     </div>
-      <div style={{margin:"25px"}} onClick={(e)=>{
+      <div  onClick={(e)=>{
         if(e.screenX<50)
           setIndex(index==texts.length-1?index:index+1)
         else if(e.screenX>window.innerWidth-50)
@@ -114,7 +114,7 @@ function Card({texts,blob,time,player}) {
         else
         setRepeat(!repeat)
 
-      }} className="episode" style={{minHeight:"100vh"}}>
+      }} className="episode" style={{minHeight:"100vh",padding:"25px"}}>
         {texts[index].en}
       </div>
     </div>
