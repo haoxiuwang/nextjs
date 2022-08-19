@@ -59,15 +59,15 @@ export default function Episode() {
     setPlayer(new Audio())
   },[episode])
 
-  if (!parts)return(<div className="episode" style={{height:100vh}}>loading source.json...</div>)
-  if (error0)return(<div className="episode" style={{height:100vh}}>loading source.json error...</div>)
+  if (!parts)return(<div className="episode" style={{height:"100vh"}}>loading source.json...</div>)
+  if (error0)return(<div className="episode" style={{height:"100vh"}}>loading source.json error...</div>)
   if(index==-1){
   return (
     <div>
-    <div className="episode" style={{minHeight:"calc(100vh - 80px)"}}>
+    <div className="episode container" style={{minHeight:"calc(100vh - 80px)"}}>
       <div className="episode">
       <div style={{textAlign:"center",marginBottom:"25px"}}>This episode include {count} parts, please start with one of them:</div>
-      <div>
+      <div className="flex_row_center">
         {list(count)}
       </div>
       </div>
@@ -75,9 +75,9 @@ export default function Episode() {
     <div style={{backgroundColor:"#eceff1",height:"80px"}} className="flex_row_center"><Link href="/"><a>Back to Home Page</a></Link></div>
     </div>
   )}
-  if (!time)return(<div className="episode" style={{height:100vh}}>loading time data...</div>)
-  if (!blob)return(<div className="episode" style={{height:100vh}}>loading audio data...</div>)
-  if (error1||error2)return(<div className="episode" style={{height:100vh}}>time and audio data error...</div>)
+  if (!time)return(<div className="episode" style={{height:"100vh"}}>loading time data...</div>)
+  if (!blob)return(<div className="episode" style={{height:"100vh"}}>loading audio data...</div>)
+  if (error1||error2)return(<div className="episode" style={{height:"100vh"}}>time and audio data error...</div>)
   var part = parts[index]
 
   return(
