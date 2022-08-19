@@ -59,8 +59,8 @@ export default function Episode() {
     setPlayer(new Audio())
   },[episode])
 
-  if (!parts)return(<div>loading source.json...</div>)
-  if (error0)return(<div>loading source.json error...</div>)
+  if (!parts)return(<div className="episode" style={{height:100vh}}>loading source.json...</div>)
+  if (error0)return(<div className="episode" style={{height:100vh}}>loading source.json error...</div>)
   if(index==-1){
   return (
     <div>
@@ -75,9 +75,9 @@ export default function Episode() {
     <div style={{backgroundColor:"#eceff1",height:"80px"}} className="flex_row_center"><Link href="/"><a>Back to Home Page</a></Link></div>
     </div>
   )}
-  if (!time)return(<div>loading time data...</div>)
-  if (!blob)return(<div>loading audio data...</div>)
-  if (error1||error2)return(<div>time and audio data error...</div>)
+  if (!time)return(<div className="episode" style={{height:100vh}}>loading time data...</div>)
+  if (!blob)return(<div className="episode" style={{height:100vh}}>loading audio data...</div>)
+  if (error1||error2)return(<div className="episode" style={{height:100vh}}>time and audio data error...</div>)
   var part = parts[index]
 
   return(
@@ -126,7 +126,7 @@ function Card({texts,blob,time,player,back}) {
 
   return(
     <div>
-      <Progress setIndex={setIndex} length={time.length}/>
+      <Progress setIndex={setIndex} index={index} length={time.length}/>
       <div onClick={(e)=>{
         console.log({e});
         var n = window.innerHeight*0.2
@@ -149,8 +149,9 @@ function Card({texts,blob,time,player,back}) {
   )
 }
 
-function Progress({setIndex,length}) {
+function Progress({setIndex,index,length}) {
   const [ratio,setRatio] = useState(0)
+  useEffect(()=>setRatio(index/length))
   return(
     <div onClick={(e)=>{
       var ratio = e.screenX/window.innerWidth
