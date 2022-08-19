@@ -107,7 +107,7 @@ function Card({texts,blob,time,player,back}) {
       <div style={{marginRight:value}}></div>
     </div>
       <div  onClick={(e)=>{
-        var m = window.innerWidth*0.5
+        var m = window.innerWidth*0.2
         if(e.screenX<m)
           setIndex(index==texts.length-1?index:index+1)
         else if(e.screenX>window.innerWidth-m)
