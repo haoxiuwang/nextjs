@@ -57,6 +57,7 @@ export default function Episode() {
       </div>
     </div>
   )}
+  console.log({parts});
   var part = parts[index]
 
   return(
