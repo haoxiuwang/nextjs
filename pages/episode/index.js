@@ -109,7 +109,7 @@ function Card({texts,blob,time,player,back}) {
       <div  onClick={(e)=>{
         console.log({e});
         var n = window.innerHeight*0.2
-        var m = window.innerHeight*0.2
+        var m = window.innerHeight*0.3
         if(e.screenY>window.innerHeight-n)
           setIndex(index==texts.length-1?index:index+1)
         else if (e.screenY<m)
