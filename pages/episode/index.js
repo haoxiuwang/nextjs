@@ -117,10 +117,10 @@ function Card({texts,blob,time,player,back}) {
         else
         setRepeat(!repeat)
 
-      }} className="episode" style={{minHeight:"calc(100vh - 30px)",padding:"25px"}}>
+      }} className="episode" style={{minHeight:"calc(100vh - 110px)",padding:"25px"}}>
         {texts[index].en}
       </div>
-      <div style={{backgroundColor:"#eceff1",padding:"5px 0"}} className="flex_row_center" onClick={()=>back(-1)}>Back to Parts</div>
+      <div style={{backgroundColor:"#eceff1",height:"80px"}} className="flex_row_center" onClick={()=>back(-1)}>Back to Parts</div>
 
     </div>
   )
