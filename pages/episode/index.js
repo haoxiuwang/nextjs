@@ -106,7 +106,7 @@ function Card({texts,blob,time,player}) {
     }} className="progress">
       <div style={{marginRight:value}}></div>
     </div>
-      <div onClick={(e)=>{
+      <div style={{margin:"25px"}} onClick={(e)=>{
         if(e.screenX<50)
           setIndex(index==texts.length-1?index:index+1)
         else if(e.screenX>window.innerWidth-50)
