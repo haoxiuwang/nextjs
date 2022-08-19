@@ -107,9 +107,10 @@ function Card({texts,blob,time,player,back}) {
       <div style={{marginRight:value}}></div>
     </div>
       <div  onClick={(e)=>{
-        if(e.screenX<50)
+        var m = window.innerWidth*0.5
+        if(e.screenX<)
           setIndex(index==texts.length-1?index:index+1)
-        else if(e.screenX>window.innerWidth-50)
+        else if(e.screenX>window.innerWidth-m)
         setIndex(index==0?index:index-1);
         else
         setRepeat(!repeat)
