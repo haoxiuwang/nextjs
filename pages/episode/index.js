@@ -65,7 +65,7 @@ export default function Episode() {
     <div className="episode container" style={{minHeight:"calc(100vh - 80px)"}}>
       <div className="episode">
         <div>
-          <img width="200" src={`series/${dir_name}/cover.jpg`} />
+          <img width="200" src={`/series/${dir_name}/cover.jpg`} />
         </div>
         <div style={{textAlign:"center",marginBottom:"25px"}}>{`${serie} include ${count} parts, please start with one of them:`}</div>
         <div className="flex_row_center">
