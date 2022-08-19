@@ -56,9 +56,9 @@ a {
   font-size: 20px;
 }
 .progress>div{
-  height:10px;
-  background:#cfd8dc;
+  height:3px;
+  background:red;
 }
 .progress{
-  border-bottom: #eceff1 1px solid
+  height: 25px;
 }
