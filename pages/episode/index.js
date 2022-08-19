@@ -6,10 +6,7 @@ export default function Episode() {
   const router = useRouter()
   const { serie,season,episode,count,path } = router.query
   const [index,setIndex] = useState(-1)
-
-  console.log({path,index});
   const [{parts,error0},setParts] = useState({parts:null,error0:null})
-
   useEffect(()=>{
     if (!episode)return
     var url = `${path}/source.json`
@@ -92,7 +89,9 @@ function Card({texts,blob,time,player,back}) {
   const [index,setIndex] = useState(0)
   var value = (100*(1-index/texts.length))+"%"
   const [repeat,setRepeat] = useState(false)
-
+  useEffect(()=>{
+    player.src = window.URL.createObjectURL(blob)
+  },[blob])
   useEffect(()=>{
     if (index<0){
       if(!player.paused)
@@ -101,14 +100,12 @@ function Card({texts,blob,time,player,back}) {
       back(-1)
       return
     }
+
     player.ontimeupdate = ()=>{
       if(index==time.length-1)return
-      if(player.currentTime>(time[index+1].timeSeconds-0.8)){
-        console.log({index,time:player.currentTime,time1:time[index+1].timeSeconds-0.8});
+      if(player.currentTime>(time[index+1].timeSeconds-0.8))
         player.pause()
-      }
     }
-    player.src = window.URL.createObjectURL(blob)
   },[index])
   useEffect(()=>{
     if (index<0){
@@ -151,7 +148,7 @@ function Card({texts,blob,time,player,back}) {
 
 function Progress({setIndex,index,length}) {
   const [ratio,setRatio] = useState(0)
-  useEffect(()=>setRatio(index/length))
+  useEffect(()=>setRatio(index/length),[index,length])
   return(
     <div onClick={(e)=>{
       var ratio = e.screenX/window.innerWidth
