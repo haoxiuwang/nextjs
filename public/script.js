@@ -4,10 +4,9 @@ var data = []
 var root = './series'
 var series = fs.readdirSync(root,{withFileTypes:true})
 series = series.filter((serie,i)=>serie.isDirectory)
+
 function readParts(dir) {
-
   var parts = fs.readdirSync(dir)
-
   var max = parts.reduce((count,part,i)=>{
     var index = part.indexOf('mp3')
     if (index<part.length-3) return count
@@ -40,9 +39,12 @@ function buildSE(serie,child) {
 series = series.map((serie,i)=>{
   const dir_name = serie.name
   const name = dir_name.replaceAll('_',' ')
-  var children = fs.readdirSync(`${root}/${dir_name}`)
+  var children = fs.readdirSync(`${root}/${dir_name}`,{withFileTypes:true})
+  children = children.filter((item)=>item.isDirectory())
+  children = children.map((item)=>item.name)
+
   children = children.map((item,i)=>buildSE(dir_name,item))
-  // console.log({serie,children});
+
   children = children.reduce((arr,{season,episode,count,path},index)=>{
     if(arr.length==0){
       var _season = {season,episodes:[{episode,count,path}]}
@@ -60,7 +62,12 @@ series = series.map((serie,i)=>{
     }
     return result
   },[])
-  console.log({serie,children});
+
+  children = children.map((item)=>{
+    var item1 = item.episodes.sort((a,b)=>a.episode-b.episode)
+    return {season:item.season,episodes:item1}
+  })
+
   return {name,dir_name,children}
 })
 
