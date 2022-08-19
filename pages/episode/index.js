@@ -44,7 +44,6 @@ export default function Episode() {
   }
 
 
-
   if(index==-1){
 
   return (
@@ -57,7 +56,7 @@ export default function Episode() {
       </div>
     </div>
   )}
-  console.log({parts});
+
   var part = parts[index]
 
   return(
@@ -68,10 +67,24 @@ export default function Episode() {
   )
 
 }
-function Card({texts}) {
+function Card({texts,blob,time}) {
   const [index,setIndex] = useState(0)
   var value = (100*(1-index/texts.length))+"%"
-
+  var play
+  useEffect(()=>{
+    if (!blob)return
+    player = new Audio()
+    player.src = window.URL.createObjectURL(blob)
+    player.ontimeupdate = function () {
+      if(time[index].timeSeconds>time[index+1].timeSeconds-0.8)
+      player.pause()      
+    }
+    return function () {
+      if(!blob)return
+      player.ontimeupdate = null
+      player = null
+    }
+  },[blob])
   return(
     <div>
     <div onClick={(e)=>{
@@ -82,8 +95,14 @@ function Card({texts}) {
       <div onClick={(e)=>{
         if(e.screenX<50)
           setIndex(index==texts.length-1?index:index+1)
-        if(e.screenX>window.innerWidth-50)
+        else if(e.screenX>window.innerWidth-50)
         setIndex(index==0?index:index-1);
+        else{
+          player.currentTime = time[index].timeSeconds
+          if(player.paused)
+          player.play()
+        }
+
       }} className="episode" style={{minHeight:"100vh"}}>
         {texts[index].en}
       </div>
