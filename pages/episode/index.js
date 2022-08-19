@@ -107,16 +107,17 @@ function Card({texts,blob,time,player,back}) {
       <div style={{marginRight:value}}></div>
     </div>
       <div  onClick={(e)=>{
-        var n = window.innerHeight*0.4
+        console.log({e});
+        var n = window.innerHeight*0.2
         var m = window.innerHeight*0.2
-        if(e.screenY<m)
+        if(e.screenY>window.innerHeight-n)
           setIndex(index==texts.length-1?index:index+1)
-        else if(e.screenY>window.innerHeight-n)
+        else if (e.screenY<m)
         setIndex(index==0?index:index-1);
         else
         setRepeat(!repeat)
 
-      }} className="episode" style={{minHeight:"100vh",padding:"25px"}}>
+      }} className="episode" style={{minHeight:"calc(100vh - 30px)",padding:"25px"}}>
         {texts[index].en}
       </div>
       <div style={{backgroundColor:"#eceff1",padding:"5px 0"}} className="flex_row_center" onClick={()=>back(-1)}>Back to Parts</div>
