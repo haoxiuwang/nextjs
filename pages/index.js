@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
+import Image from 'next/image'
 
 export default function Home() {
   const [list,setList] = useState([])
@@ -24,15 +25,26 @@ export default function Home() {
         {list.length>0&&list.map(({name,dir_name,children},i)=>{
 
           return (
-          <div className="" key={i}>
+          <div >
 
             {children.map(({season,episodes},i)=>(
-              <div className="serie" key={i}>
+              <div style={{display:"flex",alignItems:"center",justifyContent:"flex-start",margin:"25px"}}  key={i}>
+                <div  style={{
+                  flex: "100px 0 0",
+                  marginRight:"5px",
+                  width:"100px",
+                  height:"100px",
+                  backgroundPositon: "center",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize:"cover",
+                  backgroundImage:`URL(/series/${dir_name}/cover.jpg)`
+                }}>
+                </div>
+                <div>
+                <div style={{marginRight:"20px",fontWeight:"600"}}> {name}</div>
+                <span>Season {season}</span>               
 
-                {season!=0?(<span style={{marginRight:"20px"}}> TV Serie: {name}, Season {season} episodes: </span>)
-                :(<span style={{marginRight:"20px"}}>Book: {name}</span>)}
-
-                  [
+                  <div className="flex_row_center" style={{justifyContent:"flex-start"}}>
                   {episodes.length>0&&episodes.map((e,m)=>(
                     <span className="item" key={m}>
                       <Link href={`/episode?serie=${name}&season=${season}&episode=${e.episode}&count=${e.count}&path=/series/${dir_name}/${e.path}`}>
@@ -40,7 +52,8 @@ export default function Home() {
                       </Link>
                     </span>
                   ))}
-                  ]
+                  </div>
+                  </div>
               </div>
             ))}
           </div>
