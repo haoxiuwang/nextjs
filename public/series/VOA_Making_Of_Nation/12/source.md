@@ -1,0 +1,214 @@
+This is Rich Kleinfeldt.
+我是 Rich Kleinfeldt。
+And this is Sarah Long with THE MAKING OF A NATION, a VOA Special English program about the history of the United States.
+这里是美国之音慢速英语节目“建国史”的莎拉 · 朗。
+Today, we continue the story of the American Revolution against Britain in the late 1700s.
+今天，我们继续讲述18世纪末美国独立战争对抗英国的故事。
+Battles had been fought between Massachusetts soldiers and British military forces in the towns of Lexington and Concord.
+马萨诸塞州士兵和英国军队在列克星敦和康科德发生了战斗。
+Yet, war had not been declared.
+然而，战争还没有宣布。
+Even so, citizen soldiers in each of the thirteen American colonies were ready to fight.
+即便如此，美国13个殖民地的公民士兵都已经做好了战斗的准备。
+This was the first question faced by the Second Continental Congress meeting in Philadelphia, Pennsylvania.
+这是在宾夕法尼亚州费城举行的第二届大陆会议面临的第一个问题。
+Who was going to organize these men into an army? Delegates to the Congress decided that the man for the job was George Washington.
+谁会把这些人组织成一支军队？出席国会的代表们认为这个职位的人选是乔治 · 华盛顿。
+He had experience fighting in the French and Indian War.
+他在法国和印第安人战争中有作战经验。
+He was thought to know more than any other colonist about being a military commander.
+人们认为他比其他任何殖民者都更了解如何成为一名军事指挥官。
+Washington accepted the position.
+华盛顿接受了这一立场。
+But he said he would not take any money for leading the new Continental Army.
+但他表示，他不会为领导新的大陆军收取任何费用。
+Washington left Philadelphia for Boston to take command of the soldiers there.
+华盛顿离开费城前往波士顿指挥那里的士兵。
+Delegates to the Second Continental Congress made one more attempt to prevent war with Britain.
+第二届大陆会议的代表们再次试图阻止与英国的战争。
+They sent another message to King George.
+他们又给乔治国王发了一条信息。
+They asked him to consider their problems and try to find a solution.
+他们要求他考虑他们的问题，并设法找到解决办法。
+The king would not even read the message.
+国王甚至不愿意读这封信。
+You may wonder: Why would the delegates try to prevent war if the people were ready to fight?
+你可能会问: 如果人民已经准备好战斗，代表们为什么还要试图阻止战争？
+The answer is that most members of the Congress -- and most of the colonists -- were not yet ready to break away from Britain.
+答案是，大多数国会议员——以及大多数殖民者——还没有做好脱离英国的准备。
+They continued to believe they could have greater self-government and still be part of the British Empire.
+他们继续相信他们可以拥有更大的自治权，同时仍然是大英帝国的一部分。
+But that was not to be.
+但事实并非如此。
+Two days after the Congress appointed George Washington as army commander, colonists and British troops fought the first major battle of the American Revolution.
+在国会任命乔治 · 华盛顿为军队指挥官的两天后，殖民地居民和英国军队打响了美国革命的第一场重大战役。
+It was called the Battle of Bunker Hill, although it really involved two hills: Bunker and Breed's.
+它被称为邦克山战役，虽然它实际上涉及两个山丘: 邦克和布里德。
+Both are just across the Charles River from the city of Boston.
+它们都在波士顿对面的查尔斯河上。
+Massachusetts soldiers dug positions on Breed's Hill one night in June, 1775.
+1775年6月的一个晚上，马萨诸塞州士兵在布里德山上挖掘阵地。
+By morning, the hill was filled with troops.
+到了早上，山上挤满了军队。
+The British started to attack from across the river.
+英国人开始从河对岸进攻。
+The Americans had very little gunpowder.
+美国人只有很少的火药。
+They were forced to wait until the British had crossed the river and were almost on top of them before they fired their guns.
+他们被迫等待，直到英国人已经越过河流，并几乎在他们上面之前，他们开枪。
+Their commander reportedly told them: Do not fire until you see the whites of the British soldiers' eyes.
+据报道，他们的指挥官告诉他们: 不要开火，直到你看到英国士兵的眼白。
+The British climbed the hill.
+英国人爬上了山。
+The Americans fired.
+美国人开火了。
+A second group climbed the hill.
+第二组爬山。
+The Americans fired again.
+美国人又开火了。
+The third time, the British reached the top, but the Americans were gone.
+第三次，英国人登顶了，但美国人走了。
+They had left because they had no more gunpowder.
+他们离开是因为他们没有火药了。
+The British captured Breed's Hill.
+英国人占领了布里德山。
+More than one thousand had been killed or wounded in the attempt.
+一千多人在这次袭击中丧生或受伤。
+The Americans lost about four hundred.
+美军损失了大约四百人。
+That battle greatly reduced whatever hope was left for a negotiated settlement.
+这场战斗大大降低了通过谈判解决问题的希望。
+King George declared the colonies to be in open rebellion.
+乔治国王宣布殖民地公开叛乱。
+And the Continental Congress approved a declaration condemning everything the British had done since 1763.
+大陆会议通过了一项宣言谴责英国自1763年以来所做的一切。
+The American colonists fought several battles against British troops during 1775.
+美国殖民者在1775年与英国军队进行了几次战斗。
+Yet the colonies were still not ready to declare war.
+然而，殖民地仍然没有准备好宣战。
+Then, the following year, the British decided to use Hessian soldiers to fight against the colonists.
+接下来的一年，英国决定使用黑森雇佣兵来对抗殖民者。
+Hessians were mostly German mercenaries who fought for anyone who paid them.
+黑森佣兵大多是德国雇佣兵，他们为任何付钱给他们的人而战。
+The colonists feared these soldiers and hated Britain for using them.
+殖民者害怕这些士兵，并憎恨英国使用他们。
+At about the same time, Thomas Paine published a little document that had a great effect on the citizens of America.
+大约在同一时间，托马斯 · 潘恩发表了一份小小的文件，对美国公民产生了巨大的影响。
+He named it, "Common Sense." It attacked King George, as well as the idea of government by kings.
+他把它命名为“常识”，它攻击了乔治国王，也攻击了国王统治的思想。
+It called for independence.
+它呼吁独立。
+About one hundred fifty thousand copies of "Common Sense" were sold in America.
+《常识》在美国售出了大约15万册。
+Everyone talked about it.
+大家都在谈论这件事。
+As a result, the Continental Congress began to act.
+因此，大陆会议开始采取行动。
+It opened American ports to foreign shipping.
+它向外国船只开放了美国港口。
+It urged colonists to establish state governments and to write constitutions.
+它敦促殖民者建立国家政府并制定宪法。
+On June seventh, delegate Richard Henry Lee of Virginia proposed a resolution for independence.
+6月7日，弗吉尼亚州代表理查德 · 亨利 · 李提出了一项独立决议。
+The resolution was not approved immediately.
+决议没有立即通过。
+Declaring independence was an extremely serious step.
+宣布独立是极其重要的一步。
+Signing such a document would make delegates to the Continental Congress traitors to Britain.
+签署这样一份文件将使大陆会议的代表成为英国的叛徒。
+They would be killed if captured by the British.
+如果被英国人抓住，他们会被杀死的。
+The delegates wanted the world to understand what they were doing, and why.
+代表们希望全世界了解他们在做什么，为什么要这么做。
+So they appointed a committee to write a document giving the reasons for their actions.
+因此，他们任命了一个委员会来起草一份文件，说明他们采取行动的原因。
+One member of the committee was the Virginian, Thomas Jefferson.
+委员会的一个成员是弗吉尼亚美国的狮身人面像：托马斯·杰弗逊的性格。
+He had already written a report criticizing the British form of government.
+他已经写了一份报告，批评英国的政府形式。
+So the other committee members asked him to prepare the new document.
+因此，其他委员会成员要求他准备新的文件。
+They said he was the best writer in the group.
+他们说他是小组里最好的作家。
+They were right.
+他们是对的。
+It took him seventeen days to complete the document that the delegates approved on July fourth, 1776.
+1776年7月4日，代表们批准了这份文件，他花了17天时间才完成。
+It was America's Declaration of Independence.
+这是美国的美国独立宣言。
+Jefferson's document was divided into two parts.
+杰斐逊的文件分为两部分。
+The first part explained the right of any people to revolt.
+第一部分阐述了人民反抗的权利。
+It also described the ideas the Americans used to create a new, republican form of government.
+它还描述了美国人用来建立一个新的共和政体的想法。
+The Declaration of Independence begins this way:
+美国独立宣言是这样开始的:
+When in the course of human events, it becomes necessary for one people to dissolve the political bands which have connected them to another,
+在人类活动的过程中，一个民族有必要解散将他们与另一个民族联系在一起的政治团体,
+and to assume among the powers of the earth, the separate and equal station to which the laws of nature and of Nature's God entitle them,
+在地球的力量中承担起自然法则和自然之神赋予他们的独立和平等的地位,
+a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation.
+尊重人类的意见要求他们宣布促使他们分离的原因。
+Jefferson continued by saying that all people are equal in the eyes of God.
+杰斐逊接着说，在上帝的眼中，人人平等。
+Therefore, governments can exist only by permission of the people they govern.
+因此，政府的存在必须得到它所统治的人民的许可。
+He wrote:
+他写道:
+We hold these truths to be self-evident, that all men are created equal and that they are endowed by their Creator with certain unalienable Rights,
+我们认为这些真理是不言而喻的，人人生而平等，造物主赋予他们某些不可剥夺的权利,
+that among these are Life, Liberty and the pursuit of Happiness.
+其中包括生命、自由和对幸福的追求。
+That to secure these rights, Governments are instituted among Men, deriving their just powers from the consent of the governed.
+为了确保这些权利，人类建立了政府，从被治者的同意中获得公正的权力。
+The next part states why the American colonies decided to separate from Britain:
+下一部分阐述了为什么美国殖民地决定脱离英国:
+That whenever any Form of Government becomes destructive of these ends, it is the Right of the People to alter or abolish it.
+任何形式的政府一旦破坏这些目标，人民就有权改变或废除它。
+This is why the Americans were rebelling against England.
+这就是美国人反抗英国的原因。
+The British believed the Americans were violating their law.
+英国人认为美国人违反了他们的法律。
+Jefferson rejected this idea.
+杰斐逊拒绝了这个想法。
+He claimed that the British treatment of the American colonies violated the natural laws of God.
+他声称英国对待美洲殖民地的方式违反了上帝的自然法则。
+He and others believed a natural law exists that is more powerful than a king.
+他和其他人相信自然法则的存在比国王更强大。
+The idea of a natural law had been developed by British and French philosophers more than one hundred years earlier.
+自然法则的概念早在一百多年前就由英国和法国的哲学家提出了。
+Jefferson had studied these philosophers in school.
+杰斐逊在学校里研究过这些哲学家。
+In later years, however, he said he did not re-read these ideas while he was writing the Declaration.
+然而，在后来的几年里，他说他在撰写《宣言》的时候并没有重新阅读这些想法。
+He said the words came straight from his heart.
+他说这些话是发自内心的。
+The second part of the Declaration lists twenty-seven complaints by the American colonies against the British government.
+《宣言》的第二部分列出了美洲殖民地对英国政府的二十七项控诉。
+The major ones concerned British taxes on Americans and the presence of British troops in the colonies.
+其中主要涉及英国对美国人征税以及英国军队在殖民地的存在。
+After the list of complaints, Jefferson wrote this strong statement of independence:
+在一连串的抱怨之后，杰斐逊写下了这样一段强有力的独立宣言:
+That these United Colonies are, and of Right ought to be Free and Independent States;
+这些联合殖民地是，而且应该是自由和独立的国家;
+that they are Absolved from all Allegiance to the British Crown and that all political connection between them and the State of Great Britain,
+放弃对英国王室的一切效忠以及他们与大不列颠国之间的一切政治联系,
+is and ought to be totally dissolved; and that as Free and Independent States they have the full Power to levy War,
+已经并且应该被完全解散; 作为自由和独立的国家，他们有充分的权力发动战争,
+conduct Peace, contract Alliances, establish Commerce, and do all other Acts and Things which Independent States may of right do.
+进行和平，缔结联盟，建立商业，以及做独立国家有权做的所有其他行为和事情。
+The last statement of the Declaration of Independence was meant to influence the delegates into giving strong support for that most serious step -- revolution:
+美国独立宣言的最后一项声明意在影响代表们，让他们大力支持最重要的一步——革命:
+And for the support of this Declaration, with a firm reliance on the protection of divine Providence
+以及对《宣言》的支持坚定地依靠对神圣眷顾的保护
+we mutually pledge to each other our Lives, our Fortunes and our sacred Honor.
+我们互相保证我们的生命，我们的财富和我们神圣的荣誉。
+Today's MAKING OF A NATION program was written by Nancy Steinbach.
+今天的《建设一个国家》节目是由南希 · 斯坦巴赫撰写的。
+Shep O’Neal read the Declaration of Independence.
+Shep o’Neal 读了美国独立宣言。
+This is Rich Kleinfeldt.
+我是 Rich Kleinfeldt。
+And this is Sarah Long.
+这是 Sarah Long。

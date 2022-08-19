@@ -1,0 +1,220 @@
+Welcome to THE MAKING OF A NATION – American history in VOA Special English.
+欢迎收听美国之音慢速英语《美国历史的形成》节目。
+In the United States, October ninth is observed as Leif Erickson Day.
+在美国，10月9日被纪念为 Leif Erickson 日。
+It honors the Norse explorer who sailed around the northeastern coast of what we now call North America about one thousand years ago.
+它是为了纪念一千年前在我们现在称之为北美洲的东北海岸航行的挪威探险家。
+Leif Erickson and his crew returned home to Greenland with news of a place he called "Vinland."
+Leif Erickson 和他的船员回到了格陵兰岛的家带回了一个他称之为“ Vinland”的地方的消息
+Following his explorations, a few settlements were built.
+在他的探险之后，建立了一些定居点。
+Experts digging in eastern Canada in the 1960s found the remains of a village with houses like those in Greenland, Iceland and Norway.
+20世纪60年代，专家们在加拿大东部挖掘时发现了一个村庄的遗迹，这个村庄的房屋类似于格陵兰岛、冰岛和挪威的房屋。
+But the Norse did not establish any permanent settlements in North America.
+但是挪威人并没有在北美建立任何永久的定居点。
+Today, as we launch our series from the beginning again, Sarah Long and Rich Kleinfeldt tell the story of early European explorers in North America.
+今天，当我们重新开始我们的系列节目时，Sarah Long 和 Rich Kleinfeldt 讲述了早期欧洲探险家在北美的故事。
+About ten hundred, Europe was beginning a period of great change.
+大约一千年前，欧洲开始了一个巨大变革的时期。
+One reason was the religious wars known as the crusades.
+一个原因是被称为十字军东征的宗教战争。
+These wars were efforts by Europeans who were mainly Roman Catholic Christians.
+这些战争是欧洲人的努力，他们主要是罗马天主教基督徒。
+They wanted to force Muslims out of what is now the Middle East.
+他们想迫使穆斯林离开现在的中东地区。
+The crusades began at the end of the eleventh century.
+十字军东征始于十一世纪末。
+They continued for about two hundred years.
+它们持续了大约200年。
+The presence of European armies in the Middle East increased trade, which was controlled by businessmen in Venice and other Italian city-states.
+欧洲军队在中东的存在增加了由威尼斯和其他意大利城邦商人控制的贸易。
+The businessmen were earning large profits by transporting and supplying the warring armies.
+商人们通过运输和供应交战的军队赚取了大量的利润。
+When the European crusaders returned home, they brought with them some new and useful products.
+当欧洲十字军回国时，他们带来了一些新的有用的产品。
+The products included spices, perfumes, silk cloth, steel products and drugs.
+产品包括香料、香水、丝绸、钢铁制品和药品。
+Such products became highly valued all over Europe.
+这些产品在整个欧洲都受到高度重视。
+Increased trade resulted which led to the growth of towns.
+贸易的增加导致了城镇的发展。
+It also created a large number of rich European businessmen.
+它还创造了大量富有的欧洲商人。
+The European nations were growing.
+欧洲国家正在发展壮大。
+They developed armies and governments.
+他们发展了军队和政府。
+These had to be paid for by taxes from the people.
+这些费用必须由人民缴纳的税款来支付。
+By the 15th century, European countries were ready to explore new parts of the world.
+到了15世纪，欧洲国家已经准备好探索世界的新领域。
+The first explorers were the Portuguese.
+最早的探险家是葡萄牙人。
+By 1400, they wanted to control the Eastern spice trade.
+到了1400年，他们想控制东方的香料贸易。
+European businessmen did not want to continue paying Venetian and Arab traders for their costly spices.
+欧洲商人不想继续向威尼斯和阿拉伯商人支付昂贵的香料费用。
+They wanted to set up trade themselves.
+他们想自己做生意。
+If they could sail to Asia directly for these products, the resulting trade would bring huge profits.
+如果他们能够直接航行到亚洲购买这些产品，由此产生的贸易将带来巨大的利润。
+The leader of Portugal's exploration efforts was Prince Henry, a son of King John the first.
+葡萄牙勘探工作的领导者是亨利王子，约翰一世国王的儿子。
+He was interested in sea travel and exploration.
+他对海上旅行和探险感兴趣。
+So he became known as Henry the Navigator.
+所以他被称为恩里克。
+Prince Henry brought experts to his country and studied the sciences involved in exploration.
+亨利王子把专家带到他的国家，研究与探索有关的科学。
+He built an observatory to study the stars.
+他建造了一座天文台来研究星星。
+Portuguese sea captains led their ships around the west coast of Africa hoping to find a path to India and East Asia.
+葡萄牙船长带领他们的船只绕过非洲西海岸，希望找到一条通往印度和东亚的道路。
+They finally found the end of the African continent, the area called the Cape of Good Hope.
+他们终于找到了非洲大陆的尽头这个地区被称为好望角。
+It took the Portuguese only about fifty years to take control of the spice trade.
+葡萄牙人只用了五十年就控制了香料贸易。
+They established trading colonies in Africa, the Persian Gulf, India and China.
+他们在非洲、波斯湾、印度和中国建立了贸易殖民地。
+Improvements in technology helped them succeed.
+技术的进步帮助他们取得了成功。
+One improvement was a new kind of ship.
+一个改进是一种新型的船。
+It could sail more easily through ocean storms and winds.
+它可以更容易地通过海洋风暴和风。
+Other inventions like the compass permitted them to sail out of sight of land.
+其他的发明，比如指南针，使他们能够在看不见陆地的地方航行。
+The Portuguese also armed their ships with modern cannon.
+葡萄牙人也用现代化的大炮武装他们的船只。
+They used these weapons to battle Muslim and East Asian traders.
+他们用这些武器对付穆斯林和东亚商人。
+The other European nations would not permit Portugal to control this trade for long, however.
+然而，其他欧洲国家不会允许葡萄牙长期控制这种贸易。
+Spain's Queen Isabella and King Ferdinand agreed to provide ships, crew and supplies for an exploration by an Italian seaman, Christopher Columbus.
+西班牙女王伊莎贝拉和国王费迪南德同意为一名意大利海员的勘探提供船只、船员和补给克里斯托弗·哥伦布。
+Columbus thought the shortest way to reach the East was to sail west across the Atlantic Ocean.
+哥伦布认为到达东方的最短路线是向西横渡大西洋。
+He was right.
+他是对的。
+But he also was wrong.
+但他也错了。
+He believed the world was much smaller than it is.
+他相信世界比现在小得多。
+He did not imagine the existence of other lands and another huge ocean area between Europe and East Asia.
+他没有想到在欧洲和东亚之间还有其他的陆地和另一个巨大的海洋区域。
+Columbus and a crew of eighty-eight men left Spain on August third, 1492, in three ships.
+1492年8月3日，哥伦布和八十八名船员乘坐三艘船离开西班牙。
+On October twelfth, they stood on land again on an island that Columbus named San Salvador.
+10月12日，他们再次站在一个被哥伦布命名为圣萨尔瓦多的岛屿上。
+He explored it, and the nearby islands of what is now known as Cuba and Hispaniola.
+他探索了它，以及附近的岛屿，现在被称为古巴和伊斯帕尼奥拉岛。
+He believed they were part of the coast of East Asia, which was called the Indies.
+他认为它们是东亚海岸的一部分，也就是所谓的印度群岛。
+He called the people he found there Indians.
+他把在那里找到的人称为印第安人。
+Columbus left about forty men on the island to build a fort from the wood of one of the ships.
+哥伦布在岛上留下了大约四十个人，用其中一艘船的木头建造了一个堡垒。
+He returned to Spain with captured natives, birds, plants and gold.
+他带着俘获的土著人、鸟类、植物和黄金回到了西班牙。
+Columbus was considered a national hero when he reached Spain in March, 1493.
+当哥伦布于1493年3月到达西班牙时，他被认为是一位民族英雄。
+Columbus returned across the Atlantic Ocean to the Caribbean area five months later.
+五个月后，哥伦布横渡大西洋回到了加勒比海地区。
+This time, he had many more men and all the animals and equipment needed to start a colony on Hispaniola.
+这一次，他有了更多的人手，以及在伊斯帕尼奥拉岛建立殖民地所需的所有动物和设备。
+He found that the protective fort built by his men had been destroyed by fire.
+他发现他的部下建造的防御堡垒被大火烧毁了。
+Columbus did not find any of his men.
+哥伦布没有找到他的手下。
+Seven months later, Columbus sent five ships back to Spain.
+七个月后，哥伦布派了五艘船回到西班牙。
+They carried Indians to be sold as slaves.
+他们把印第安人当奴隶贩卖。
+Columbus also sailed back to Spain leaving behind some settlers who were not happy with conditions.
+哥伦布也乘船返回西班牙，留下了一些不满意当地条件的定居者。
+Christopher Columbus made another trip in 1498, with six ships.
+克里斯托弗·哥伦布于1498年再次出航，共有六艘船只。
+This time he saw the coast of South America.
+这次他看到了南美洲的海岸。
+The settlers were so unhappy with conditions in the new colony, Columbus was sent back to Spain as a prisoner.
+殖民者对新殖民地的条件非常不满，哥伦布作为囚犯被送回西班牙。
+Spain's rulers pardoned him.
+西班牙的统治者赦免了他。
+In 1502, Columbus made his final voyage to what some were calling the New World.
+1502年，哥伦布完成了他的最后一次航行前往有人称之为新大陆的地方。
+He stayed on the island of Jamaica until he returned home in 1504.
+他一直待在牙买加岛上，直到1504年回到家乡。
+During all his trips, Columbus explored islands and waterways, searching for a passage to the Indies.
+在他所有的旅行中，哥伦布探索岛屿和水路，寻找通往印度群岛的通道。
+He never found it.
+他一直没找到。
+He also did not find spices or great amounts of gold.
+他也没有发现香料或大量的黄金。
+Yet, he always believed that he had found the Indies.
+然而，他始终相信他已经发现了印度群岛。
+He refused to recognize that it was really a new world.
+他拒绝承认这是一个全新的世界。
+Evidence of this was all around him -- strange plants that were not known in either Europe or Asia and a different people who did not understand any language spoken in the East.
+他周围到处都是这样的证据——欧洲和亚洲都不知道的奇怪植物，还有一个不懂东方语言的民族。
+Columbus' voyages, however, opened up the new world.
+然而，哥伦布的航行开辟了新的世界。
+Others later explored all of North America.
+其他人后来探索了整个北美洲。
+You may be wondering about the name of this new land.
+你可能想知道这片新土地的名字。
+If Christopher Columbus was the first European to attempt to settle the new world, why is it called "America"? The answer lies with the name of an Italian explorer, Amerigo Vespucci.
+如果克里斯托弗·哥伦布是第一个试图建立新世界的欧洲人，为什么它被称为“美国”？答案在于一个意大利探险家的名字，亚美利哥·韦斯普奇。
+He visited the coast of South America in 1499.
+他在1499年访问了南美洲海岸。
+He wrote stories about his experiences that were widely read in Europe.
+他写的关于自己经历的故事在欧洲广为流传。
+In 1507, a German mapmaker read Vespucci's stories.
+1507年，一位德国制图师读了韦斯普奇的故事。
+He decided that the writer had discovered the new world and suggested that it be called America in his honor.
+他认为作者已经发现了新世界，并建议以他的名字命名为美洲。
+So it was.
+确实如此。
+Spanish explorers sought to find gold and power in the New World.
+西班牙探险家在新大陆寻找黄金和权力。
+They also wanted to expand belief in what they considered to be the true religion, Christianity.
+他们还想扩大对他们认为是真正的宗教，基督教的信仰。
+The first of these Spanish explorers was Juan Ponce de Leon.
+第一个西班牙探险家是 Juan Ponce de Leon。
+He landed on North America in 1513.
+他于1513年在北美登陆。
+He explored the eastern coast of what is now the southern state of Florida.
+他探索了现在南部佛罗里达州的东海岸。
+He was searching for a special kind of water that people in Europe believed existed.
+他在寻找一种欧洲人认为存在的特殊水源。
+They believed that this water could make old people young again.
+他们相信这种水可以使老年人重返青春。
+Ponce de Leon never found it.
+庞塞 · 德莱昂没找到。
+Also in 1513, Vasco Nunez de Balboa crossed the Isthmus of Panama and reached the Pacific Ocean.
+同样在1513年，瓦斯科·努涅斯·德·巴尔沃亚穿过巴拿马地峡到达了太平洋。
+In 1519, Hernan Cortes landed an army in Mexico and destroyed the empire of the Aztec Indians.
+1519年，埃尔南 · 科尔特斯在墨西哥登陆并摧毁了阿兹特克印第安帝国。
+That same year Ferdinand Magellan began his three-year voyage around the world.
+同年，斐迪南·麦哲伦开始了为期三年的环球航行。
+And in the 1530s, Francisco Pizarro destroyed the Inca Indian empire in Peru.
+16世纪30年代法兰西斯克·皮泽洛摧毁了秘鲁的印加印第安帝国。
+Ten years later, Francisco Vasquez de Coronado had marched as far north as the central American state of Kansas and west to the Grand Canyon.
+十年后，弗朗西斯科 · 瓦斯克斯 · 德 · 科罗纳多向北行进到美国中部的堪萨斯州，向西进入大峡谷。
+About the same time, Hernan de Soto reached the Mississippi River.
+大约在同一时间埃尔南・德索托到达了密西西比河。
+Fifty years after Columbus first landed in San Salvador, Spain claimed a huge area of America.
+哥伦布首次登陆圣萨尔瓦多50年后，西班牙宣称拥有美洲的一大片领土。
+The riches of these new lands made Spain the greatest power in Europe.
+这些新大陆的富饶使西班牙成为欧洲最强大的国家。
+But other nations refused to accept Spain's claim to rights in the new world.
+但其他国家拒绝接受西班牙在新世界的权利主张。
+Explorers from England, France and Holland also were traveling to North America.
+来自英国、法国和荷兰的探险家们也前往北美。
+That will be our story next week.
+这将是我们下周的故事。
+This MAKING OF A NATION program was written by Nancy Steinbach and produced by Paul Thompson.
+本节目由南希 · 斯坦巴赫撰写，保罗 · 汤普森制作。
+This is Rich Kleinfeldt.
+我是 Rich Kleinfeldt。
+And this is Sarah Long.
+这是 Sarah Long。
