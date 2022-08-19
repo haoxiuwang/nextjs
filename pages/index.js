@@ -29,20 +29,22 @@ export default function Home() {
 
             {children.map(({season,episodes},i)=>(
               <div style={{display:"flex",alignItems:"center",justifyContent:"flex-start",margin:"25px"}}  key={i}>
-                <div  style={{
+                <div style={{
                   flex: "100px 0 0",
                   marginRight:"5px",
                   width:"100px",
-                  height:"100px",
-                  backgroundPositon: "center",
-                  backgroundRepeat: "no-repeat",
-                  backgroundSize:"cover",
-                  backgroundImage:`URL(/series/${dir_name}/cover.jpg)`
+                  height:"100px"
                 }}>
+                <Image
+                  src={`/series/${dir_name}/cover.jpg`}
+                  alt={`${name} cover image`}
+                  width={100}
+                  height={100}
+                />
                 </div>
                 <div>
                 <div style={{marginRight:"20px",fontWeight:"600"}}> {name}</div>
-                <span>Season {season}</span>               
+                <span>Season {season}</span>
 
                   <div className="flex_row_center" style={{justifyContent:"flex-start"}}>
                   {episodes.length>0&&episodes.map((e,m)=>(
