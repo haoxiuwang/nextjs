@@ -1,7 +1,11 @@
-import { useState, useEffect } from "react"
-import { Image } from "next/image"
+import { useState, useEffect,useReducer } from "react"
+
 import { useRouter } from 'next/router'
 import Link from 'next/link'
+function reducer(state,action) {
+  var index = action.type
+  return {last:index==-1?state.last:index}
+}
 export default function Episode() {
   const router = useRouter()
   const { serie,season,episode,count,path,dir_name } = router.query
@@ -39,13 +43,17 @@ export default function Episode() {
     .catch((error)=>setTime({time:null,error2:error}))
   },[index])
 
+  const [state, dispatch] = useReducer(reducer, {last:-1});
 
+  useEffect(()=>dispatch({type:index}),[index])
+
+  console.log({state});
   function list(count) {
     var i = 0
     var arr = []
     while (i<count) {
       arr.push(((m)=>{
-        return <span className="item" onClick={()=>setIndex(m)} key={m}>{m}</span>
+        return <span style={{textDecoration:state.last==m?"underline":"none",textDecorationColor:"gray"}} className="item" onClick={()=>setIndex(m)} key={m}>{m}</span>
       })(i))
       i++
     }
@@ -83,13 +91,14 @@ export default function Episode() {
 
   return(
 
-        blob?(<Card texts={part} blob={blob} time={time} player={player} back={setIndex}/>)
+        blob?(<Card texts={part} blob={blob} time={time} player={player} back={setIndex} />)
         :(<div className="container episode" style={{minHeight:"100vh"}}>Loading...</div>)
 
   )
 
 }
 function Card({texts,blob,time,player,back}) {
+  console.log({time,texts});
   const [index,setIndex] = useState(0)
   var value = (100*(1-index/texts.length))+"%"
   const [repeat,setRepeat] = useState(false)
@@ -140,7 +149,15 @@ function Card({texts,blob,time,player,back}) {
         setRepeat(!repeat)
 
       }} className="episode" style={{minHeight:"calc(100vh - 110px)",padding:"25px"}}>
-        {index>-1&&texts[index].en}
+        {index>-1&&(
+        <div className="episode">
+          <span>
+            {texts[index].en}
+          </span>
+          <span style={{color:"gray",display:"block"}}>
+            {texts[index].zh}
+          </span>
+        </div>)}
       </div>
       <div style={{backgroundColor:"#eceff1",height:"80px"}} className="flex_row_center" onClick={()=>{
         setIndex(-1)
