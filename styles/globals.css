@@ -63,3 +63,11 @@ a {
 .progress{
   height: 30px;
 }
+
+.test_flex{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
