@@ -11,6 +11,7 @@ export default function Episode() {
   const { serie,season,episode,count,path,dir_name } = router.query
 
   const [index,setIndex] = useState(-1)
+
   const [{parts,error0},setParts] = useState({parts:null,error0:null})
   useEffect(()=>{
     if (!episode)return
@@ -19,35 +20,39 @@ export default function Episode() {
     .then((res)=>res.json())
     .then((data)=>setParts({parts:data,error0:null}))
     .catch((error)=>setParts({parts:null,error0:error}))
-  },[episode])
+  },[episode,path])
 
 
   const [{blob,error1},setBlob] = useState({blob:null,error1:null})
   useEffect(()=>{
-    if(index<0)return
-    setBlob({blob:null,error1:null})
+
+    if(index<0){
+      setBlob({blob:null,error1:null})
+      return
+    }
     fetch(`${path}/${index}.mp3`)
     .then((res)=>res.blob())
     .then((data)=>setBlob({blob:data,error1:null}))
     .catch((error)=>setBlob({blob:null,error1:error}))
-  },[index])
+  },[index,path])
 
 
   const [{time,error2},setTime] = useState({time:null,error2:null})
   useEffect(()=>{
-    if(index<0)return
-    setTime({time:null,error2:null})
+    if(index<0){
+      setTime({time:null,error2:null})
+      return
+    }
     fetch(`${path}/${index}.json`)
     .then((res)=>res.json())
     .then((data)=>setTime({time:data,error2:null}))
     .catch((error)=>setTime({time:null,error2:error}))
-  },[index])
+  },[index,path])
 
   const [state, dispatch] = useReducer(reducer, {last:-1});
 
   useEffect(()=>dispatch({type:index}),[index])
 
-  console.log({state});
   function list(count) {
     var i = 0
     var arr = []
@@ -63,11 +68,12 @@ export default function Episode() {
   useEffect(()=>{
     if(!player)
     setPlayer(new Audio())
-  },[episode])
+  },[episode,player])
 
   if (!parts)return(<div className="episode" style={{height:"100vh"}}>loading text data...</div>)
   if (error0)return(<div className="episode" style={{height:"100vh"}}>loading text data error...</div>)
   if(index==-1){
+
   return (
     <div>
     <div className="episode container" style={{minHeight:"calc(100vh - 80px)"}}>
@@ -91,20 +97,20 @@ export default function Episode() {
 
   return(
 
-        blob?(<Card texts={part} blob={blob} time={time} player={player} back={setIndex} />)
+        blob?(<Card texts={part} blob={blob} time={time} player={player} back={setIndex} path={path+"/"+index} />)
         :(<div className="container episode" style={{minHeight:"100vh"}}>Loading...</div>)
 
   )
 
 }
-function Card({texts,blob,time,player,back}) {
-  console.log({time,texts});
+function Card({texts,blob,time,player,back,path}) {
+
   const [index,setIndex] = useState(0)
   var value = (100*(1-index/texts.length))+"%"
   const [repeat,setRepeat] = useState(false)
   useEffect(()=>{
     player.src = window.URL.createObjectURL(blob)
-  },[blob])
+  },[blob,player])
   useEffect(()=>{
     if (index<0){
       if(!player.paused)
@@ -119,7 +125,7 @@ function Card({texts,blob,time,player,back}) {
       if(player.currentTime>(time[index+1].timeSeconds-0.8))
         player.pause()
     }
-  },[index])
+  },[index,player])
   useEffect(()=>{
     if (index<0){
       if(!player.paused)
@@ -132,13 +138,16 @@ function Card({texts,blob,time,player,back}) {
       player.pause()
     player.currentTime = time[index].timeSeconds
     player.play()
-  },[index,repeat])
+  },[index,repeat,player,back])
+
+
+
 
   return(
     <div>
       <Progress setIndex={setIndex} index={index} length={time.length}/>
       <div onClick={(e)=>{
-        console.log({e});
+
         var n = window.innerHeight*0.2
         var m = window.innerHeight*0.3
         if(e.screenY>window.innerHeight-n)
