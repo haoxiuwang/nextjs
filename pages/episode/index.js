@@ -145,19 +145,25 @@ function Card({texts,blob,time,player,back,path}) {
 
   return(
     <div>
-      <Progress setIndex={setIndex} index={index} length={time.length}/>
-      <div onClick={(e)=>{
+      <Progress  setIndex={setIndex} index={index} length={time.length}/>
+      <div onTouchStart={(e)=>{
+        var {targetTouches,changedTouches,target} = e
+        var touches = changedTouches
+        // alert(touches[0].clientY);
+        if (touches.length>1) return
+        e.target.start = touches[0].clientY
+      }} onTouchEnd={(e)=>{
+        var {touches,targetTouches,changedTouches,target} = e
 
-        var n = window.innerHeight*0.2
-        var m = window.innerHeight*0.3
-        if(e.screenY>window.innerHeight-n)
-          setIndex(index==texts.length-1?index:index+1)
-        else if (e.screenY<m)
-        setIndex(index==0?index:index-1);
-        else
-        setRepeat(!repeat)
+        if (touches.length>1||targetTouches.length>1||changedTouches.length>1) return
+        // alert(touches.length+":"+changedTouches.length+":"+targetTouches.length);
+        // return
+        var distance = changedTouches[0].clientY-e.target.start
+        if(distance>20)setIndex(index==0?index:index-1)
+        else if(distance<-20)setIndex(index==texts.length-1?index:index+1)
+        else setRepeat(!repeat)
 
-      }} className="episode" style={{minHeight:"calc(100vh - 110px)",padding:"25px"}}>
+      }}  className="episode" style={{minHeight:"calc(100vh - 110px)",padding:"25px"}}>
         {index>-1&&(
         <div className="episode">
           <span>
@@ -186,7 +192,7 @@ function Progress({setIndex,index,length}) {
       if(value>length-1)value=length-1
       setRatio(ratio)
       setIndex(value)
-    }} style={{height:"30px"}}>
+    }} style={{position:"fixed",width:"100%",height:"30px"}}>
       <div style={{backgroundColor:"pink"}}>
         <div style={{width:ratio*100+"%",backgroundColor:"red",height:"3px"}}></div>
       </div>
