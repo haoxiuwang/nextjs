@@ -147,12 +147,15 @@ function Card({texts,blob,time,player,back,path}) {
     <div>
       <Progress  setIndex={setIndex} index={index} length={time.length}/>
       <div onTouchStart={(e)=>{
+        e.preventDefault()
         var {targetTouches,changedTouches,target} = e
         var touches = changedTouches
         // alert(touches[0].clientY);
         if (touches.length>1) return
         e.target.start = touches[0].clientY
+        return false
       }} onTouchEnd={(e)=>{
+        e.preventDefault()
         var {touches,targetTouches,changedTouches,target} = e
 
         if (touches.length>1||targetTouches.length>1||changedTouches.length>1) return
@@ -162,7 +165,7 @@ function Card({texts,blob,time,player,back,path}) {
         if(distance>20)setIndex(index==0?index:index-1)
         else if(distance<-20)setIndex(index==texts.length-1?index:index+1)
         else setRepeat(!repeat)
-
+        return false
       }}  className="episode" style={{minHeight:"calc(100vh - 110px)",padding:"25px"}}>
         {index>-1&&(
         <div className="episode">
