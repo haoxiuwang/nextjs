@@ -71,3 +71,12 @@ a {
     justify-content: center;
     align-items: center;
 }
+.colGrid{
+  row-gap: 25px;
+  display: grid;
+  grid-template-rows: 1fr 80px
+}
+.colGridTop{
+  display: grid;
+  grid-template-rows: 30px 1fr
+}

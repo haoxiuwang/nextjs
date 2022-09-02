@@ -11,8 +11,17 @@ export default function Episode() {
   const { serie,season,episode,count,path,dir_name } = router.query
 
   const [index,setIndex] = useState(-1)
-
+  const [height,setHeight] = useState(null)
   const [{parts,error0},setParts] = useState({parts:null,error0:null})
+  useEffect(()=>{
+    var handler = (e)=>e.preventDefault()
+    document.body.addEventListener("touchmove",handler,{passive:false})
+    setHeight(window.innerHeight)
+    return ()=>{
+      document.body.removeEventListener("touchmove",handler,{passive:false})
+    }
+  },[])
+
   useEffect(()=>{
     if (!episode)return
     var url = `${path}/source.json`
@@ -75,19 +84,19 @@ export default function Episode() {
   if(index==-1){
 
   return (
-    <div>
-    <div className="episode container" style={{minHeight:"calc(100vh - 80px)"}}>
-      <div className="episode">
-        <div>
-          <img width="200" alt={`Serie ${serie} cover photo`} src={`/series/${dir_name}/cover.jpg`} />
-        </div>
-        <div style={{textAlign:"center",marginBottom:"25px"}}>{serie}, {season>0&&"Season "+season+", "}Episode {episode}, include {count} parts, please start with one of them:</div>
-        <div className="flex_row_center">
-          {list(count)}
+    <div style={{height:height?height+"px":"50%"}} className="colGrid">
+      <div className="episode container">
+        <div className="episode">
+          <div>
+            <img width="200" alt={`Serie ${serie} cover photo`} src={`/series/${dir_name}/cover.jpg`} />
+          </div>
+          <div style={{textAlign:"center",marginBottom:"25px"}}>{serie}, {season>0&&"Season "+season+", "}Episode {episode}, include {count} parts, please start with one of them:</div>
+          <div className="flex_row_center">
+            {list(count)}
+          </div>
         </div>
       </div>
-    </div>
-    <div style={{backgroundColor:"#eceff1",height:"80px"}} className="flex_row_center"><Link href="/"><a>Back to Home Page</a></Link></div>
+      <div style={{backgroundColor:"#eceff1",height:"80px"}} className="flex_row_center"><Link href="/"><a>Back to Home Page</a></Link></div>
     </div>
   )}
   if (!time)return(<div className="episode" style={{height:"100vh"}}>loading time data...</div>)
@@ -108,6 +117,8 @@ function Card({texts,blob,time,player,back,path}) {
   const [index,setIndex] = useState(0)
   var value = (100*(1-index/texts.length))+"%"
   const [repeat,setRepeat] = useState(false)
+  const [height,setHeight] = useState(null)
+  useEffect(()=>setHeight(window.innerHeight),[])
   useEffect(()=>{
     player.src = window.URL.createObjectURL(blob)
   },[blob,player])
@@ -144,7 +155,8 @@ function Card({texts,blob,time,player,back,path}) {
 
 
   return(
-    <div>
+    <div className="colGrid" style={{height:height?height+"px":"10%"}}>
+    <div className="colGridTop">
       <Progress  setIndex={setIndex} index={index} length={time.length}/>
       <div
       onTouchStart={(e)=>{
@@ -169,7 +181,7 @@ function Card({texts,blob,time,player,back,path}) {
         // return false
       }}
 
-      className="episode" style={{minHeight:"calc(100vh - 110px)",padding:"25px"}}>
+      className="episode" style={{margin:"0 25px"}}>
         {index>-1&&(
         <div className="episode">
           <span>
@@ -180,7 +192,8 @@ function Card({texts,blob,time,player,back,path}) {
           </span>
         </div>)}
       </div>
-      <div style={{backgroundColor:"#eceff1",height:"80px"}} className="flex_row_center" onClick={()=>{
+      </div>
+      <div style={{backgroundColor:"#eceff1"}} className="flex_row_center" onClick={()=>{
         setIndex(-1)
       }}>Back to Parts</div>
 
@@ -198,7 +211,7 @@ function Progress({setIndex,index,length}) {
       if(value>length-1)value=length-1
       setRatio(ratio)
       setIndex(value)
-    }} style={{position:"fixed",width:"100%",height:"30px"}}>
+    }} >
       <div style={{backgroundColor:"pink"}}>
         <div style={{width:ratio*100+"%",backgroundColor:"red",height:"3px"}}></div>
       </div>

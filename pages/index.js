@@ -13,6 +13,7 @@ export default function Home() {
       setList(data)
     })
   },list)
+  
   return (
     <div className="container">
       <div style={{marginTop:"50px"}}>

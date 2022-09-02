@@ -1,0 +1,19 @@
+.button{
+  color: #afafaf;
+  height: 35px;
+  display: inline-flex;
+  border-radius: 16px;
+  border-color: #f3f2f2;
+  user-select: none;
+  background-color: #f3f2f2;
+  justify-content: center;
+  align-items: center;
+}
+.checkBox{
+  border-width: 2px;
+  background-color: transparent;
+  border-style: solid;
+}
+.active{
+
+}

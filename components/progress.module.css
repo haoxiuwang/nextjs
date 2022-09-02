@@ -1,0 +1,14 @@
+.outLine{
+  display: grid;
+  grid-template-raws: min-content;
+  width: 100%;
+  background-color: #e5e5e5;
+  border-radius: 16px;
+}
+.innerLine{
+  background-color: #58cc02;
+  transition: background-color .4s ease;
+  height: 16px;
+  margin-right: auto;
+  border-radius: 16px;
+}
