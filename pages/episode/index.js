@@ -132,6 +132,7 @@ function Card({texts,blob,time,player,back,path}) {
     }
 
     player.ontimeupdate = ()=>{
+      if(auto)return
       if(index==time.length-1)return
       if(player.currentTime>(time[index+1].timeSeconds-0.8))
         player.pause()
@@ -155,7 +156,8 @@ function Card({texts,blob,time,player,back,path}) {
 
 
   return(
-    <div className="colGrid" style={{height:height?height+"px":"10%"}}>
+    <div className="colGrid" style={{height:height?height+"px":"10%",position:"relative"}}>
+    <div onClick={()=>setAuto(!auto)} style={{position:"fixed",right:"25px",top:"25px"}}>{auto?"关":"开"}</div>
     <div className="colGridTop">
       <Progress  setIndex={setIndex} index={index} length={time.length}/>
       <div
@@ -169,7 +171,7 @@ function Card({texts,blob,time,player,back,path}) {
         // return false
       }} onTouchEnd={(e)=>{
         e.stopPropagation()
-        
+
         var {touches,targetTouches,changedTouches,target} = e
 
         if (touches.length>1||targetTouches.length>1||changedTouches.length>1) return
