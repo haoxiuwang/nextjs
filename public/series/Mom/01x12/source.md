@@ -70,7 +70,7 @@ What? I felt there was chemistry between us. But I feel that with a lot of women
 什么？我觉得我们之间有化学反应。但是我觉得和很多女人在一起，往往会带来灾难性的后果。
 Fun fact: Pepper spray tastes nothing like pepper.
 有趣的是，胡椒喷雾尝起来一点都不像胡椒。
-All right, look... [sighs] I don't want to get involved here, but... I will tell you she was quite taken with you.
+All right, look, I don't want to get involved here, but... I will tell you she was quite taken with you.
 好吧，听着... 我不想掺和进来，但是... 我告诉你，她很喜欢你。
 Oh, I knew it. When I walked out of that coffee shop, my testicles were on fire.
 我就知道，当我走出咖啡店的时候，我的睾丸着火了。

@@ -221,7 +221,7 @@ It's okay, you don't have to.
 不不不，这是我们来的原因。
 No. No, no, no. That's why we're here.
 我满20岁后，邦妮的父亲死于摩托车事故。
-Well，right after I turned 20, Bonnie's father got killed in a motorcycle accident.
+Well, right after I turned 20, Bonnie's father got killed in a motorcycle accident.
 我没有家人帮我，所以我得工作，大部分是打扫房屋。
 And I didn't have no family to help me out, so I had to get work, mostly cleaning houses.
 我请不起保姆，所以我经常因为带上了邦妮而被炒。
@@ -235,7 +235,7 @@ You trying to top my story?
 不是啦，对不起，继续吧！
 No, no. I'm sorry. Go on.
 总之，在我们住到车里的那天，我认为她过上像样生活的唯一机会，就是我把她送去寄养，所以，我就送了
-Well, anyway, the day that I moved us into my car, I figured the only shot she had at a decent life ，was if I put her in foster care. So that's what I did.
+Well, anyway, the day that I moved us into my car, I figured the only shot she had at a decent life was if I put her in foster care. So that's what I did.
 那真是令人心碎！
 That's heartbreaking.
 我真高兴，比起我对她，她对你来说是个更好的妈妈。
@@ -363,7 +363,7 @@ I decided to run until I wasn't mad anymore. I went, like, 18 miles, puked and h
 听着，玛乔丽想跟你谈谈，所以...
 Listen, Marjorie really wanted to talk to you, so...
 别说了，我已经知道她要说什么了，我没必要听她用她的萎缩小苹果头说出来。
-Stop. I already know what she's gonna say. I don't need to hear it come out，of her shrunken little apple head.
+Stop. I already know what she's gonna say. I don't need to hear it come out of her shrunken little apple head.
 你好啊，邦妮。
 Hello, Bonnie.
 你不知道怎么提醒我吗？

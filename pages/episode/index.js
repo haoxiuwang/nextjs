@@ -151,7 +151,7 @@ function Card({texts,blob,time,player,back,path}) {
     player.play()
   },[index,repeat,player,back])
 
-
+  const [auto,setAuto] = useState(false)
 
 
   return(
@@ -169,6 +169,7 @@ function Card({texts,blob,time,player,back,path}) {
         // return false
       }} onTouchEnd={(e)=>{
         e.stopPropagation()
+        
         var {touches,targetTouches,changedTouches,target} = e
 
         if (touches.length>1||targetTouches.length>1||changedTouches.length>1) return

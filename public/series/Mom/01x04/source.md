@@ -50,7 +50,7 @@ You sold me out to the Feds!
 你把我出卖给了联邦调查局！
 Oh, honey... are you drinking again?
 亲爱的，你又开始喝酒了吗？
-No, I just dreamt that you and I were smuggling drսg from Mexico, and when it went bad, you made me take the fall!
+No, I just dreamt that you and I were smuggling drug from Mexico, and when it went bad, you made me take the fall!
 不，我只是梦到我们从墨西哥走私毒品，事情变糟的时候，你让我背了黑锅！
 Oh, how awful.
 太可怕了。

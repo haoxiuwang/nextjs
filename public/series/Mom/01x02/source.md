@@ -102,9 +102,9 @@ I can't believe this.
 真不敢相信。
 Hey, you have to take some of the responsibility for this pregnancy.
 你得为这次怀孕承担一些责任。
-Are you kidding? We had the talk. I told her about abstinence, cоndоm, everything.
+Are you kidding? We had the talk. I told her about abstinence, condom, everything.
 你在开玩笑吗? 我们谈过了，我告诉她禁欲，生殖器官，所有的事情。
-Did you mention oral sеx as a work-around?
+Did you mention oral sex as a work-around?
 你有没有提到口交是一种解决办法？
 Oh, my God, it is my fault.
 天啊，是我的错。
@@ -372,7 +372,7 @@ And let me tell you, she was a hot mess. Come on. Stand up, honey. Let everybody
 我告诉你，她真是一团糟。来吧。站起来，亲爱的。让大家看看你现在有多漂亮。
 Imagine her without the bangs. P.S. She's single, fellas. Not for you, Spanky. Anyhow, it's just a real gift to have her back in my life.
 想象一下她没有刘海的样子。另外，她单身，伙计们。不是给你的，斯班奇。不管怎样，能让她回到我的生活中真是一份大礼。
-And, uh, I know I wasn't the world's greatest mom when she was growing up, what with all my drinking and drսg and dealing and managing an international escort service with ties to the Russian mob
+And, uh, I know I wasn't the world's greatest mom when she was growing up, what with all my drinking and drug and dealing and managing an international escort service with ties to the Russian mob
 我知道在她成长的过程中，我不是世界上最好的妈妈，我酗酒，酗酒，经营一家国际陪护服务公司，还和俄罗斯黑帮有联系
 but you know, it's hard to have a career and be a mom. Am I right, ladies?
 但你知道，有事业又当妈妈是很难的，我说的对吗，女士们？

@@ -120,7 +120,7 @@ I know how to do this drunk.
 我知道怎么喝醉。
 Come on, you've been dating your boss since you got sober.
 拜托，你戒酒后就一直在和你老板约会。
-You can't call what we do dating. It's just sеx in uncomfortable places.
+You can't call what we do dating. It's just sex in uncomfortable places.
 你不能把我们做的事称为约会，只是在不舒服的地方做 s x。
 I hope you mean broom closets.
 我希望你指的是扫帚间。
@@ -130,9 +130,9 @@ Oh, Mom, God! The point is, Gabriel's married, so there's no future with him.
 哦，妈妈，天啊! 重点是 Gabriel 已经结婚了，所以和他没有未来。
 But this guy tonight, who knows?
 但是今晚这个人，谁知道呢？
-We could wind up with a little house, picket fence, missionary sеx twice a week.
+We could wind up with a little house, picket fence, missionary sex twice a week.
 我们可能会有一间小房子，栅栏，每周两次传教士性爱。
-You know, I had sеx with a missionary once and oddly he was not a fan of that position.
+You know, I had sex with a missionary once and oddly he was not a fan of that position.
 你知道吗，我曾经和一个传教士做过爱奇怪的是，他不喜欢那个姿势。
 Thank you for that image.
 谢谢你的描述。
@@ -216,7 +216,7 @@ I'll tell you what. As a reward, why don't you go out with Luke tonight and I'll
 这样吧，作为奖励你今晚和卢克出去我来照看罗斯科？
 You don't have plans?
 你没有安排吗？
-at my age, when you've had sеx in the afternoon, you're good for the whole day.
+at my age, when you've had sex in the afternoon, you're good for the whole day.
 在我这个年纪，当你在下午吃了 x 的时候，你一整天都很好。
 If our waitress is cute, it's totally okay to say I'm your sister.
 如果我们的服务员很可爱，就可以说我是你妹妹。
