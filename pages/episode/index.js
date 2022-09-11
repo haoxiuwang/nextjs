@@ -124,17 +124,21 @@ function Card({texts,blob,time,player,back,path}) {
   },[blob,player])
   useEffect(()=>{
     if (index<0){
-      if(!player.paused)
-      player.pause()
+      if(!player.paused&&!auto){
+        console.log({index});
+        player.pause()
+      }
       player.ontimeupdate = null
       back(-1)
       return
     }
 
     player.ontimeupdate = ()=>{
-      if(auto)return
+
       if(index==time.length-1)return
       if(player.currentTime>(time[index+1].timeSeconds-0.8))
+        if(auto)setIndex(index+1)
+        else
         player.pause()
     }
   },[index,player])
