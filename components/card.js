@@ -1,5 +1,5 @@
 import {useEffect,useState} from 'react'
-import Progress from "./progress"
+import Progress from "./progress.js"
 export default function Card({height,texts,blob,time,player,back,path}) {
 
   const [index,setIndex] = useState(0)

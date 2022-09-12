@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import Episode from "../components/episode"
+import Episode from "../components/episode.js"
 import Link from "next/link"
 import Image from 'next/image'
 

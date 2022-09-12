@@ -1,5 +1,5 @@
 import { useState, useEffect,useReducer } from "react"
-import Card from "./card"
+import Card from "./card.js"
 function reducer(state,action) {
   var index = action.type
   return {last:index==-1?state.last:index}
