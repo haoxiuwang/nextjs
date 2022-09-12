@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react"
+import Episode from "../components/episode"
 import Link from "next/link"
 import Image from 'next/image'
 
 export default function Home() {
   const [list,setList] = useState([])
+  const [selected,setSelected] = useState(null)
   useEffect(()=>{
     fetch('/meta.json').then(function (res) {
 
@@ -13,12 +15,13 @@ export default function Home() {
       setList(data)
     })
   },list)
-  
+  if(selected)
+  return (<Episode {...{...selected,setSelected}} />)
   return (
-    <div className="container">
-      <div style={{marginTop:"50px"}}>
+    <div className="select-none">
+      <div className="mt-[50px] mx-[25px] font-bold">
         <h3>Listening List</h3>
-        <div>
+        <div className="font-light">
           TV Series or Readings Studied for Listening.
         </div>
       </div>
@@ -29,13 +32,8 @@ export default function Home() {
           <div key={i}>
 
             {children.map(({season,episodes},i)=>(
-              <div style={{display:"flex",alignItems:"center",justifyContent:"flex-start",margin:"25px"}}  key={i}>
-                <div style={{
-                  flex: "100px 0 0",
-                  marginRight:"5px",
-                  width:"100px",
-                  height:"100px"
-                }}>
+              <div className="flex content-start m-[25px]" key={i}>
+                <div className="mr-3 w-[100px] h-[100px]">
                 <Image
                   src={`/series/${dir_name}/cover.jpg`}
                   alt={`${name} cover image`}
@@ -44,15 +42,13 @@ export default function Home() {
                 />
                 </div>
                 <div>
-                <div style={{marginRight:"20px",fontWeight:"600"}}> {name}</div>
+                <div className="mr-[20px] font-semibold"> {name}</div>
                 <span>Season {season}</span>
 
-                  <div className="flex_row_center" style={{justifyContent:"flex-start"}}>
-                  {episodes.length>0&&episodes.map((e,m)=>(
-                    <span className="item" key={m}>
-                      <Link href={`/episode?serie=${name}&season=${season}&episode=${e.episode}&count=${e.count}&path=/series/${dir_name}/${e.path}&dir_name=${dir_name}`}>
-                        <a>{e.episode}</a>
-                      </Link>
+                  <div className="flex flex-wrap flex-row items-center content-start">
+                  {episodes.length>0&&episodes.map(({episode,count,path},m)=>(
+                    <span onClick={()=>setSelected({serie:name,season,episode,count,path:`/series/${dir_name}/${path}`,dir_name})} className="mr-3" key={m}>
+                      {episode}
                     </span>
                   ))}
                   </div>
