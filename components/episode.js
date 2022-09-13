@@ -80,8 +80,8 @@ export default function Episode({ serie,season,episode,count,path,dir_name,setSe
   if(index==-1){
 
   return (
-  <div className="select-none" style={{minHeight:height+"px"}}>
-    <div className={`grid grid-rows-[1fr_min-content] h-full`}>
+  <div className="select-none relative" style={{minHeight:height+"px"}}>
+    <div className={`grid grid-rows-[1fr_min-content] absolute inset-0`}>
       <div className={center}>
         <div className={`${center} mx-3`}>
           <div>
