@@ -57,20 +57,19 @@ export default function Card({height,texts,blob,time,player,back,path}) {
         // alert(touches[0].clientY);
         if (touches.length>1) return
         e.target.start = touches[0].clientY
-        // return false
+
       }} onTouchEnd={(e)=>{
         e.stopPropagation()
 
         var {touches,targetTouches,changedTouches,target} = e
 
         if (touches.length>1||targetTouches.length>1||changedTouches.length>1) return
-        // alert(touches.length+":"+changedTouches.length+":"+targetTouches.length);
-        // return
+
         var distance = changedTouches[0].clientY-e.target.start
         if(distance>20)setIndex(index==0?index:index-1)
         else if(distance<-20)setIndex(index==texts.length-1?index:index+1)
-        else setRepeat(!repeat)
-        // return false
+        else setIndex(index)
+        // else setRepeat(!repeat)
       }}>
 
         {index>-1&&(
