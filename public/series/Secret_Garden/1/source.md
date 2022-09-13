@@ -1,6 +1,8 @@
 CHAPTER I, THERE IS NO ONE LEFT   
 
-When Mary Lennox was sent to Misselthwaite Manor to live with her uncle everybody said she was the most disagreeable-looking child ever seen.
+When Mary Lennox was sent to Misselthwaite Manor to live with her uncle
+
+everybody said she was the most disagreeable-looking child ever seen.
 
 It was true, too.
 
@@ -8,43 +10,63 @@ She had a little thin face and a little thin body, thin light hair and a sour ex
 
 Her hair was yellow, and her face was yellow because she had been born in India and had always been ill in one way or another.
 
-Her father had held a position under the English Government and had always been busy and ill himself, and her mother had been a great beauty who cared only to go to parties and amuse herself with gay people.
+Her father had held a position under the English Government and had always been busy and ill himself,
 
-She had not wanted a little girl at all, and when Mary was born she handed her over to the care of an Ayah, who was made to understand that if she wished to please the Mem Sahib she must keep the child out of sight as much as possible.
+and her mother had been a great beauty who cared only to go to parties and amuse herself with gay people.
 
-So when she was a sickly, fretful, ugly little baby she was kept out of the way, and when she became a sickly, fretful, toddling thing she was kept out of the way also.
+She had not wanted a little girl at all, and when Mary was born she handed her over to the care of an Ayah,
 
-She never remembered seeing familiarly anything but the dark faces of her Ayah and the other native servants, and as they always obeyed her and gave her her own way in everything,
+who was made to understand that if she wished to please the Mem Sahib she must keep the child out of sight as much as possible.
 
-because the Mem Sahib would be angry if she was disturbed by her crying, by the time she was six years old she was as tyrannical and selfish a little pig as ever lived.
+So when she was a sickly, fretful, ugly little baby she was kept out of the way,
 
-The young English governess who came to teach her to read and write disliked her so much that she gave up her place in three months, and when other governesses came to try to fill it they always went away in a shorter time than the first one.
+and when she became a sickly, fretful, toddling thing she was kept out of the way also.
+
+She never remembered seeing familiarly anything but the dark faces of her Ayah and the other native servants,
+
+and as they always obeyed her and gave her her own way in everything,
+
+because the Mem Sahib would be angry if she was disturbed by her crying,
+
+by the time she was six years old she was as tyrannical and selfish a little pig as ever lived.
+
+The young English governess who came to teach her to read and write disliked her so much that she gave up her place in three months,
+
+and when other governesses came to try to fill it they always went away in a shorter time than the first one.
 
 So if Mary had not chosen to really want to know how to read books she would never have learned her letters at all.
 
-One frightfully hot morning, when she was about nine years old, she awakened feeling very cross, and she became crosser still when she saw that the servant who stood by her bedside was not her Ayah.
+One frightfully hot morning, when she was about nine years old, she awakened feeling very cross,
 
-"Why did you come?" she said to the strange woman.
+and she became crosser still when she saw that the servant who stood by her bedside was not her Ayah.
 
-"I will not let you stay. Send my Ayah to me."  
+\"Why did you come?\" she said to the strange woman.
 
-The woman looked frightened, but she only stammered that the Ayah could not come and when Mary threw herself into a passion and beat and kicked her,
+\"I will not let you stay. Send my Ayah to me.\"  
+
+The woman looked frightened, but she only stammered that the Ayah could not come
+
+and when Mary threw herself into a passion and beat and kicked her,
 
 she looked only more frightened and repeated that it was not possible for the Ayah to come to Missie Sahib.
 
 There was something mysterious in the air that morning.
 
-Nothing was done in its regular order and several of the native servants seemed missing, while those whom Mary saw slunk or hurried about with ashy and scared faces.
+Nothing was done in its regular order and several of the native servants seemed missing,
+
+while those whom Mary saw slunk or hurried about with ashy and scared faces.
 
 But no one would tell her anything and her Ayah did not come.
 
-She was actually left alone as the morning went on, and at last she wandered out into the garden and began to play by herself under a tree near the veranda.
+She was actually left alone as the morning went on,
+
+and at last she wandered out into the garden and began to play by herself under a tree near the veranda.
 
 She pretended that she was making a flower-bed, and she stuck big scarlet hibiscus blossoms into little heaps of earth,
 
 all the time growing more and more angry and muttering to herself the things she would say and the names she would call Saidie when she returned.
 
-"Pig! Pig! Daughter of Pigs!" she said, because to call a native a pig is the worst insult of all.
+\"Pig! Pig! Daughter of Pigs!\" she said, because to call a native a pig is the worst insult of all.
 
 She was grinding her teeth and saying this over and over again when she heard her mother come out on the veranda with some one.
 
@@ -56,35 +78,47 @@ She had heard that he was a very young officer who had just come from England.
 
 The child stared at him, but she stared most at her mother.
 
-She always did this when she had a chance to see her, because the Mem Sahib--Mary used to call her that oftener than anything else--was such a tall, slim, pretty person and wore such lovely clothes.
+She always did this when she had a chance to see her, because the Mem Sahib,
 
-Her hair was like curly silk and she had a delicate little nose which seemed to be disdaining things, and she had large laughing eyes.
+Mary used to call her that oftener than anything else,
 
-All her clothes were thin and floating, and Mary said they were "full of lace." They looked fuller of lace than ever this morning, but her eyes were not laughing at all.
+was such a tall, slim, pretty person and wore such lovely clothes.
 
-They were large and scared and lifted imploringly to the fair boy officer's face.
+Her hair was like curly silk and she had a delicate little nose
 
-"Is it so very bad? Oh, is it?" Mary heard her say.
+which seemed to be disdaining things, and she had large laughing eyes.
 
-"Awfully," the young man answered in a trembling voice.
+All her clothes were thin and floating, and Mary said they were \"full of lace.\"
 
-"Awfully, Mrs. Lennox. You ought to have gone to the hills two weeks ago."  The Mem Sahib wrung her hands.
+They looked fuller of lace than ever this morning, but her eyes were not laughing at all.
 
-"Oh, I know I ought!" she cried. "I only stayed to go to that silly dinner party.
+They were large and scared and lifted imploringly to the fair boy officer\'s face.
 
-What a fool I was!"  At that very moment such a loud sound of wailing broke out from the servants' quarters that she clutched the young man's arm, and Mary stood shivering from head to foot.
+\"Is it so very bad? Oh, is it?\" Mary heard her say.
+
+\"Awfully,\" the young man answered in a trembling voice.
+
+\"Awfully, Mrs. Lennox. You ought to have gone to the hills two weeks ago.\"  
+
+The Mem Sahib wrung her hands.
+
+\"Oh, I know I ought!\" she cried. \"I only stayed to go to that silly dinner party. What a fool I was!\"  
+
+At that very moment such a loud sound of wailing broke out from the servants\' quarters
+
+that she clutched the young man\'s arm, and Mary stood shivering from head to foot.
 
 The wailing grew wilder and wilder.
 
-"What is it? What is it?" Mrs. Lennox gasped.
+\"What is it? What is it?\" Mrs. Lennox gasped.
 
-"Some one has died," answered the boy officer.
+\"Some one has died,\" answered the boy officer.
 
-"You did not say it had broken out among your servants."  
+\"You did not say it had broken out among your servants.\"  
 
-"I did not know!" the Mem Sahib cried.
+\"I did not know!\" the Mem Sahib cried.
 
-"Come with me! Come with me!" and she turned and ran into the house.
+\"Come with me! Come with me!\" and she turned and ran into the house.
 
 After that appalling things happened, and the mysteriousness of the morning was explained to Mary.
 
@@ -104,19 +138,31 @@ Mary alternately cried and slept through the hours.
 
 She only knew that people were ill and that she heard mysterious and frightening sounds.
 
-Once she crept into the dining-room and found it empty, though a partly finished meal was on the table and chairs and plates looked as if they had been hastily pushed back when the diners rose suddenly for some reason.
+Once she crept into the dining-room and found it empty,
+
+though a partly finished meal was on the table and chairs and plates looked
+
+as if they had been hastily pushed back when the diners rose suddenly for some reason.
 
 The child ate some fruit and biscuits, and being thirsty she drank a glass of wine which stood nearly filled.
 
 It was sweet, and she did not know how strong it was.
 
-Very soon it made her intensely drowsy, and she went back to her nursery and shut herself in again, frightened by cries she heard in the huts and by the hurrying sound of feet.
+Very soon it made her intensely drowsy, and she went back to her nursery and shut herself in again,
 
-The wine made her so sleepy that she could scarcely keep her eyes open and she lay down on her bed and knew nothing more for a long time.
+frightened by cries she heard in the huts and by the hurrying sound of feet.
 
-Many things happened during the hours in which she slept so heavily, but she was not disturbed by the wails and the sound of things being carried in and out of the bungalow.
+The wine made her so sleepy that she could scarcely keep her eyes open
 
-When she awakened she lay and stared at the wall. The house was perfectly still. She had never known it to be so silent before.
+and she lay down on her bed and knew nothing more for a long time.
+
+Many things happened during the hours in which she slept so heavily,
+
+but she was not disturbed by the wails and the sound of things being carried in and out of the bungalow.
+
+When she awakened she lay and stared at the wall.
+
+The house was perfectly still. She had never known it to be so silent before.
 
 She heard neither voices nor footsteps, and wondered if everybody had got well of the cholera and all the trouble was over.
 
@@ -130,7 +176,9 @@ She did not cry because her nurse had died.
 
 She was not an affectionate child and had never cared much for any one.
 
-The noise and hurrying about and wailing over the cholera had frightened her, and she had been angry because no one seemed to remember that she was alive.
+The noise and hurrying about and wailing over the cholera had frightened her,
+
+and she had been angry because no one seemed to remember that she was alive.
 
 Every one was too panic-stricken to think of a little girl no one was fond of.
 
@@ -140,53 +188,79 @@ But if every one had got well again, surely some one would remember and come to 
 
 But no one came, and as she lay waiting the house seemed to grow more and more silent.
 
-She heard something rustling on the matting and when she looked down she saw a little snake gliding along and watching her with eyes like jewels.
+She heard something rustling on the matting
 
-She was not frightened, because he was a harmless little thing who would not hurt her and he seemed in a hurry to get out of the room.
+and when she looked down she saw a little snake gliding along and watching her with eyes like jewels.
+
+She was not frightened, because he was a harmless little thing who would not hurt her
+
+and he seemed in a hurry to get out of the room.
 
 He slipped under the door as she watched him.
 
-"How queer and quiet it is," she said.
+\"How queer and quiet it is,\" she said.
 
-"It sounds as if there was no one in the bungalow but me and the snake."  Almost the next minute she heard footsteps in the compound, and then on the veranda.
+\"It sounds as if there was no one in the bungalow but me and the snake.\"  
 
-They were men's footsteps, and the men entered the bungalow and talked in low voices.
+Almost the next minute she heard footsteps in the compound, and then on the veranda.
+
+They were men\'s footsteps, and the men entered the bungalow and talked in low voices.
 
 No one went to meet or speak to them and they seemed to open doors and look into rooms.
 
-"What desolation!" she heard one voice say.
+\"What desolation!\" she heard one voice say.
 
-"That pretty, pretty woman! I suppose the child, too.
+\"That pretty, pretty woman! I suppose the child, too.
 
-I heard there was a child, though no one ever saw her."  Mary was standing in the middle of the nursery when they opened the door a few minutes later.
+I heard there was a child, though no one ever saw her.\"  
 
-She looked an ugly, cross little thing and was frowning because she was beginning to be hungry and feel disgracefully neglected.
+Mary was standing in the middle of the nursery when they opened the door a few minutes later.
+
+She looked an ugly, cross little thing and was frowning
+
+because she was beginning to be hungry and feel disgracefully neglected.
 
 The first man who came in was a large officer she had once seen talking to her father.
 
 He looked tired and troubled, but when he saw her he was so startled that he almost jumped back.
 
-"Barney!" he cried out.
+\"Barney!\" he cried out.
 
-"There is a child here! A child alone! In a place like this! Mercy on us, who is she!"  "I am Mary Lennox," the little girl said, drawing herself up stiffly.
+\"There is a child here! A child alone! In a place like this! Mercy on us, who is she!\"  
 
-She thought the man was very rude to call her father's bungalow "A place like this!" "I fell asleep when every one had the cholera and I have only just wakened up.
+\"I am Mary Lennox,\" the little girl said, drawing herself up stiffly.
 
-Why does nobody come?"  "It is the child no one ever saw!" exclaimed the man, turning to his companions.
+She thought the man was very rude to call her father\'s bungalow
 
-"She has actually been forgotten!"  "Why was I forgotten?" Mary said, stamping her foot.
+\"A place like this!\"
 
-"Why does nobody come?"  The young man whose name was Barney looked at her very sadly.
+\"I fell asleep when every one had the cholera and I have only just wakened up.
+
+Why does nobody come?\"
+
+\"It is the child no one ever saw!\" exclaimed the man, turning to his companions.
+
+\"She has actually been forgotten!\"  
+
+\"Why was I forgotten?\" Mary said, stamping her foot.
+
+\"Why does nobody come?\"  
+
+The young man whose name was Barney looked at her very sadly.
 
 Mary even thought she saw him wink his eyes as if to wink tears away.
 
-"Poor little kid!" he said.
+\"Poor little kid!\" he said.
 
-"There is nobody left to come."  
+\"There is nobody left to come.\"  
 
 It was in that strange and sudden way that Mary found out that she had neither father nor mother left;
 
-that they had died and been carried away in the night, and that the few native servants who had not died also had left the house as quickly as they could get out of it, none of them even remembering that there was a Missie Sahib.
+that they had died and been carried away in the night,
+
+and that the few native servants who had not died also had left the house
+
+as quickly as they could get out of it, none of them even remembering that there was a Missie Sahib.
 
 That was why the place was so quiet.
 
