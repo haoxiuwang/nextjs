@@ -20,7 +20,7 @@ export default function Card({height,texts,blob,time,player,back,path}) {
         else
         player.pause()
     }
-  },[index])
+  },[index,repeat])
   useEffect(()=>{
     if (index<0){
       if(!player.paused)
@@ -68,8 +68,7 @@ export default function Card({height,texts,blob,time,player,back,path}) {
         var distance = changedTouches[0].clientY-e.target.start
         if(distance>20)setIndex(index==0?index:index-1)
         else if(distance<-20)setIndex(index==texts.length-1?index:index+1)
-        else setIndex(index)
-        // else setRepeat(!repeat)
+        else setRepeat(!repeat)
       }}>
 
         {index>-1&&(
