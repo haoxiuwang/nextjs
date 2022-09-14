@@ -5,6 +5,7 @@ function reducer(state,action) {
   return {last:index==-1?state.last:index}
 }
 export default function Episode({ serie,season,episode,count,path,dir_name,setSelected }) {
+  
   const [index,setIndex] = useState(-1)
   const [height,setHeight] = useState(0)
   const [{parts,error0},setParts] = useState({parts:null,error0:null})
