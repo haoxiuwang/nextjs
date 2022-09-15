@@ -74,7 +74,7 @@ export default function Words({texts,index,str,setFav,path}) {
           }} className="my-9 text-center bg-sky-200 text-sky-800 w-full rounded ring-1">收藏</div>)}
         <div>
 
-          <ul className="block">
+          <ul className="block bg-sky-100 my-6 p-3">
           {
             local&&local.map((item,i)=>{
               return(
