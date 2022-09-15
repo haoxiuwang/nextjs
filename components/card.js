@@ -42,7 +42,7 @@ export default function Card({height,texts,blob,time,player,back,path}) {
   const [auto,setAuto] = useState(false)
 
   if(fav)
-  return(<div className="h-screen w-full flex flex-row place-items-center place-content-center mx-3">
+  return(<div className="mt-12 m-6">
     <Words {...{texts,index,str:texts[index].en,setFav,path}}/>
   </div>)
   return(
@@ -91,8 +91,8 @@ export default function Card({height,texts,blob,time,player,back,path}) {
       }}>
 
         {index>-1&&(
-        <div className={`grid grid-rows-2 gap-2 mx-3 leading-none text-slate-700 ${fz?"text-3xl":"text-2xl"}`}>
-          <span className="">
+        <div className={`grid grid-rows-2 gap-2 mx-3 leading-tight text-slate-700 ${fz?"text-3xl":"text-xl"}`}>
+          <span className="tracking-wide">
             {texts[index].en}
           </span>
           <span className="text-gray-500 block">

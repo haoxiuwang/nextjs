@@ -17,7 +17,7 @@ export default function Words({texts,index,str,setFav,path}) {
     window.localStorage.setItem(key,data)
     setWord({en:"",zh:""})
   },[local])
-
+  useEffect(()=>setNotes([]),[word.en])
   return (
       <div>
         <div className="fixed left-3 top-3">
@@ -31,7 +31,10 @@ export default function Words({texts,index,str,setFav,path}) {
                 setNotes([])
                 fetch(`https://dict-mobile.iciba.com/interface/index.php?c=word&m=getsuggest&nums=10&is_need_mean=1&word=${word.en}`)
                 .then((res)=>res.json())
-                .then((data)=>setNotes(data.message[0].paraphrase.split(/[，；,; ]/)))
+                .then((data)=>{
+                  var str = data.message[0].paraphrase.split(/[，；,; ]/)
+                  setNotes(str)
+                })
                 .catch((e)=>console.log(e))
               }}>
               <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-book text-sky-800" viewBox="0 0 16 16">
@@ -49,13 +52,13 @@ export default function Words({texts,index,str,setFav,path}) {
           </div>)}
 
         </div>
-        {notes.length>0&&word.en.length>0&&(<div className="bg-sky-100 p-3">
+        {notes.length>0&&word.en.length>0&&(notes[0]==""?(<div className="text-rose-400">Sorry!</div>):(<div className="bg-sky-100 p-3">
           {
             notes.map((item,i)=>(
               <span onClick={()=>setWord({en:(word.en).trim(),zh:word.zh+" "+item})} className="inline-block mr-2 rounded ring-1 bg-white p-1 px-2" key={i}>{item}</span>
             ))
           }
-        </div>)}
+        </div>))}
         <div>
           {
             words.map((item,i)=>(
@@ -65,11 +68,11 @@ export default function Words({texts,index,str,setFav,path}) {
         </div>
         <div>{texts[index].zh}</div>
 
-          <div onClick={()=>{
+          {word.en.length>0&&word.zh.length>0&&(<div onClick={()=>{
             if(word.en=="")return
             setLocal([word,...local])
-          }} className="my-9 text-center bg-sky-200 text-sky-800 w-full rounded ring-1">收藏</div>
-          <div>
+          }} className="my-9 text-center bg-sky-200 text-sky-800 w-full rounded ring-1">收藏</div>)}
+        <div>
 
           <ul className="block">
           {
