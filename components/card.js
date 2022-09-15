@@ -42,7 +42,7 @@ export default function Card({height,texts,blob,time,player,back,path}) {
   const [auto,setAuto] = useState(false)
 
   if(fav)
-  return(<div className="mt-12 m-6 h-screen overflow-y-scroll overscroll-auto">
+  return(<div className="mt-12 m-6">
     <Words {...{texts,index,str:texts[index].en,setFav,path}}/>
   </div>)
   return(

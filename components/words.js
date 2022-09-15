@@ -19,7 +19,7 @@ export default function Words({texts,index,str,setFav,path}) {
   },[local])
   useEffect(()=>setNotes([]),[word.en])
   return (
-      <div className="overflow-y-scroll">
+      <div>
         <div className="fixed left-3 top-3">
           <svg onClick={()=>setFav(false)} xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-arrow-left text-sky-400 font-bold" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
@@ -75,7 +75,7 @@ export default function Words({texts,index,str,setFav,path}) {
           }} className="my-9 text-center bg-sky-200 text-sky-800 w-full rounded ring-1">收藏</div>)}
         <div>
 
-          {local&&local.length>0&&(<ul className="block bg-sky-100 my-6 p-3 overflow-y-scroll rounded outline-3 outline-slate-300 outline-offset-2">
+          {local&&local.length>0&&(<ul className="block bg-sky-100 my-6 p-3 rounded outline-3 outline-slate-300 outline-offset-2">
           {
             local.map((item,i)=>{
               return(
