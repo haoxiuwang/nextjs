@@ -48,7 +48,7 @@ export default function Words({texts,index,str,setFav,path}) {
             </span>
           </div>
 
-          {word.en.length>0&&notes.length>0&&(<div className="border-b-2 border-sky-700 border-solid my-3 grid grid-cols-[1fr]">
+          {word.en.length>0&&(<div className="border-b-2 border-sky-700 border-solid my-3 grid grid-cols-[1fr]">
             <input className="w-full" value={word.zh} onChange={(e)=>setWord({en:word.en,zh:e.target.value})} className=""/>
           </div>)}
 
@@ -69,13 +69,13 @@ export default function Words({texts,index,str,setFav,path}) {
         </div>
         <div>{texts[index].zh}</div>
 
-          {word.en.length>0&&word.zh.length>0&&(<div onClick={()=>{
+          {word.en.length>0&&(<div onClick={()=>{
             if(word.en=="")return
             setLocal([word,...local])
           }} className="my-9 text-center bg-sky-200 text-sky-800 w-full rounded ring-1">收藏</div>)}
         <div>
 
-          <ul className="block bg-sky-100 my-6 p-3">
+          <ul className="block bg-sky-100 my-6 p-3 overflow-y-scroll rounded outline-3 outline-slate-300 outline-offset-2">
           {
             local&&local.map((item,i)=>{
               return(
