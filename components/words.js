@@ -26,7 +26,7 @@ export default function Words({texts,index,str,setFav,path}) {
           </svg>
         </div>
         <div>
-          <div className="border-b-2 border-sky-700 border-solid my-3 grid grid-cols-[min-content_1fr]">
+          <div className="border-b-2 border-sky-700 border-solid my-6 mb-12 grid grid-cols-[min-content_1fr_min-content] gap-1">
             <span className="text-center mr-2" onClick={()=>{
                 setNotes([])
                 fetch(`https://dict-mobile.iciba.com/interface/index.php?c=word&m=getsuggest&nums=10&is_need_mean=1&word=${word.en}`)
@@ -39,24 +39,27 @@ export default function Words({texts,index,str,setFav,path}) {
               </svg>
             </span>
             <input value={word.en} onChange={(e)=>setWord({en:e.target.value,zh:""})}/>
+            <span onClick={()=>setWord({en:"",zh:""})} className="mx-2">{word.en.length>0&&<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-x-lg" viewBox="0 0 16 16">
+              <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+            </svg>}</span>
           </div>
 
-          {word.en.length>0&&(<div className="border-b-2 border-sky-700 border-solid my-3 grid grid-cols-[1fr]">
+          {word.en.length>0&&notes.length>0&&(<div className="border-b-2 border-sky-700 border-solid my-3 grid grid-cols-[1fr]">
             <input className="w-full" value={word.zh} onChange={(e)=>setWord({en:word.en,zh:e.target.value})} className=""/>
           </div>)}
 
         </div>
-        <div className="bg-sky-100">
+        {notes.length>0&&word.en.length>0&&(<div className="bg-sky-100 p-3">
           {
             notes.map((item,i)=>(
-              <span onClick={()=>setWord({en:(word.en).trim(),zh:word.zh+" "+item})} className="inline-block mr-2" key={i}>{item}</span>
+              <span onClick={()=>setWord({en:(word.en).trim(),zh:word.zh+" "+item})} className="inline-block mr-2 rounded ring-1 bg-white p-1 px-2" key={i}>{item}</span>
             ))
           }
-        </div>
+        </div>)}
         <div>
           {
             words.map((item,i)=>(
-              <span onClick={()=>setWord({en:(word.en+" "+item.toLowerCase()).trim(),zh:word.zh})} className="inline-block mr-2" key={i}>{item}</span>
+              <span onClick={()=>setWord({en:(word.en+" "+item.toLowerCase()).replace(/[,.';]/g," ").trim(),zh:word.zh})} className="inline-block mr-2" key={i}>{item}</span>
             ))
           }
         </div>
