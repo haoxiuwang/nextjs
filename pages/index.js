@@ -8,7 +8,6 @@ export default function Home() {
   const [selected,setSelected] = useState(null)
   useEffect(()=>{
     fetch('/meta.json').then(function (res) {
-      console.log("----------------");
       return res.json()
     })
     .then(function (data) {

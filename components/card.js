@@ -42,7 +42,7 @@ export default function Card({height,texts,blob,time,player,back,path}) {
   const [auto,setAuto] = useState(false)
 
   if(fav)
-  return(<div className="mt-12 m-6">
+  return(<div>
     <Words {...{texts,index,str:texts[index].en,setFav,path}}/>
   </div>)
   return(
@@ -70,7 +70,7 @@ export default function Card({height,texts,blob,time,player,back,path}) {
       <Progress setIndex={setIndex} index={index} length={time.length}/>
       <div className="flex place-content-center place-items-center"
       onTouchStart={(e)=>{
-        e.stopPropagation()
+        e.stopPropagation()        
         var {targetTouches,changedTouches,target} = e
         var touches = changedTouches
         // alert(touches[0].clientY);

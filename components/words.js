@@ -19,12 +19,13 @@ export default function Words({texts,index,str,setFav,path}) {
   },[local])
   useEffect(()=>setNotes([]),[word.en])
   return (
-      <div>
+      <div className="m-3 mt-16">
         <div className="fixed left-3 top-3">
           <svg onClick={()=>setFav(false)} xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-arrow-left text-sky-400 font-bold" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
           </svg>
         </div>
+
         <div>
           <div className="border-b-2 border-sky-700 border-solid my-6 mb-12 grid grid-cols-[min-content_1fr_min-content] gap-1">
             <span className="text-center mr-2" onClick={()=>{
@@ -48,18 +49,22 @@ export default function Words({texts,index,str,setFav,path}) {
             </span>
           </div>
 
-          {word.en.length>0&&(<div className="border-b-2 border-sky-700 border-solid my-3 grid grid-cols-[1fr]">
-            <input className="w-full appearance-none bg-transparent py-4 pl-4 pr-12 text-base text-sky-600 placeholder:text-slate-600 focus:outline-none sm:text-sm sm:leading-6" placeholder="Note Here..." value={word.zh} onChange={(e)=>setWord({en:word.en,zh:e.target.value})} className=""/>
-          </div>)}
+          {word.en.length>0&&
+            (<div className="border-b-2 border-sky-700 border-solid my-3 grid grid-cols-[1fr]">
+              <input className="w-full appearance-none bg-transparent py-4 pl-4 pr-12 text-base text-sky-600 placeholder:text-slate-600 focus:outline-none sm:text-sm sm:leading-6" placeholder="中文意思..." value={word.zh} onChange={(e)=>setWord({en:word.en,zh:e.target.value})}/>
+            </div>)
+          }
 
         </div>
-        {notes.length>0&&word.en.length>0&&(notes[0]==""?(<div className="text-rose-400">Sorry!</div>):(<div className="bg-sky-100 p-3">
+      {notes.length>0&&word.en.length>0&&(notes[0]==""?(
+        <div className="text-rose-400">Sorry!</div>):(<div className="bg-sky-100  p-3">
           {
             notes.map((item,i)=>(
               <span onClick={()=>setWord({en:(word.en).trim(),zh:word.zh+" "+item})} className="inline-block mr-2 rounded ring-1 bg-white p-1 px-2" key={i}>{item}</span>
             ))
           }
-        </div>))}
+        </div>))
+      }
         <div>
           {
             words.map((item,i)=>(
@@ -67,15 +72,21 @@ export default function Words({texts,index,str,setFav,path}) {
             ))
           }
         </div>
-        <div>{texts[index].zh}</div>
+        <div className="text-slate-600">
+          {texts[index].zh}
+        </div>
 
-          {word.en.length>0&&(<div onClick={()=>{
+          {word.en.length>0&&(
+        <div onClick={()=>{
             if(word.en=="")return
             setLocal([word,...local])
-          }} className="my-9 text-center bg-sky-200 text-sky-800 w-full rounded ring-1">收藏</div>)}
-        <div>
+          }} className="my-9 text-center bg-sky-200 text-sky-800 w-full rounded ring-1">
+          收藏
+        </div>)}
 
-          {local&&local.length>0&&(<ul className="block bg-sky-100 my-6 p-3 rounded outline-3 outline-slate-300 outline-offset-2">
+        <div>
+          {local&&local.length>0&&(
+          <ul className="block bg-sky-100 my-6 p-3 rounded outline-3 outline-slate-300 outline-offset-2">
           {
             local.map((item,i)=>{
               return(
