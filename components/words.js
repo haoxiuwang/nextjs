@@ -19,7 +19,7 @@ export default function Words({texts,index,str,setFav,path}) {
   },[local])
   useEffect(()=>setNotes([]),[word.en])
   return (
-      <div>
+      <div className="overflow-y-auto">
         <div className="fixed left-3 top-3">
           <svg onClick={()=>setFav(false)} xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-arrow-left text-sky-400 font-bold" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
@@ -44,7 +44,8 @@ export default function Words({texts,index,str,setFav,path}) {
             <input value={word.en} onChange={(e)=>setWord({en:e.target.value,zh:""})}/>
             <span onClick={()=>setWord({en:"",zh:""})} className="mx-2">{word.en.length>0&&<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-x-lg" viewBox="0 0 16 16">
               <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
-            </svg>}</span>
+            </svg>}
+            </span>
           </div>
 
           {word.en.length>0&&notes.length>0&&(<div className="border-b-2 border-sky-700 border-solid my-3 grid grid-cols-[1fr]">
