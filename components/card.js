@@ -33,7 +33,7 @@ export default function Card({height,texts,blob,time,player,back,path}) {
   var props = {height,auto,setAuto,fz,setFz,index,setIndex,time,repeat,setRepeat,texts,back,fav,setFav}
   if(fav)
   return(<div>
-    <Words {...{texts,index,str:texts[index].en,setFav,path}}/>
+    <Words {...{height,texts,index,str:texts[index].en,setFav,path}}/>
   </div>)
 
   return(<Swipe {...props}/>)
