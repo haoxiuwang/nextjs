@@ -47,6 +47,7 @@ export default function Card({height,texts,blob,time,player,back,path}) {
   </div>)
   return(
   <div className="select-none relative" style={{minHeight:height+"px"}}>
+
     <div className="fixed z-50 right-[25px] top-[25px] flex content-center ">
       <svg onClick={()=>setAuto(!auto)} xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className={`bi bi-record-circle ${auto&&"text-sky-400"}`} viewBox="0 0 16 16">
         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
@@ -64,13 +65,14 @@ export default function Card({height,texts,blob,time,player,back,path}) {
       <svg onClick={()=>setFav(true)} xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-bucket ml-3" viewBox="0 0 16 16">
         <path d="M2.522 5H2a.5.5 0 0 0-.494.574l1.372 9.149A1.5 1.5 0 0 0 4.36 16h7.278a1.5 1.5 0 0 0 1.483-1.277l1.373-9.149A.5.5 0 0 0 14 5h-.522A5.5 5.5 0 0 0 2.522 5zm1.005 0a4.5 4.5 0 0 1 8.945 0H3.527zm9.892 1-1.286 8.574a.5.5 0 0 1-.494.426H4.36a.5.5 0 0 1-.494-.426L2.58 6h10.838z"/>
       </svg>
+      
     </div>
 
     <div className={`absolute inset-0 grid grid-rows-[min-content_1fr_min-content]`}>
       <Progress setIndex={setIndex} index={index} length={time.length}/>
       <div className="flex place-content-center place-items-center"
       onTouchStart={(e)=>{
-        e.stopPropagation()        
+        e.stopPropagation()
         var {targetTouches,changedTouches,target} = e
         var touches = changedTouches
         // alert(touches[0].clientY);
