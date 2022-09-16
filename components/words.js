@@ -22,12 +22,12 @@ export default function Words({height,texts,index,str,setFav,path}) {
   useEffect(()=>setNotes([]),[word.en])
   useEffect(()=>{
     var handler = (e)=>e.preventDefault()
-    ref1.current&&ref1.current.addEventListener("touchmove",handler,{passive:false})
+    // ref1.current&&ref1.current.addEventListener("touchmove",handler,{passive:false})
     ref2.current&&ref2.current.addEventListener("touchmove",handler,{passive:false})
   })
   if(mem)
   return(
-    <div ref={ref1} style={{height}} className="my-8">
+    <div ref={ref1} className="h-screen my-8">
       <div>
         <svg onClick={()=>setMem(false)} xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-arrow-left text-sky-400 font-bold" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
@@ -47,7 +47,7 @@ export default function Words({height,texts,index,str,setFav,path}) {
     </div>
   )
   return (
-      <div ref={ref2} style={{height}} className="m-3 mt-16">
+      <div ref={ref2} className="h-full m-3 mt-16">
         <div className="fixed left-3 top-3 right-3 flex place-content-between">
           <svg onClick={()=>setFav(false)} xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-arrow-left text-sky-400 font-bold" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>

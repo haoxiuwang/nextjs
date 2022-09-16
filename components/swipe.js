@@ -9,7 +9,7 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
   },[])
 
   return(
-  <div style={{height}} ref={card} className="select-none relative">
+  <div ref={card} className="h-screen select-none relative">
 
     <div className="fixed z-50 right-[25px] top-[25px] flex content-center ">
       <svg onClick={()=>setAuto(!auto)} xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className={`bi bi-record-circle ${auto&&"text-sky-400"}`} viewBox="0 0 16 16">
