@@ -71,6 +71,26 @@ export default function Card({height,texts,blob,time,player,back,path}) {
     <div className={`absolute inset-0 grid grid-rows-[min-content_1fr_min-content]`}>
       <Progress setIndex={setIndex} index={index} length={time.length}/>
       <div className="flex place-content-center place-items-center"
+      onTouchStart={(e)=>{
+        e.stopPropagation()
+        var {targetTouches,changedTouches,target} = e
+        var touches = changedTouches
+        // alert(touches[0].clientY);
+        if (touches.length>1) return
+        e.target.start = touches[0].clientY
+
+      }} onTouchEnd={(e)=>{
+        e.stopPropagation()
+
+        var {touches,targetTouches,changedTouches,target} = e
+
+        if (touches.length>1||targetTouches.length>1||changedTouches.length>1) return
+
+        var distance = changedTouches[0].clientY-e.target.start
+        if(distance>20)setIndex(index==0?index:index-1)
+        else if(distance<-20)setIndex(index==texts.length-1?index:index+1)
+        else setRepeat(!repeat)
+      }}
       >
 
         {index>-1&&(
