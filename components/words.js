@@ -22,8 +22,8 @@ export default function Words({height,texts,index,str,setFav,path}) {
   useEffect(()=>setNotes([]),[word.en])
   useEffect(()=>{
     var handler = (e)=>e.preventDefault()
-    ref1.current.addEventListener("touchmove",handler,{passive:false})
-    ref2.current.addEventListener("touchmove",handler,{passive:false})
+    ref1.current&&ref1.current.addEventListener("touchmove",handler,{passive:false})
+    ref2.current&&ref2.current.addEventListener("touchmove",handler,{passive:false})
   })
   if(mem)
   return(
