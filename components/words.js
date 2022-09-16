@@ -90,7 +90,11 @@ export default function Words({texts,index,str,setFav,path}) {
           {
             local.map((item,i)=>{
               return(
-              <li key={i} className="block">
+              <li onClick={()=>setWord(item)} onContextMenu={()=>{
+                var arr = [...local]
+                arr.splice(i,1)
+                setLocal(arr)
+              }} key={i} className="block">
                 <span>{item.en}</span><span>{item.zh}</span>
               </li>
               )
