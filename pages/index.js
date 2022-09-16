@@ -14,7 +14,12 @@ export default function Home() {
       setList(data)
     })
   },[])
-
+  useEffect(()=>{
+    window.onresize = ()=>{
+      var {innerHeight,innerWidth} = window
+      window.resizeTo(innerWidth,innerHeight)
+    }
+  },[])
   if(selected)
   return (<Episode {...{...selected,setSelected}} />)
   return (
