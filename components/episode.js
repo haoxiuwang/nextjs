@@ -10,7 +10,7 @@ export default function Episode({ serie,season,episode,count,path,dir_name,setSe
   const [height,setHeight] = useState(0)
   const [{parts,error0},setParts] = useState({parts:null,error0:null})
 
-
+  useEffect(()=>setHeight(window.innerHeight),[])
   useEffect(()=>{
     if (!episode)return
     var url = `${path}/source.json`
