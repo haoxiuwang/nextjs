@@ -1,21 +1,15 @@
 import {useRef,useEffect,useState} from "react"
 import Progress from './progress'
-export default function ({auto,setAuto,fz,setFz,index,setIndex,time,repeat,setRepeat,texts,back,fav,setFav}) {
+export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repeat,setRepeat,texts,back,fav,setFav}) {
   const card = useRef(null)
-  const [height,setHeight] = useState(0)
-  useEffect(()=>setHeight(window.innerWidth))
-  useEffect(()=>{
 
+  useEffect(()=>{
     var handler = (e)=>e.preventDefault()
     card.current.addEventListener("touchmove",handler,{passive:false})
-
-    // return ()=>{
-    //   console.log({card});
-    //   card.current.removeEventListener("touchmove",handler,{passive:false})
-    // }
   },[])
+
   return(
-  <div style={{height}} ref={card} className="select-none relative" style={{minHeight:height+"px"}}>
+  <div style={{height}} ref={card} className="select-none relative">
 
     <div className="fixed z-50 right-[25px] top-[25px] flex content-center ">
       <svg onClick={()=>setAuto(!auto)} xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className={`bi bi-record-circle ${auto&&"text-sky-400"}`} viewBox="0 0 16 16">

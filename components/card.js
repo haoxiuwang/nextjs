@@ -3,7 +3,6 @@ import Progress from "./progress"
 import Swipe from "./swipe"
 import Words from "./words"
 export default function Card({height,texts,blob,time,player,back,path}) {
-  // console.log({path});
   const [index,setIndex] = useState(0)
   var value = (100*(1-index/texts.length))+"%"
   const [repeat,setRepeat] = useState(false)
@@ -12,8 +11,11 @@ export default function Card({height,texts,blob,time,player,back,path}) {
 
   useEffect(()=>{
     player.src = window.URL.createObjectURL(blob)
-  },[blob,player])
+  },[])
   useEffect(()=>{
+    player.currentTime = time[index].timeSeconds
+    if(player.paused)
+    player.play()
     player.ontimeupdate = ()=>{
       if(index==time.length-1&&player.currentTime>(player.duration-0.8)){
         if(auto)setIndex(0)
@@ -25,26 +27,14 @@ export default function Card({height,texts,blob,time,player,back,path}) {
 
     }
   },[index,repeat])
-  useEffect(()=>{
-    if (index<0){
-      if(!player.paused)
-      player.pause()
-      player.ontimeupdate = null
-      back(-1)
-      return
-    }
-    if(!player.paused)
-      player.pause()
-    player.currentTime = time[index].timeSeconds
-    if(player.paused)
-    player.play()
-  },[index,repeat,player,back])
+
 
   const [auto,setAuto] = useState(false)
-  var props = {auto,setAuto,fz,setFz,height,index,setIndex,time,repeat,setRepeat,texts,back,fav,setFav}
+  var props = {height,auto,setAuto,fz,setFz,index,setIndex,time,repeat,setRepeat,texts,back,fav,setFav}
   if(fav)
   return(<div>
     <Words {...{texts,index,str:texts[index].en,setFav,path}}/>
   </div>)
+
   return(<Swipe {...props}/>)
 }
