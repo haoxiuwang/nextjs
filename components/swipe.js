@@ -1,7 +1,9 @@
 import {useRef,useEffect,useState} from "react"
 import Progress from './progress'
-export default function ({auto,setAuto,fz,setFz,height,index,setIndex,time,repeat,setRepeat,texts,back,fav,setFav}) {
+export default function ({auto,setAuto,fz,setFz,index,setIndex,time,repeat,setRepeat,texts,back,fav,setFav}) {
   const card = useRef(null)
+  const [height,setHeight] = useState(0)
+  useEffect(()=>setHeight(window.innerWidth))
   useEffect(()=>{
 
     var handler = (e)=>e.preventDefault()
