@@ -45,7 +45,7 @@ export default function Card({height,texts,blob,time,player,back,path}) {
 
     var handler = (e)=>e.preventDefault()
     card.current.addEventListener("touchmove",handler,{passive:false})
-    setHeight(window.innerHeight)
+  
     return ()=>{
       card.current.removeEventListener("touchmove",handler,{passive:false})
     }
