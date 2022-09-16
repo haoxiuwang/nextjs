@@ -41,15 +41,15 @@ export default function Card({height,texts,blob,time,player,back,path}) {
 
   const [auto,setAuto] = useState(false)
   const card = useRef(null)
-  useEffect(()=>{
-
-    var handler = (e)=>e.preventDefault()
-    card.current.addEventListener("touchmove",handler,{passive:false})
-  
-    return ()=>{
-      card.current.removeEventListener("touchmove",handler,{passive:false})
-    }
-  },[])
+  // useEffect(()=>{
+  //
+  //   var handler = (e)=>e.preventDefault()
+  //   card.current.addEventListener("touchmove",handler,{passive:false})
+  //
+  //   return ()=>{
+  //     card.current.removeEventListener("touchmove",handler,{passive:false})
+  //   }
+  // },[])
   if(fav)
   return(<div>
     <Words {...{texts,index,str:texts[index].en,setFav,path}}/>
