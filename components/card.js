@@ -1,4 +1,4 @@
-import {useEffect,useState} from 'react'
+import {useEffect,useState,useRef} from 'react'
 import Progress from "./progress"
 import Words from "./words"
 export default function Card({height,texts,blob,time,player,back,path}) {
@@ -40,13 +40,22 @@ export default function Card({height,texts,blob,time,player,back,path}) {
   },[index,repeat,player,back])
 
   const [auto,setAuto] = useState(false)
+  const card = useRef(null)
+  useEffect(()=>{
 
+    var handler = (e)=>e.preventDefault()
+    card.current.addEventListener("touchmove",handler,{passive:false})
+    setHeight(window.innerHeight)
+    return ()=>{
+      card.current.removeEventListener("touchmove",handler,{passive:false})
+    }
+  },[])
   if(fav)
   return(<div>
     <Words {...{texts,index,str:texts[index].en,setFav,path}}/>
   </div>)
   return(
-  <div className="select-none relative" style={{minHeight:height+"px"}}>
+  <div ref={card} className="select-none relative" style={{minHeight:height+"px"}}>
 
     <div className="fixed z-50 right-[25px] top-[25px] flex content-center ">
       <svg onClick={()=>setAuto(!auto)} xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className={`bi bi-record-circle ${auto&&"text-sky-400"}`} viewBox="0 0 16 16">

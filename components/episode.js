@@ -5,18 +5,11 @@ function reducer(state,action) {
   return {last:index==-1?state.last:index}
 }
 export default function Episode({ serie,season,episode,count,path,dir_name,setSelected }) {
-  
+
   const [index,setIndex] = useState(-1)
   const [height,setHeight] = useState(0)
   const [{parts,error0},setParts] = useState({parts:null,error0:null})
-  useEffect(()=>{
-    var handler = (e)=>e.preventDefault()
-    document.body.addEventListener("touchmove",handler,{passive:false})
-    setHeight(window.innerHeight)
-    return ()=>{
-      document.body.removeEventListener("touchmove",handler,{passive:false})
-    }
-  },[])
+
 
   useEffect(()=>{
     if (!episode)return
