@@ -109,7 +109,7 @@ export default function Words({height,texts,index,str,setFav,path}) {
           收藏
         </div>)}
 
-        <div className="mt-6 p-3 select-none rounded outline-3 outline-slate-300 outline-offset-2">
+        <div className="my-6 p-3 select-none rounded outline-3 outline-slate-300 outline-offset-2">
           {local&&local.length>0&&(
           <ul className="block bg-sky-100">
           {
