@@ -109,9 +109,9 @@ export default function Words({height,texts,index,str,setFav,path}) {
           收藏
         </div>)}
 
-        <div>
+        <div className="mt-6 p-3 select-none rounded outline-3 outline-slate-300 outline-offset-2">
           {local&&local.length>0&&(
-          <ul className="block bg-sky-100 mt-6 p-3 rounded outline-3 outline-slate-300 outline-offset-2 select-none">
+          <ul className="block bg-sky-100">
           {
             local.map((item,i)=>{
               if(i>count)return
