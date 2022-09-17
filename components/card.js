@@ -26,6 +26,11 @@ export default function Card({height,texts,blob,time,player,back,path}) {
         player.pause()
 
     }
+    return ()=>{
+      player.pause()
+      player.ontimeupdate = null
+      player.src = null
+    }
   },[index,repeat])
 
 
