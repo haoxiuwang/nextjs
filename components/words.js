@@ -2,7 +2,7 @@
 import {useState, useEffect, useRef} from "react"
 // import getWords from '../libs/helper'
 export default function Words({height,texts,index,str,setFav,_key}) {
-
+  //_key = "_series_Mom_01x12_0"
   _key = _key.replaceAll("/","_")
 
   const [mem,setMem] = useState(false)
@@ -19,7 +19,7 @@ export default function Words({height,texts,index,str,setFav,_key}) {
   },[])
   useEffect(()=>{
     var data = JSON.stringify(local)
-    alert(_key)
+
     window.localStorage.setItem(_key,data)
     setWord({en:"",zh:""})
   },[local])

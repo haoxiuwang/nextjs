@@ -36,6 +36,8 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
   },[])
 
   useEffect(()=>{
+    var _local = localStorage.getItem(path)
+    if(_local)alert(_local.length)
     if(blob)
     player.src = window.URL.createObjectURL(blob)
   },[blob])
@@ -62,7 +64,7 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
   if (error1||error2)return(<div style={{height}} className="flex place-content-center place-items-center">time and audio data error...</div>)
 
   var props = {height,auto,setAuto,fz,setFz,index,setIndex,time,repeat,setRepeat,texts,fav,setFav}
-  console.log({part,path});
+
   if(fav)
   return(<div>
     <Words {...{height,texts,index,str:texts[index].en,setFav,_key:path+"_"+part}}/>
