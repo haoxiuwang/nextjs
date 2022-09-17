@@ -18,22 +18,22 @@ export default function Episode({ serie,season,episode,count,path,dir_name,setSe
     .then((res)=>res.json())
     .then((data)=>setParts({parts:data,error0:null}))
     .catch((error)=>setParts({parts:null,error0:error}))
-  },[episode,path])
+  },[])
 
 
   const [{blob,error1},setBlob] = useState({blob:null,error1:null})
   useEffect(()=>{
-
-    if(index<0){
-      setBlob({blob:null,error1:null})
-      return
-    }
+    if(index<0)return
     fetch(`${path}/${index}.mp3`)
     .then((res)=>res.blob())
-    .then((data)=>setBlob({blob:data,error1:null}))
-    .catch((error)=>setBlob({blob:null,error1:error}))
-  },[index,path])
-
+    .then((data)=>{      
+      player.src = window.URL.createObjectURL(data)
+      setBlob({blob:data,error1:null})
+    })
+    .catch((error)=>{
+      setBlob({blob:null,error1:error})
+    })
+  },[index])
 
   const [{time,error2},setTime] = useState({time:null,error2:null})
   useEffect(()=>{
@@ -45,7 +45,7 @@ export default function Episode({ serie,season,episode,count,path,dir_name,setSe
     .then((res)=>res.json())
     .then((data)=>setTime({time:data,error2:null}))
     .catch((error)=>setTime({time:null,error2:error}))
-  },[index,path])
+  },[index])
 
   const [state, dispatch] = useReducer(reducer, {last:-1});
 
@@ -67,6 +67,7 @@ export default function Episode({ serie,season,episode,count,path,dir_name,setSe
     if(!player)
     setPlayer(new Audio())
   },[episode,player])
+
   var center = "flex flex-col place-items-center place-content-center"
   var flex = `${center} h-[${height}px]`
   if (!parts)return(<div style={{height:height+"px"}} className={flex}>loading text data...</div>)
