@@ -4,6 +4,7 @@ import {useState, useEffect, useRef} from "react"
 export default function Words({height,texts,index,str,setFav,_key}) {
 
   _key = _key.replaceAll("/","_")
+
   const [mem,setMem] = useState(false)
   const [words] = useState(str.split(' '))
   const [word,setWord] = useState({en:"",zh:""})
@@ -18,6 +19,7 @@ export default function Words({height,texts,index,str,setFav,_key}) {
   },[])
   useEffect(()=>{
     var data = JSON.stringify(local)
+    alert(_key)
     window.localStorage.setItem(_key,data)
     setWord({en:"",zh:""})
   },[local])
