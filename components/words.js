@@ -8,6 +8,7 @@ export default function Words({height,texts,index,str,setFav,path}) {
   const [word,setWord] = useState({en:"",zh:""})
   const [notes,setNotes] = useState([])
   const [local,setLocal] = useState([])
+  const [count,setCount] = useState(6)
   const ref1 = useRef(null)
   const ref2 = useRef(null)
   useEffect(()=>{
@@ -23,13 +24,13 @@ export default function Words({height,texts,index,str,setFav,path}) {
 
   if(mem)
   return(
-    <div ref={ref1} className="my-8">
+    <div ref={ref1} className="m-8 select-none">
       <div>
         <svg onClick={()=>setMem(false)} xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-arrow-left text-sky-400 font-bold" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
         </svg>
       </div>
-      <ul className="block bg-sky-100 m-6 p-3 rounded outline-3 outline-slate-300 outline-offset-2 select-none">
+      <ul className="block bg-sky-100 p-3 rounded outline-3 outline-slate-300 outline-offset-2 select-none">
       {
         local.map((item,i)=>{
           return(
@@ -47,9 +48,6 @@ export default function Words({height,texts,index,str,setFav,path}) {
         <div className="fixed left-3 top-3 right-3 flex place-content-between">
           <svg onClick={()=>setFav(false)} xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-arrow-left text-sky-400 font-bold" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
-          </svg>
-          <svg onClick={()=>setMem(true)} xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-arrow-through-heart" viewBox="0 0 16 16">
-            <path fillRule="evenodd" d="M2.854 15.854A.5.5 0 0 1 2 15.5V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 11.5h1.793l.53-.53c-.771-.802-1.328-1.58-1.704-2.32-.798-1.575-.775-2.996-.213-4.092C3.426 2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854A.5.5 0 0 1 12.5 0h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182a21.86 21.86 0 0 1-2.685-2.062l-.539.54V14a.5.5 0 0 1-.146.354l-1.5 1.5Zm2.893-4.894A20.419 20.419 0 0 0 8 12.71c2.456-1.666 3.827-3.207 4.489-4.512.679-1.34.607-2.42.215-3.185-.817-1.595-3.087-2.054-4.346-.761L8 4.62l-.358-.368c-1.259-1.293-3.53-.834-4.346.761-.392.766-.464 1.845.215 3.185.323.636.815 1.33 1.519 2.065l1.866-1.867a.5.5 0 1 1 .708.708L5.747 10.96Z"/>
           </svg>
         </div>
 
@@ -116,7 +114,7 @@ export default function Words({height,texts,index,str,setFav,path}) {
           <ul className="block bg-sky-100 my-6 p-3 rounded outline-3 outline-slate-300 outline-offset-2 select-none">
           {
             local.map((item,i)=>{
-              if(i>6)return
+              if(i>count)return
               return(
               <li onClick={()=>setWord(item)} onContextMenu={()=>{
                 var arr = [...local]
@@ -129,6 +127,14 @@ export default function Words({height,texts,index,str,setFav,path}) {
             })
           }
           </ul>)}
+          <div onClick={()=>{
+            var diff = local.length-count
+            setCount(diff>6?count+6:diff)
+          }} className="text-center mx-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-chevron-compact-down" viewBox="0 0 16 16">
+              <path fillRule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
+            </svg>
+          </div>
         </div>
         </div>
   )
