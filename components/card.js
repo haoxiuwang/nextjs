@@ -36,8 +36,7 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
   },[])
 
   useEffect(()=>{
-    var _local = localStorage.getItem(path.replaceAll("/","_"))
-    if(_local)alert(_local.length)
+  
     if(blob)
     player.src = window.URL.createObjectURL(blob)
   },[blob])
