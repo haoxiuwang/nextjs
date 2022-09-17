@@ -20,11 +20,7 @@ export default function Words({height,texts,index,str,setFav,path}) {
     setWord({en:"",zh:""})
   },[local])
   useEffect(()=>setNotes([]),[word.en])
-  // useEffect(()=>{
-  //   // var handler = (e)=>e.preventDefault()
-  //   // ref1.current&&ref1.current.addEventListener("touchmove",handler,{passive:false})
-  //   // ref2.current&&ref2.current.addEventListener("touchmove",handler,{passive:false})
-  // })
+
   if(mem)
   return(
     <div ref={ref1} className="my-8">
@@ -33,7 +29,7 @@ export default function Words({height,texts,index,str,setFav,path}) {
           <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
         </svg>
       </div>
-      <ul className="block bg-sky-100 m-6 p-3 rounded outline-3 outline-slate-300 outline-offset-2">
+      <ul className="block bg-sky-100 m-6 p-3 rounded outline-3 outline-slate-300 outline-offset-2 select-none">
       {
         local.map((item,i)=>{
           return(
@@ -117,9 +113,10 @@ export default function Words({height,texts,index,str,setFav,path}) {
 
         <div>
           {local&&local.length>0&&(
-          <ul className="block bg-sky-100 my-6 p-3 rounded outline-3 outline-slate-300 outline-offset-2">
+          <ul className="block bg-sky-100 my-6 p-3 rounded outline-3 outline-slate-300 outline-offset-2 select-none">
           {
             local.map((item,i)=>{
+              if(i>6)return
               return(
               <li onClick={()=>setWord(item)} onContextMenu={()=>{
                 var arr = [...local]
