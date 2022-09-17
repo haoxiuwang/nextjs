@@ -15,12 +15,12 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
   },[])
   const [{blob,error1},setBlob] = useState({blob:null,error1:null})
   const [{time,error2},setTime] = useState({time:null,error2:null})
-  console.log({path,part});
+
   useEffect(()=>{
     fetch(`${path}/${part}.mp3`)
     .then((res)=>res.blob())
     .then((data)=>{
-      console.log("blob........",data);
+
       setBlob({blob:data,error1:null})
     })
     .catch((error)=>{
@@ -30,7 +30,6 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
     fetch(`${path}/${part}.json`)
     .then((res)=>res.json())
     .then((data)=>{
-      console.log("time........");
       setTime({time:data,error2:null})
     })
     .catch((error)=>setTime({time:null,error2:error}))
@@ -57,15 +56,16 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
   },[index,repeat])
 
   const [auto,setAuto] = useState(false)
-  console.log({time,blob});
+
   if (!time||!blob)return(<div style={{height}} className="flex place-content-center place-items-center">loading data...</div>)
 
   if (error1||error2)return(<div style={{height}} className="flex place-content-center place-items-center">time and audio data error...</div>)
 
   var props = {height,auto,setAuto,fz,setFz,index,setIndex,time,repeat,setRepeat,texts,fav,setFav}
+  console.log({part,path});
   if(fav)
   return(<div>
-    <Words {...{height,texts,index,str:texts[index].en,setFav,path}}/>
+    <Words {...{height,texts,index,str:texts[index].en,setFav,_key:path}}/>
   </div>)
 
   return(

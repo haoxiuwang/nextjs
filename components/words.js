@@ -1,8 +1,9 @@
 
 import {useState, useEffect, useRef} from "react"
 // import getWords from '../libs/helper'
-export default function Words({height,texts,index,str,setFav,path}) {
-  var key = path.replaceAll("/","_")
+export default function Words({height,texts,index,str,setFav,_key}) {
+
+  _key = _key.replaceAll("/","_")
   const [mem,setMem] = useState(false)
   const [words] = useState(str.split(' '))
   const [word,setWord] = useState({en:"",zh:""})
@@ -12,17 +13,15 @@ export default function Words({height,texts,index,str,setFav,path}) {
   const ref1 = useRef(null)
   const ref2 = useRef(null)
   useEffect(()=>{
-    var data = window.localStorage.getItem(key)
+    var data = window.localStorage.getItem(_key)
     setLocal(data?JSON.parse(data):[])
   },[])
   useEffect(()=>{
     var data = JSON.stringify(local)
-    window.localStorage.setItem(key,data)
+    window.localStorage.setItem(_key,data)
     setWord({en:"",zh:""})
   },[local])
   useEffect(()=>setNotes([]),[word.en])
-
-  
   return (
       <div ref={ref2} className="h-full m-3 mt-16">
         <div className="fixed left-3 top-3 right-3 flex place-content-between">
@@ -65,7 +64,7 @@ export default function Words({height,texts,index,str,setFav,path}) {
         <div className="text-rose-400">Sorry!</div>):(<div className="bg-sky-100  p-3">
           {
             notes.map((item,i)=>(
-              <span onClick={()=>setWord({en:(word.en).trim(),zh:word.zh+" "+item})} className="inline-block mr-2 rounded ring-1 bg-white p-1 px-2" key={i}>{item}</span>
+              <span onClick={()=>setWord({en:(word.en).trim(),zh:word.zh+" "+item})} className="inline-block mr-2 rounded ring-1 bg-white p-1 px-2" _key={i}>{item}</span>
             ))
           }
         </div>))
@@ -73,7 +72,7 @@ export default function Words({height,texts,index,str,setFav,path}) {
         <div>
           {
             words.map((item,i)=>(
-              <span onClick={()=>setWord({en:(word.en+" "+item.toLowerCase()).replace(/[,.';]/g," ").trim(),zh:word.zh})} className="inline-block mr-2" key={i}>{item}</span>
+              <span onClick={()=>setWord({en:(word.en+" "+item.toLowerCase()).replace(/[,.';]/g," ").trim(),zh:word.zh})} className="inline-block mr-2" _key={i}>{item}</span>
             ))
           }
         </div>
@@ -100,7 +99,7 @@ export default function Words({height,texts,index,str,setFav,path}) {
                 var arr = [...local]
                 arr.splice(i,1)
                 setLocal(arr)
-              }} key={i} className="block">
+              }} _key={i} className="block">
                 <span>{item.en}</span><span>{item.zh}</span>
               </li>
               )
