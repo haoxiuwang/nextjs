@@ -111,7 +111,7 @@ export default function Words({height,texts,index,str,setFav,path}) {
 
         <div>
           {local&&local.length>0&&(
-          <ul className="block bg-sky-100 my-6 p-3 rounded outline-3 outline-slate-300 outline-offset-2 select-none">
+          <ul className="block bg-sky-100 mt-6 p-3 rounded outline-3 outline-slate-300 outline-offset-2 select-none">
           {
             local.map((item,i)=>{
               if(i>count)return
@@ -130,7 +130,7 @@ export default function Words({height,texts,index,str,setFav,path}) {
           <div sytle={{display:local.length-count>0?"block":"none"}} onClick={()=>{
             var diff = local.length-count
             setCount(diff>6?count+6:count+diff)
-          }} className="flex place-content-center bg-sky-400 mx-1">
+          }} className="flex place-content-center bg-sky-200 mx-1">
             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-chevron-compact-down" viewBox="0 0 16 16">
               <path fillRule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
             </svg>
