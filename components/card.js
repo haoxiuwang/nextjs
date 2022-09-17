@@ -65,7 +65,7 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
   console.log({part,path});
   if(fav)
   return(<div>
-    <Words {...{height,texts,index,str:texts[index].en,setFav,_key:path}}/>
+    <Words {...{height,texts,index,str:texts[index].en,setFav,_key:path+"_"+part}}/>
   </div>)
 
   return(
