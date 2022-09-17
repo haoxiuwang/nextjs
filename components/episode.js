@@ -9,7 +9,6 @@ export default function Episode({ serie,season,episode,count,path,dir_name,setSe
   const [index,setIndex] = useState(-1)
   const [height,setHeight] = useState(0)
   const [{parts,error0},setParts] = useState({parts:null,error0:null})
-
   useEffect(()=>setHeight(window.innerHeight),[])
   useEffect(()=>{
     if (!episode)return
@@ -19,33 +18,6 @@ export default function Episode({ serie,season,episode,count,path,dir_name,setSe
     .then((data)=>setParts({parts:data,error0:null}))
     .catch((error)=>setParts({parts:null,error0:error}))
   },[])
-
-
-  const [{blob,error1},setBlob] = useState({blob:null,error1:null})
-  useEffect(()=>{
-    if(index<0)return
-    fetch(`${path}/${index}.mp3`)
-    .then((res)=>res.blob())
-    .then((data)=>{      
-      player.src = window.URL.createObjectURL(data)
-      setBlob({blob:data,error1:null})
-    })
-    .catch((error)=>{
-      setBlob({blob:null,error1:error})
-    })
-  },[index])
-
-  const [{time,error2},setTime] = useState({time:null,error2:null})
-  useEffect(()=>{
-    if(index<0){
-      setTime({time:null,error2:null})
-      return
-    }
-    fetch(`${path}/${index}.json`)
-    .then((res)=>res.json())
-    .then((data)=>setTime({time:data,error2:null}))
-    .catch((error)=>setTime({time:null,error2:error}))
-  },[index])
 
   const [state, dispatch] = useReducer(reducer, {last:-1});
 
@@ -62,11 +34,8 @@ export default function Episode({ serie,season,episode,count,path,dir_name,setSe
     }
     return arr
   }
-  const [player,setPlayer] = useState(null)
-  useEffect(()=>{
-    if(!player)
-    setPlayer(new Audio())
-  },[episode,player])
+
+
 
   var center = "flex flex-col place-items-center place-content-center"
   var flex = `${center} h-[${height}px]`
@@ -92,16 +61,7 @@ export default function Episode({ serie,season,episode,count,path,dir_name,setSe
     </div>
   </div>
   )}
-  if (!time)return(<div style={{height:height+"px"}} className={center}>loading time data...</div>)
-  if (!blob)return(<div style={{height:height+"px"}} className={center}>loading audio data...</div>)
-  if (error1||error2)return(<div style={{height:height+"px"}} className={flex}>time and audio data error...</div>)
+
   var part = parts[index]
-
-  return(
-
-        blob?(<Card {...{height,texts:part,blob,time,player,back:setIndex,path:`${path}/${index}`}} />)
-        :(<div className={flex}>Loading...</div>)
-
-  )
-
+  return(<Card {...{height,serie,season,episode,count,path,dir_name,part:index,texts:parts[index],setPart:setIndex}} />)
 }

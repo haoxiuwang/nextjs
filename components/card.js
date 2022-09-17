@@ -2,21 +2,50 @@ import {useEffect,useState} from 'react'
 import Progress from "./progress"
 import Swipe from "./swipe"
 import Words from "./words"
-export default function Card({height,texts,blob,time,player,back,path}) {
+export default function Card({height,serie,season,episode,count,path,dir_name,part,texts,setPart}) {
   const [index,setIndex] = useState(0)
   var value = (100*(1-index/texts.length))+"%"
   const [repeat,setRepeat] = useState(false)
   const [fz,setFz] = useState(false)
   const [fav,setFav] = useState(false)
+  const [player,setPlayer] = useState(null)
+  useEffect(()=>{
+    if(!player)
+    setPlayer(new Audio())
+  },[])
+  const [{blob,error1},setBlob] = useState({blob:null,error1:null})
+  const [{time,error2},setTime] = useState({time:null,error2:null})
+  console.log({path,part});
+  useEffect(()=>{
+    fetch(`${path}/${part}.mp3`)
+    .then((res)=>res.blob())
+    .then((data)=>{
+      console.log("blob........",data);
+      setBlob({blob:data,error1:null})
+    })
+    .catch((error)=>{
+      setBlob({blob:null,error1:error})
+    })
 
+    fetch(`${path}/${part}.json`)
+    .then((res)=>res.json())
+    .then((data)=>{
+      console.log("time........");
+      setTime({time:data,error2:null})
+    })
+    .catch((error)=>setTime({time:null,error2:error}))
+  },[])
 
   useEffect(()=>{
-
+    if(blob)
+    player.src = window.URL.createObjectURL(blob)
+  },[blob])
+  useEffect(()=>{
+    if(!time||!blob||!player)return
     player.currentTime = time[index].timeSeconds
     if(player.paused)
     player.play()
     player.ontimeupdate = ()=>{
-
       if(index==time.length-1&&player.currentTime>(player.duration-0.8)){
         if(auto)setIndex(0)
       }
@@ -24,18 +53,16 @@ export default function Card({height,texts,blob,time,player,back,path}) {
         if(auto)setIndex(index+1)
         else
         player.pause()
-
-    }
-    return ()=>{
-      player.pause()
-      player.ontimeupdate = null
-      player.src = null
     }
   },[index,repeat])
 
-
   const [auto,setAuto] = useState(false)
-  var props = {height,auto,setAuto,fz,setFz,index,setIndex,time,repeat,setRepeat,texts,back,fav,setFav}
+  console.log({time,blob});
+  if (!time||!blob)return(<div style={{height}} className="flex place-content-center place-items-center">loading data...</div>)
+
+  if (error1||error2)return(<div style={{height}} className="flex place-content-center place-items-center">time and audio data error...</div>)
+
+  var props = {height,auto,setAuto,fz,setFz,index,setIndex,time,repeat,setRepeat,texts,fav,setFav}
   if(fav)
   return(<div>
     <Words {...{height,texts,index,str:texts[index].en,setFav,path}}/>
@@ -46,7 +73,12 @@ export default function Card({height,texts,blob,time,player,back,path}) {
       <div className="fixed inset-x-3 z-20 ">
       <Progress setIndex={setIndex} index={index} length={time.length}/>
       <div className="w-full my-[25px] grid grid-cols-[min-content_1fr]">
-        <svg onClick={()=>back(-1)} xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-arrow-left text-sky-400 font-bold" viewBox="0 0 16 16">
+        <svg onClick={()=>{
+          player.pause()
+          player.ontimeupdate = null
+          player.src = null
+          setPart(-1)
+        }} xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-arrow-left text-sky-400 font-bold" viewBox="0 0 16 16">
           <path fillRule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
         </svg>
         <div className="flex place-content-end">
