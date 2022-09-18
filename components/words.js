@@ -1,5 +1,6 @@
 
 import {useState, useEffect, useRef} from "react"
+
 // import getWords from '../libs/helper'
 export default function Words({height,texts,index,str,setFav,_key}) {
   //_key = "_series_Mom_01x12_0"
@@ -24,11 +25,17 @@ export default function Words({height,texts,index,str,setFav,_key}) {
     setWord({en:"",zh:""})
   },[local])
   useEffect(()=>setNotes([]),[word.en])
+  var _local_ = local.filter((child,m)=>{
+    if(!child.index)return false
+    return child.index==index
+  })
+  if(mem) _local_ = local
+
   return (
       <div ref={ref2} className="h-full m-3 mt-16">
         <div className="fixed left-3 top-3 right-3 flex place-content-between">
           <svg onClick={()=>setFav(false)} xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-arrow-left text-sky-400 font-bold" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+            <path fillRule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
           </svg>
         </div>
 
@@ -85,31 +92,40 @@ export default function Words({height,texts,index,str,setFav,_key}) {
           {word.en.length>0&&(
         <div onClick={()=>{
             if(word.en=="")return
+            if(!mem)
             word.index = index
             setLocal([word,...local])
           }} className="my-9 text-center bg-sky-200 text-sky-800 w-full rounded ring-1">
           收藏
         </div>)}
+        <div className="mt-6 pointer-events-auto w-[21rem] rounded-lg bg-white p-4 text-[0.8125rem] leading-5 shadow-xl shadow-black/5 hover:bg-slate-50 ring-2 ring-indigo-600">
+          <div className="flex justify-between">
+            <div className="font-medium text-slate-900">Newsletter</div>
+            <svg onClick={()=>setMem(!mem)} className="h-5 w-5 flex-none" fill="none"><path fillRule="evenodd" clip-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.707-9.293a1 1 0 0 0-1.414-1.414L9 10.586 7.707 9.293a1 1 0 0 0-1.414 1.414l2 2a1 1 0 0 0 1.414 0l4-4Z" fill={mem?"#4F46E5":"#aaa"}></path></svg>
+          </div>
+          <div className="mt-1 text-slate-700">
+            <ul className="block">
+            {
+              _local_.map((item,i)=>{
 
-        <div className="min-h-[100px] bg-sky-100 my-6 p-3 pb-0 select-none rounded outline-3 outline-slate-300 outline-offset-2">
-
-          <ul className="block">
-          {
-            local.filter((child,m)=>child.index==index).map((item,i)=>{
-              if(i>count)return
-              return(
-              <li onClick={()=>setWord(item)} onContextMenu={()=>{
-                var arr = [...local]
-                arr.splice(i,1)
-                setLocal(arr)
-              }} _key={i} className="block">
-                <span>{item.en}</span><span>{item.zh}</span>
-              </li>
-              )
-            })
-          }
-          </ul>
+                return(
+                <li onClick={()=>setWord(item)} onContextMenu={()=>{
+                  var arr = [...local]
+                  arr.splice(i,1)
+                  setLocal(arr)
+                }} _key={i} className="block">
+                  <span>{item.en}</span><span>{item.zh}</span>
+                </li>
+                )
+              })
+            }
+            </ul>
+          </div>
+          <div className="mt-6 font-medium text-slate-900">
+            {_local_.length} words
+          </div>
         </div>
+
         </div>
   )
 }
