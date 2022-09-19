@@ -118,7 +118,7 @@ export default function Words({height,texts,index,str,setFav,_key}) {
             </ul>
           </div>
           <div className="mt-6 font-medium text-slate-900">
-            {_local_.length} words
+            {mem?local.length:local.filter((item,i)=>item.index==index).length} words
           </div>
         </div>
 
