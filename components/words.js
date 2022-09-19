@@ -103,7 +103,7 @@ export default function Words({height,texts,index,str,setFav,_key}) {
             <div className="font-medium text-slate-900">{mem?"全部收藏":"本语句收藏"}</div>
             <svg onClick={()=>setMem(!mem)} className="h-5 w-5 flex-none" fill="none"><path fillRule="evenodd" clip-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.707-9.293a1 1 0 0 0-1.414-1.414L9 10.586 7.707 9.293a1 1 0 0 0-1.414 1.414l2 2a1 1 0 0 0 1.414 0l4-4Z" fill={mem?"#38c3f8":"#aaa"}></path></svg>
           </div>
-          <div className="mt-1 text-slate-700">
+          <div className="mt-1 text-slate-700 select-none">
             <ul className="block">
             {
               _local_.map((item,i)=>{
