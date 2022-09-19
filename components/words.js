@@ -81,7 +81,7 @@ export default function Words({height,texts,index,str,setFav,_key}) {
         <div>
           {
             words.map((item,i)=>(
-              <span onClick={()=>setWord({en:(word.en+" "+item.toLowerCase()).replace(/[,.';]/g," ").trim(),zh:word.zh})} className="inline-block mr-2" _key={i}>{item}</span>
+              <span onClick={()=>setWord({en:(word.en+" "+item.toLowerCase()).replace(/[\,\.\'\;\?\"\-]/g," ").trim(),zh:word.zh})} className="inline-block mr-2" _key={i}>{item}</span>
             ))
           }
         </div>
