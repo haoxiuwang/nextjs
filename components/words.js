@@ -25,11 +25,7 @@ export default function Words({height,texts,index,str,setFav,_key}) {
     setWord({en:"",zh:""})
   },[local])
   useEffect(()=>setNotes([]),[word.en])
-  var _local_ = local.filter((child,m)=>{
-    if(!child.index)return false
-    return child.index==index
-  })
-  if(mem) _local_ = local
+
 
   return (
       <div ref={ref2} className="h-full m-3 mt-16">
@@ -106,8 +102,8 @@ export default function Words({height,texts,index,str,setFav,_key}) {
           <div className="mt-1 text-slate-700 select-none">
             <ul className="block">
             {
-              _local_.map((item,i)=>{
-
+              local.map((item,i)=>{
+                if(!mem&&item.index!=index)return
                 return(
                 <li onClick={()=>setWord(item)} onContextMenu={()=>{
                   var arr = [...local]
