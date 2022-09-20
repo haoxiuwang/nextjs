@@ -9,30 +9,28 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
   },[])
 
   return(
-  <div ref={card} className="fixed inset-0 flex place-content-center place-items-center m-3">
+  <div onTouchStart={(e)=>{
+    e.stopPropagation()
+    var {targetTouches,changedTouches,target} = e
+    var touches = changedTouches
+    // alert(touches[0].clientY);
+    if (touches.length>1) return
+    e.target.start = touches[0].clientY
 
-      <div
-      onTouchStart={(e)=>{
-        e.stopPropagation()
-        var {targetTouches,changedTouches,target} = e
-        var touches = changedTouches
-        // alert(touches[0].clientY);
-        if (touches.length>1) return
-        e.target.start = touches[0].clientY
+  }} onTouchEnd={(e)=>{
+    e.stopPropagation()
 
-      }} onTouchEnd={(e)=>{
-        e.stopPropagation()
+    var {touches,targetTouches,changedTouches,target} = e
 
-        var {touches,targetTouches,changedTouches,target} = e
+    if (touches.length>1||targetTouches.length>1||changedTouches.length>1) return
 
-        if (touches.length>1||targetTouches.length>1||changedTouches.length>1) return
+    var distance = changedTouches[0].clientY-e.target.start
+    if(distance>20)setIndex(index==0?index:index-1)
+    else if(distance<-20)setIndex(index==texts.length-1?index:index+1)
+    else setRepeat(!repeat)
+  }} ref={card} className="fixed inset-0 flex place-content-center place-items-center m-3">
 
-        var distance = changedTouches[0].clientY-e.target.start
-        if(distance>20)setIndex(index==0?index:index-1)
-        else if(distance<-20)setIndex(index==texts.length-1?index:index+1)
-        else setRepeat(!repeat)
-      }}
-      >
+      <div>
         <div className={`leading-tight text-slate-700 ${fz?"text-3xl":"text-xl"}`}>
           <span className="tracking-wide">
             {texts[index].en}
