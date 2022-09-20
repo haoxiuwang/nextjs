@@ -110,7 +110,7 @@ export default function Words({height,texts,index,str,setFav,_key}) {
                   arr.splice(i,1)
                   setLocal(arr)
                 }} _key={i} className="block space-y-4">
-                  <span>{item.en}</span><span>{item.zh}</span>
+                  <span className="semibold">{item.en+": "}</span><span>{item.zh}</span>
                 </li>
                 )
               })

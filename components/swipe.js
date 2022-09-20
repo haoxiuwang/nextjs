@@ -28,7 +28,7 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
     if(distance>20)setIndex(index==0?index:index-1)
     else if(distance<-20)setIndex(index==texts.length-1?index:index+1)
     else setRepeat(!repeat)
-  }} ref={card} className="fixed inset-0 flex place-content-center place-items-center m-3">
+  }} onContextMenu={(e)=>setFav(true)} ref={card} className="fixed inset-0 flex place-content-center place-items-center m-3 select-none">
 
       <div>
         <div className={`leading-tight text-slate-700 ${fz?"text-3xl":"text-xl"}`}>
