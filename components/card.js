@@ -2,7 +2,7 @@ import {useEffect,useState} from 'react'
 import Progress from "./progress"
 import Swipe from "./swipe"
 import Words from "./words"
-export default function Card({height,serie,season,episode,count,path,dir_name,part,texts,setPart}) {
+export default function Card({height,serie,season,episode,count,path,dir_name,part,texts,setPart,setParts,parts}) {
   const [index,setIndex] = useState(0)
   var value = (100*(1-index/texts.length))+"%"
   const [repeat,setRepeat] = useState(false)
@@ -36,7 +36,7 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
   },[])
 
   useEffect(()=>{
-  
+
     if(blob)
     player.src = window.URL.createObjectURL(blob)
   },[blob])
@@ -66,7 +66,7 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
 
   if(fav)
   return(<div>
-    <Words {...{height,texts,index,str:texts[index].en,setFav,_key:path+"_"+part}}/>
+    <Words {...{height,texts,index,str:texts[index].en,setFav,_key:path+"_"+part,setAuto}}/>
   </div>)
 
   return(

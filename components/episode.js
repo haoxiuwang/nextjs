@@ -11,14 +11,22 @@ export default function Episode({ serie,season,episode,count,path,dir_name,setSe
   const [{parts,error0},setParts] = useState({parts:null,error0:null})
   useEffect(()=>setHeight(window.innerHeight),[])
   useEffect(()=>{
-    if (!episode)return
     var url = `${path}/source.json`
+    var _data = window.localStorage.getItem(url.replaceAll("/","_"))
+    if(_data){
+      _data = JSON.parse(_data)
+      setParts(_data)
+    }
+    else
     fetch(url)
     .then((res)=>res.json())
     .then((data)=>setParts({parts:data,error0:null}))
     .catch((error)=>setParts({parts:null,error0:error}))
   },[])
-
+  useEffect(()=>{
+    var url = `${path}/source.json`
+    window.localStorage.getItem(url.replaceAll("/","_"),JSON.stringify(parts))
+  },[parts])
   const [state, dispatch] = useReducer(reducer, {last:-1});
 
   useEffect(()=>dispatch({type:index}),[index])
@@ -63,5 +71,5 @@ export default function Episode({ serie,season,episode,count,path,dir_name,setSe
   )}
 
   var part = parts[index]
-  return(<Card {...{height,serie,season,episode,count,path,dir_name,part:index,texts:parts[index],setPart:setIndex}} />)
+  return(<Card {...{height,serie,season,episode,count,path,dir_name,part:index,texts:parts[index],setPart:setIndex,setParts,parts}} />)
 }

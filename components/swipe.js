@@ -9,9 +9,9 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
   },[])
 
   return(
-  <div ref={card} className="h-screen select-none relative">
+  <div ref={card} className="fixed inset-0 flex place-content-center place-items-center m-3">
 
-      <div className="h-full flex place-content-center place-items-center"
+      <div
       onTouchStart={(e)=>{
         e.stopPropagation()
         var {targetTouches,changedTouches,target} = e
@@ -33,7 +33,7 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
         else setRepeat(!repeat)
       }}
       >
-        <div className={`grid grid-rows-2 gap-2 mx-3 leading-tight text-slate-700 ${fz?"text-3xl":"text-xl"}`}>
+        <div className={`leading-tight text-slate-700 ${fz?"text-3xl":"text-xl"}`}>
           <span className="tracking-wide">
             {texts[index].en}
           </span>
