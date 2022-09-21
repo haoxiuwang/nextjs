@@ -54,7 +54,7 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
         else
         player.pause()
     }
-  },[index,repeat])
+  },[index,repeat,auto])
 
   const [auto,setAuto] = useState(false)
 
