@@ -52,10 +52,9 @@ export default function Episode({ serie,season,episode,count,path,dir_name,setSe
   if(index==-1){
 
   return (
-  <div className="select-none relative" style={{minHeight:height+"px"}}>
-    <div className={`grid grid-rows-[1fr_min-content] absolute inset-0`}>
-      <div className={center}>
-        <div className={`${center} mx-3`}>
+  <div className="fixed inset-0 flex place-content-center place-items-center select-none" style={{minHeight:height+"px"}}>
+
+        <div className={`${center} m-3`}>
           <div>
             <img width="200" alt={`Serie ${serie} cover photo`} src={`/series/${dir_name}/cover.jpg`} />
           </div>
@@ -63,9 +62,8 @@ export default function Episode({ serie,season,episode,count,path,dir_name,setSe
           <div className={`flex flex-row flex-wrap mx-5 place-content-center`}>
             {list(count)}
           </div>
-        </div>
-      </div>
-      <div onClick={()=>setSelected(null)} className={`bg-sky-500 w-full h-[50px] text-gray-200 ${center}`}>Back to Home Page</div>
+
+      <div onClick={()=>setSelected(null)} className={`absolute inset-x-0 bottom-0 bg-sky-500 w-full h-[50px] text-gray-200 ${center}`}>Back to Home Page</div>
     </div>
   </div>
   )}
