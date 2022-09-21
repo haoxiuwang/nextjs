@@ -30,8 +30,8 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
     else setRepeat(!repeat)
   }} onContextMenu={(e)=>setFav(true)} ref={card} className="fixed inset-0 flex place-content-center place-items-center m-3 select-none">
 
-      <div>
-        <div className={`leading-tight text-slate-700 ${fz?"text-3xl":"text-xl"}`}>
+      <div className="">
+        <div className={`leading-tight text-slate-900 ${fz?"text-3xl":"text-xl"}`}>
           <span className="tracking-wide">
             {texts[index].en}
           </span>

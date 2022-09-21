@@ -69,7 +69,7 @@ export default function Words({height,texts,index,str,setFav,_key}) {
         <div className="text-rose-400">Sorry!</div>):(<div className="bg-sky-100  p-3">
           {
             notes.map((item,i)=>(
-              <span onClick={()=>setWord({en:(word.en).trim(),zh:word.zh+" "+item})} className="inline-block mr-2 rounded ring-1 bg-white p-1 px-2" _key={i}>{item}</span>
+              <span key={i} onClick={()=>setWord({en:(word.en).trim(),zh:word.zh+" "+item})} className="inline-block mr-2 rounded ring-1 bg-white p-1 px-2" _key={i}>{item}</span>
             ))
           }
         </div>))
@@ -77,7 +77,7 @@ export default function Words({height,texts,index,str,setFav,_key}) {
         <div>
           {
             words.map((item,i)=>(
-              <span onClick={()=>setWord({en:(word.en+" "+item.toLowerCase()).replace(/[\,\.\;\?\"]/g," ").trim(),zh:word.zh})} className="inline-block mr-2" _key={i}>{item}</span>
+              <span key={i} onClick={()=>setWord({en:(word.en+" "+item.toLowerCase()).replace(/[\,\.\;\?\"]/g," ").trim(),zh:word.zh})} className="inline-block mr-2" _key={i}>{item}</span>
             ))
           }
         </div>
@@ -97,7 +97,7 @@ export default function Words({height,texts,index,str,setFav,_key}) {
         <div className="mt-6 pointer-events-auto w-full rounded-lg bg-white p-4 text-[1rem] leading-5 shadow-xl shadow-black/5 hover:bg-slate-50 ring-2 ring-skey-600">
           <div className="flex justify-between">
             <div className="font-medium text-slate-900">{mem?"全部收藏":"本语句收藏"}</div>
-            <svg onClick={()=>setMem(!mem)} className="h-5 w-5 flex-none" fill="none"><path fillRule="evenodd" clip-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.707-9.293a1 1 0 0 0-1.414-1.414L9 10.586 7.707 9.293a1 1 0 0 0-1.414 1.414l2 2a1 1 0 0 0 1.414 0l4-4Z" fill={mem?"#38c3f8":"#aaa"}></path></svg>
+            <svg onClick={()=>setMem(!mem)} className="h-5 w-5 flex-none" fill="none"><path fillRule="evenodd" clipRule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.707-9.293a1 1 0 0 0-1.414-1.414L9 10.586 7.707 9.293a1 1 0 0 0-1.414 1.414l2 2a1 1 0 0 0 1.414 0l4-4Z" fill={mem?"#38c3f8":"#aaa"}></path></svg>
           </div>
           <div className="mt-1 text-slate-700 select-none">
             <ul className="block">
@@ -105,7 +105,7 @@ export default function Words({height,texts,index,str,setFav,_key}) {
               local.map((item,i)=>{
                 if(!mem&&item.index!=index)return
                 return(
-                <li onClick={()=>setWord(item)} onContextMenu={()=>{
+                <li key={i} onClick={()=>setWord(item)} onContextMenu={()=>{
                   var arr = [...local]
                   arr.splice(i,1)
                   setLocal(arr)

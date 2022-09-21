@@ -71,7 +71,12 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
 
   return(
     <div>
+      {auto&&(<div onClick={(e)=>{
+        e.stopPropagation()
+        setAuto(false)
+      }} className="z-50 fixed right-4 bottom-4"><button className="button-17">结束</button></div>)}
       <div className="fixed inset-x-3 z-20 ">
+
       <Progress setIndex={setIndex} index={index} length={time.length}/>
       <div className="w-full my-[25px] grid grid-cols-[min-content_1fr]">
         <svg onClick={()=>{
