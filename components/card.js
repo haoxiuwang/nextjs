@@ -71,17 +71,17 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
   console.log({serie});
   return(
     <div>
-      <div  className="z-50 fixed right-14 bottom-14 flex place-content-center">
-        <div><button onClick={()=>{
+      <div  className="z-50 fixed right-14 bottom-14 flex space-x-4 place-content-center">
+      <button onClick={()=>{
           player.pause()
           player.ontimeupdate = null
           player.src = null
           setPart(-1)
-        }} className="button-17 ">返回</button></div>
-        <div className="ml-3"><button onClick={(e)=>{
+        }} className="button-17 ">返回</button>
+        <button onClick={(e)=>{
           e.stopPropagation()
           setAuto(!auto)
-        }} className={`button-17 ${auto?"xun":""}`} >{auto?"结束":"循环"}</button></div>
+        }} className={`button-17 ${auto?"xun":""}`} >{auto?"结束":"循环"}</button>
       </div>
 
       <div className="fixed inset-x-3 z-20 ">
