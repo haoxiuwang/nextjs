@@ -48,7 +48,7 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
   }} onContextMenu={(e)=>setFav(true)} ref={card} className="fixed inset-0 flex place-content-center place-items-center m-3 select-none">
 
       <div style={{transform:`rotate(-${rnd}deg)`}} className={`relative p-3 pt-20 m-auto w-[20rem] md:w-[25rem] text-center bg-sky-200 border-solid rounded border-sky-400 border-1`}>
-        <div className="absolute inset-x-0 -top-[30%] flex place-content-around">
+        <div className="absolute inset-x-0 -top-[45px] flex place-content-around">
           {speakers.map((speaker,i)=>{
             var rnd1 = Math.floor(Math.random()*13)
             var rnd2 = Math.floor(Math.random()*1)
