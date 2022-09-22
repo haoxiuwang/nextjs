@@ -71,7 +71,8 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
   console.log({serie});
   return(
     <div>
-      <div  className="z-50 fixed right-14 bottom-14 flex space-x-4 place-content-center">
+      <div  className="z-50 fixed right-14 bottom-14 flex space-x-4  place-content-center">
+      <button className="button-17">测试</button>
       <button onClick={()=>{
           player.pause()
           player.ontimeupdate = null
