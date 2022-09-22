@@ -1,12 +1,15 @@
 import {useRef,useEffect,useState} from "react"
 import Progress from './progress'
-export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repeat,setRepeat,texts,back,fav,setFav}) {
+export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repeat,setRepeat,texts,back,fav,setFav,serie}) {
   const card = useRef(null)
   const [lang,setLang] = useState(true)
+  const [speakers,setSpeakers] = useState(["Christy","Bonnie"])
   useEffect(()=>{
     var handler = (e)=>e.preventDefault()
     card.current.addEventListener("touchmove",handler,{passive:false})
   },[])
+
+  var {en,zh} = texts[index]
 
   return(
   <div onTouchStart={(e)=>{
@@ -43,13 +46,10 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
 
   }} onContextMenu={(e)=>setFav(true)} ref={card} className="fixed inset-0 flex place-content-center place-items-center m-3 select-none">
 
-      <div>
-        <div className="pt-20 m-auto w-[20rem] md:w-[25rem] text-center transform rotate-[-2deg]">
-          <span className="tracking-wide">
-            {lang?texts[index].en:texts[index].zh}
-          </span>
-        </div>
-        </div>
+      <div className="p-3 pt-20 m-auto w-[20rem] md:w-[25rem] text-center transform rotate-[-2deg] bg-sky-200 border-solid rounded border-sky-400 border-1">
+
+        {lang?en:zh}
+      </div>
     </div>
 
   )

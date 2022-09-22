@@ -11,8 +11,8 @@ export default function Progress({setIndex,index,length}) {
         console.log({index});
         setIndex(value)
       }}>
-        <div className="mt-[1px] bg-rose-100">
-          <div style={{width:index*100/length+"%"}} className={`mr-auto bg-rose-400  h-[3px]`}></div>
+        <div className="mt-[1px] ">
+          <div style={{width:index*100/length+"%"}} className={`mr-auto bg-sky-400/10 h-[24px]`}></div>
         </div>
       </div>
   )
