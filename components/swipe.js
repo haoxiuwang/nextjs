@@ -10,6 +10,7 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
   },[])
 
   var {en,zh} = texts[index]
+  var rnd = Math.floor(Math.random()*5)
 
   return(
   <div onTouchStart={(e)=>{
@@ -46,9 +47,13 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
 
   }} onContextMenu={(e)=>setFav(true)} ref={card} className="fixed inset-0 flex place-content-center place-items-center m-3 select-none">
 
-      <div className="relative p-3 pt-20 m-auto w-[20rem] md:w-[25rem] text-center transform rotate-[-2deg] bg-sky-200 border-solid rounded border-sky-400 border-1">
+      <div style={{transform:`rotate(-${rnd}deg)`}} className={`relative p-3 pt-20 m-auto w-[20rem] md:w-[25rem] text-center bg-sky-200 border-solid rounded border-sky-400 border-1`}>
         <div className="absolute inset-x-0 -top-[30%] flex place-content-around">
-          {speakers.map((speaker,i)=>(<div className="p-2" key={i}><img src={`/series/${serie}/images/${speaker}.jpg`}/></div>))}
+          {speakers.map((speaker,i)=>{
+            var rnd1 = Math.floor(Math.random()*13)
+            var rnd2 = Math.floor(Math.random()*1)
+            return(<div style={{transform:`rotate(${(rnd>0?-1:1)*rnd1}deg)`}} className={`p-2`} key={i}><img src={`/series/${serie}/images/${speaker}.jpg`}/></div>)
+          })}
         </div>
         {lang?en:zh}
       </div>
