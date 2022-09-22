@@ -36,6 +36,7 @@ export default function Episode({ serie,season,episode,count,path,dir_name,setSe
     var arr = []
     while (i<count) {
       arr.push(((m)=>{
+        return(<button onClick={()=>setIndex(m)} key={m} className={`button-17 ${state.last==m?"current":""}`}>{m}</button>)
         return <span style={{textDecoration:state.last==m?"underline":"none",textDecorationColor:"gray"}} className="mr-3" onClick={()=>setIndex(m)} key={m}>{m}</span>
       })(i))
       i++
@@ -52,20 +53,20 @@ export default function Episode({ serie,season,episode,count,path,dir_name,setSe
   if(index==-1){
 
   return (
-  <div className="fixed inset-0 flex place-content-center place-items-center select-none" style={{minHeight:height+"px"}}>
+  <div className="fixed inset-0 select-none" style={{minHeight:height+"px"}}>
 
-        <div className={`${center} m-3`}>
-          <div>
-            <img width="200" alt={`Serie ${serie} cover photo`} src={`/series/${dir_name}/cover.jpg`} />
+          <div className="fixed inset-0 z-2 bg-sky-800/30"></div>
+          <div className="grid grid-rows-4 place-content-center place-items-center">
+            {[0,1,2,3].map((item)=><div key={item}><img className="w-[100%]" src={`${path}/covers/${item}.jpg`} /></div>)}
           </div>
-          <div className="text-center my-[25px] font-semibold">{serie}, {season>0&&"Season "+season+", "}Episode {episode}, include {count} parts, please start with one of them</div>
-          <div className={`flex flex-row flex-wrap mx-5 place-content-center`}>
+
+          <div className={`fixed inset-x-0 bottom-12 flex flex-wrap place-items-center space-x-4 space-y-1 m-9 place-content-center`}>
             {list(count)}
+            <button onClick={()=>setSelected(null)} className="button-17">返回</button>
           </div>
 
-      <div onClick={()=>setSelected(null)} className={`absolute inset-x-0 bottom-0 bg-sky-500 w-full h-[50px] text-gray-200 ${center}`}>Back to Home Page</div>
     </div>
-  </div>
+
   )}
 
   var part = parts[index]
