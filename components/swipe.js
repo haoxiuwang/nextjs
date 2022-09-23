@@ -3,7 +3,7 @@ import Progress from './progress'
 export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repeat,setRepeat,texts,back,fav,setFav,serie}) {
   const card = useRef(null)
   const [lang,setLang] = useState(true)
-  const [speakers,setSpeakers] = useState(["Christy","Bonnie"])
+
   useEffect(()=>{
     var handler = (e)=>e.preventDefault()
     card.current.addEventListener("touchmove",handler,{passive:false})
