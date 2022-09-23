@@ -15,7 +15,8 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
   return(
   <div onTouchStart={(e)=>{
     e.stopPropagation()
-    var {targetTouches,changedTouches,target} = e
+    var {targetTouches,changedTouches,touches} = e
+
     var touches = changedTouches
     // alert(touches[0].clientY);
     if (touches.length>1) return
@@ -23,10 +24,10 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
 
   }} onTouchEnd={(e)=>{
     e.stopPropagation()
-
+    if(e.target.multi)return
     var {touches,targetTouches,changedTouches,target} = e
 
-    if (touches.length>1||targetTouches.length>1||changedTouches.length>1) return
+    // if (touches.length>2||targetTouches.length>2||changedTouches.length>2) return
 
     var distanceY = changedTouches[0].clientY-e.target.start.y
     var distanceX = changedTouches[0].clientX-e.target.start.x
@@ -48,13 +49,7 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
   }} onContextMenu={(e)=>setFav(true)} ref={card} className="fixed inset-0 flex place-content-center place-items-center m-3 select-none">
 
       <div style={{transform:`rotate(-${rnd}deg)`}} className={`relative p-3 pt-20 m-auto w-[20rem] md:w-[25rem] text-center bg-sky-200 border-solid rounded border-sky-400 border-1`}>
-        <div className="absolute inset-x-0 -top-[45px] flex place-content-around">
-          {speakers.map((speaker,i)=>{
-            var rnd1 = Math.floor(Math.random()*13)
-            var rnd2 = Math.floor(Math.random()*1)
-            return(<div style={{transform:`rotate(${(rnd>0?-1:1)*rnd1}deg)`}} className={`p-2`} key={i}><img src={`/series/${serie}/images/${speaker}.jpg`}/></div>)
-          })}
-        </div>
+
         {lang?en:zh}
       </div>
     </div>

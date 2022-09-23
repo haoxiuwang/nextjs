@@ -55,10 +55,7 @@ export default function Episode({ serie,season,episode,count,path,dir_name,setSe
   return (
   <div className="fixed inset-0 select-none" style={{minHeight:height+"px"}}>
 
-          <div className="fixed inset-0 z-2 bg-sky-800/30"></div>
-          <div className="grid grid-rows-4 place-content-center place-items-center">
-            {[0,1,2,3].map((item)=><div key={item}><img className="w-[100%]" src={`${path}/covers/${item}.jpg`} /></div>)}
-          </div>
+          <div style={{backgroundImage:`url("/series/${dir_name}/cover_big.jpg")`}} className="bg-cover bg-no-repeat bg-center fixed inset-0 z-2 bg-sky-800/30"></div>
 
           <div className={`fixed inset-x-0 bottom-12 flex flex-wrap place-items-center space-x-4 space-y-1 m-9 place-content-center`}>
             {list(count)}
