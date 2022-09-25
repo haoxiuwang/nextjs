@@ -6,9 +6,7 @@ export default function Mock() {
 
   return(
   <div className="">
-    <div>如果您已经有自己最喜爱的电视剧，请直接搜索</div>
-    <div>如果您不知道从何开始，求从我们所推荐的资源开始</div>
-    <div>学习指南</div>
+    
   </div>
   )
 }
