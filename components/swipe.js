@@ -16,7 +16,7 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
 
   var {en,zh} = texts[index]
   var rnd = Math.floor(Math.random()*5)
-  alert({_key})
+  alert("_"+_key)
   return(
   <div onTouchStart={(e)=>{
     e.stopPropagation()
