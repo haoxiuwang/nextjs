@@ -52,24 +52,24 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
     // else if(distance<-20)setIndex(index==texts.length-1?index:index+1)
 
   }} onContextMenu={(e)=>setFav(true)} ref={card} className="fixed inset-0 flex place-content-center place-items-center m-3 select-none">
-
+    <div>
       <div style={{transform:`rotate(-${rnd}deg)`}} className={`relative p-3 py-10 m-auto w-[20rem] md:w-[25rem] text-center bg-sky-200 border-solid rounded border-sky-400 border-1`}>
-
         {lang?en:zh}
-        <div className="absolute h-full bottom-0 inset-x-0 transform translate-y-[95%] z-10 bg-sky-100 rounded">
-          {
-            local.map((item,i)=>{
-              if(item.index!=index)return
-
-              return(
-              <div style={{transform:`translate(${Math.floor(Math.random()*5)})`}} key={i}>
-                <span className="text-semibold">{item.en}</span>
-                <span>{item.zh}</span>
-              </div>
-            )})
-          }
-        </div>
       </div>
+      <div className={`relative p-3 py-10 m-3 w-[20rem] md:w-[25rem] text-center bg-sky-100 border-solid rounded border-sky-400 border-1`}>
+        {
+          local.map((item,i)=>{
+            if(item.index!=index)return
+
+            return(
+            <div style={{transform:`translate(${Math.floor(Math.random()*5)})`}} key={i}>
+              <span className="text-semibold">{item.en}</span>
+              <span>{item.zh}</span>
+            </div>
+          )})
+        }
+      </div>
+    </div>
     </div>
 
   )
