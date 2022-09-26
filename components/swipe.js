@@ -62,7 +62,7 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
               if(item.index!=index)return
 
               return(
-              <div key={i}>
+              <div style={{transform:`translate(${Math.floor(Math.random()*5)})`}} key={i}>
                 <span className="text-semibold">{item.en}</span>
                 <span>{item.zh}</span>
               </div>
