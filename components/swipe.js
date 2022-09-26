@@ -56,7 +56,7 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
       <div style={{transform:`rotate(-${rnd}deg)`}} className={`relative p-3 py-10 m-auto w-[20rem] md:w-[25rem] text-center bg-sky-200 border-solid rounded border-sky-400 border-1`}>
         {lang?en:zh}
       </div>
-      <div className={`relative p-3 py-10 m-3 w-[20rem] md:w-[25rem] text-center bg-sky-100 border-solid rounded border-sky-400 border-1`}>
+      {local.length>0&&(<div className={`relative p-3 py-10 m-3 w-[20rem] md:w-[25rem] text-center bg-sky-100 border-solid rounded border-sky-400 border-1`}>
         {
           local.map((item,i)=>{
             if(item.index!=index)return
@@ -68,7 +68,7 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
             </div>
           )})
         }
-      </div>
+      </div>)}
     </div>
     </div>
 
