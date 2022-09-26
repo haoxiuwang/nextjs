@@ -17,10 +17,7 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
 
   var {en,zh} = texts[index]
   var rnd = Math.floor(Math.random()*5)
-  var _local = local.map((item)=>{
-    if(item.index==index)
-    return item
-  })
+  var _local = local.filter((item)=>item.index==index)
   console.log(_local);
   return(
   <div onTouchStart={(e)=>{
