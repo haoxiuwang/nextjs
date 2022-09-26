@@ -14,6 +14,7 @@ export default function Words({height,texts,index,str,setFav,_key}) {
   const [count,setCount] = useState(6)
   const ref1 = useRef(null)
   const ref2 = useRef(null)
+  alert({_key})
   useEffect(()=>{
     var data = window.localStorage.getItem(_key)
     setLocal(data?JSON.parse(data):[])
