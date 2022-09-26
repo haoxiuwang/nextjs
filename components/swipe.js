@@ -1,9 +1,13 @@
 import {useRef,useEffect,useState} from "react"
 import Progress from './progress'
-export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repeat,setRepeat,texts,back,fav,setFav,serie}) {
+export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repeat,setRepeat,texts,back,fav,setFav,serie,_key}) {
   const card = useRef(null)
   const [lang,setLang] = useState(true)
-
+  const [local,setLocal] = useState([])
+  useEffect(()=>{
+    var data = window.localStorage.getItem(_key)
+    setLocal(data?JSON.parse(data):[])
+  },[])
   useEffect(()=>{
     var handler = (e)=>e.preventDefault()
     card.current.addEventListener("touchmove",handler,{passive:false})
@@ -51,6 +55,18 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
       <div style={{transform:`rotate(-${rnd}deg)`}} className={`relative p-3 pb-20 m-auto w-[20rem] md:w-[25rem] text-center bg-sky-200 border-solid rounded border-sky-400 border-1`}>
 
         {lang?en:zh}
+        <div className="absolute bottom-0 inset-x-0 transform translate-y-[95%] z-10 bg-sky-200">
+          {
+            local.map((item,i)=>{
+              if(item.index!=index)return
+              return(
+              <div key={i} >
+                <span className="text-semibold">{item.en}</span>
+                <span>{item.zh}</span>
+              </div>
+            )})
+          }
+        </div>
       </div>
     </div>
 
