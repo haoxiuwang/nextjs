@@ -6,8 +6,8 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
   const [local,setLocal] = useState([])
 
   useEffect(()=>{
-    console.log(localStorage)
-    var data = window.localStorage.getItem(_key)
+    console.log(localStorage,_key)
+    var data = window.localStorage.getItem("_series_Mom_01x06_0")
 
     setLocal(data?JSON.parse(data):[])
   },[])
