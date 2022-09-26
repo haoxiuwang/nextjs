@@ -55,7 +55,7 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
       <div style={{transform:`rotate(-${rnd}deg)`}} className={`relative p-3 pb-20 m-auto w-[20rem] md:w-[25rem] text-center bg-sky-200 border-solid rounded border-sky-400 border-1`}>
 
         {lang?en:zh}
-        <div className="absolute bottom-0 inset-x-0 transform translate-y-[95%] z-10 bg-sky-200">
+        <div className="absolute h-full bottom-0 inset-x-0 transform translate-y-[95%] z-10 bg-sky-100">
           {
             local.map((item,i)=>{
               if(item.index!=index)return
