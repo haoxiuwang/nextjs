@@ -4,6 +4,7 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
   const card = useRef(null)
   const [lang,setLang] = useState(true)
   const [local,setLocal] = useState([])
+  console.log(_key);
   useEffect(()=>{
     var data = window.localStorage.getItem(_key)
     setLocal(data?JSON.parse(data):[])
@@ -15,7 +16,7 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
 
   var {en,zh} = texts[index]
   var rnd = Math.floor(Math.random()*5)
-
+  alert(local.length)
   return(
   <div onTouchStart={(e)=>{
     e.stopPropagation()
@@ -52,15 +53,15 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
 
   }} onContextMenu={(e)=>setFav(true)} ref={card} className="fixed inset-0 flex place-content-center place-items-center m-3 select-none">
 
-      <div style={{transform:`rotate(-${rnd}deg)`}} className={`relative p-3 pb-20 m-auto w-[20rem] md:w-[25rem] text-center bg-sky-200 border-solid rounded border-sky-400 border-1`}>
+      <div style={{transform:`rotate(-${rnd}deg)`}} className={`relative p-3 py-10 m-auto w-[20rem] md:w-[25rem] text-center bg-sky-200 border-solid rounded border-sky-400 border-1`}>
 
         {lang?en:zh}
-        <div className="absolute h-full bottom-0 inset-x-0 transform translate-y-[95%] z-10 bg-sky-100">
+        <div className="absolute h-full bottom-0 inset-x-0 transform translate-y-[95%] z-10 bg-sky-100 rounded">
           {
             local.map((item,i)=>{
               if(item.index!=index)return
               return(
-              <div key={i} >
+              <div key={i}>
                 <span className="text-semibold">{item.en}</span>
                 <span>{item.zh}</span>
               </div>
