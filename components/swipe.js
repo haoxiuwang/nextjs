@@ -4,10 +4,11 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
   const card = useRef(null)
   const [lang,setLang] = useState(true)
   const [local,setLocal] = useState([])
-  console.log(_key);
+
   useEffect(()=>{
+    console.log(localStorage)
     var data = window.localStorage.getItem(_key)
-    alert(data)
+
     setLocal(data?JSON.parse(data):[])
   },[])
   useEffect(()=>{
