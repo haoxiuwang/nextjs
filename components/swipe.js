@@ -7,6 +7,7 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
   console.log(_key);
   useEffect(()=>{
     var data = window.localStorage.getItem(_key)
+    alert(data.length)
     setLocal(data?JSON.parse(data):[])
   },[])
   useEffect(()=>{
@@ -16,7 +17,7 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
 
   var {en,zh} = texts[index]
   var rnd = Math.floor(Math.random()*5)
-  alert("_"+_key)
+
   return(
   <div onTouchStart={(e)=>{
     e.stopPropagation()
@@ -46,7 +47,6 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
         index = distanceY>0?(index==0?index:index-1):(index==texts.length-1?index:index+1)
         setIndex(index)
       }
-      return
     }
     // if(distance>20)setIndex(index==0?index:index-1)
     // else if(distance<-20)setIndex(index==texts.length-1?index:index+1)
@@ -60,6 +60,7 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
           {
             local.map((item,i)=>{
               if(item.index!=index)return
+
               return(
               <div key={i}>
                 <span className="text-semibold">{item.en}</span>
