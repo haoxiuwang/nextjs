@@ -62,7 +62,7 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
 
   if (error1||error2)return(<div style={{height}} className="flex place-content-center place-items-center">time and audio data error...</div>)
 
-  var props = {height,auto,setAuto,fz,setFz,index,setIndex,time,repeat,setRepeat,texts,fav,setFav,serie}
+  var props = {height,auto,setAuto,fz,setFz,index,setIndex,time,repeat,setRepeat,texts,fav,setFav,serie,_key:path+"_"+part}
 
   if(fav)
   return(<div>
