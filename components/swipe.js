@@ -7,7 +7,7 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
   console.log(_key);
   useEffect(()=>{
     var data = window.localStorage.getItem(_key)
-    alert(data.length)
+    alert(data)
     setLocal(data?JSON.parse(data):[])
   },[])
   useEffect(()=>{
