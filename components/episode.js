@@ -53,11 +53,11 @@ export default function Episode({ serie,season,episode,count,path,dir_name,setSe
   if(index==-1){
 
   return (
-  <div className="fixed inset-0 select-none" style={{minHeight:height+"px"}}>
+  <div className="fixed inset-0  select-none" style={{minHeight:height+"px"}}>
 
           <div style={{backgroundImage:`url("/series/${dir_name}/cover_big.jpg")`}} className="bg-cover bg-no-repeat bg-center fixed inset-0 z-2 bg-sky-800/30"></div>
 
-          <div className={`fixed inset-x-0 bottom-12 flex flex-wrap place-items-center space-x-4 space-y-1 m-9 place-content-center`}>
+          <div className={`fixed overflow-auto py-3 max-h-[40%] inset-x-0 bottom-12 grid grid-cols-4 place-items-center space-x-4 space-y-1 my-9 mx-5`}>
             {list(count)}
             <button onClick={()=>setSelected(null)} className="button-17">返回</button>
           </div>
