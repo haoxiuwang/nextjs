@@ -98,21 +98,19 @@ He’s a hunchback, and he’s horrid.”
 
 “I don’t believe you,” said Mary; and she turned her back and stuck her fingers in her ears, because she would not listen any more.
 
-But she thought over it a great deal afterward; and when Mrs.
+But she thought over it a great deal afterward;
 
-Crawford told her that night that she was going to sail away to England in a few days and go to her uncle, Mr.
+and when Mrs. Crawford told her that night that she was going to sail away to England in a few days and go to her uncle,
 
-Archibald Craven, who lived at Misselthwaite Manor, she looked so stony and stubbornly uninterested that they did not know what to think about her.
+Mr. Archibald Craven, who lived at Misselthwaite Manor,
 
-They tried to be kind to her, but she only turned her face away when Mrs.
+she looked so stony and stubbornly uninterested that they did not know what to think about her.
 
-Crawford attempted to kiss her, and held herself stiffly when Mr.
+They tried to be kind to her, but she only turned her face away when Mrs. Crawford attempted to kiss her,
 
-Crawford patted her shoulder.
+and held herself stiffly when Mr. Crawford patted her shoulder.
 
-“She is such a plain child,” Mrs.
-
-Crawford said pityingly, afterward.
+“She is such a plain child,” Mrs. Crawford said pityingly, afterward.
 
 “And her mother was such a pretty creature.
 
@@ -134,9 +132,9 @@ Colonel McGrew said he nearly jumped out of his skin when he opened the door and
 
 Mary made the long voyage to England under the care of an officer’s wife, who was taking her children to leave them in a boarding-school.
 
-She was very much absorbed in her own little boy and girl, and was rather glad to hand the child over to the woman Mr.
+She was very much absorbed in her own little boy and girl,
 
-Archibald Craven sent to meet her, in London.
+and was rather glad to hand the child over to the woman Mr. Archibald Craven sent to meet her, in London.
 
 The woman was his housekeeper at Misselthwaite Manor, and her name was Mrs. Medlock.
 
@@ -146,9 +144,9 @@ She wore a very purple dress, a black silk mantle with jet fringe on it and a bl
 
 with purple velvet flowers which stuck up and trembled when she moved her head.
 
-Mary did not like her at all, but as she very seldom liked people there was nothing remarkable in that; besides which it was very evident Mrs.
+Mary did not like her at all, but as she very seldom liked people there was nothing remarkable in that;
 
-Medlock did not think much of her.
+besides which it was very evident Mrs. Medlock did not think much of her.
 
 “My word! she’s a plain little piece of goods!” she said.
 
@@ -206,15 +204,11 @@ She had not wanted to go to London just when her sister Maria’s daughter was g
 
 but she had a comfortable, well paid place as housekeeper at Misselthwaite Manor
 
-and the only way in which she could keep it was to do at once what Mr.
-
-Archibald Craven told her to do.
+and the only way in which she could keep it was to do at once what Mr. Archibald Craven told her to do.
 
 She never dared even to ask a question.
 
-“Captain Lennox and his wife died of the cholera,” Mr.
-
-Craven had said in his short, cold way.
+“Captain Lennox and his wife died of the cholera,” Mr. Craven had said in his short, cold way.
 
 “Captain Lennox was my wife’s brother and I am their daughter’s guardian.
 
@@ -250,9 +244,7 @@ She frowned because she remembered that her father and mother had never talked t
 
 Certainly they had never told her things.
 
-“Humph,” muttered Mrs.
-
-Medlock, staring at her queer, unresponsive little face.
+“Humph,” muttered Mrs. Medlock, staring at her queer, unresponsive little face.
 
 She did not say any more for a few moments and then she began again.
 
@@ -260,13 +252,9 @@ She did not say any more for a few moments and then she began again.
 
 You are going to a queer place.”
 
-Mary said nothing at all, and Mrs.
+Mary said nothing at all, and Mrs. Medlock looked rather discomfited by her apparent indifference, but, after taking a breath, she went on.
 
-Medlock looked rather discomfited by her apparent indifference, but, after taking a breath, she went on.
-
-“Not but that it’s a grand big place in a gloomy way, and Mr.
-
-Craven’s proud of it in his way—and that’s gloomy enough, too.
+“Not but that it’s a grand big place in a gloomy way, and Mr. Craven’s proud of it in his way—and that’s gloomy enough, too.
 
 The house is six hundred years old and it’s on the edge of the moor,
 
@@ -382,9 +370,9 @@ But when you’re in the house don’t go wandering and poking about.
 
 Mr. Craven won’t have it.”
 
-“I shall not want to go poking about,” said sour little Mary and just as suddenly as she had begun to be rather sorry for Mr.
+“I shall not want to go poking about,” said sour little Mary and just as suddenly as she had begun to be rather sorry for Mr. Archibald Craven
 
-Archibald Craven she began to cease to be sorry and to think he was unpleasant enough to deserve all that had happened to him.
+she began to cease to be sorry and to think he was unpleasant enough to deserve all that had happened to him.
 
 And she turned her face toward the streaming panes of the window of the railway carriage
 
