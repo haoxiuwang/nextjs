@@ -72,7 +72,9 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
   return(
     <div>
       <div  className="z-50 fixed right-14 bottom-14 flex space-x-4  place-content-center">
-
+      <button onClick={()=>{
+        window.open(`${path}/${part}.mp3`,"_blank")
+        }} className="button-17 ">播放</button>
       <button onClick={()=>{
           player.pause()
           player.ontimeupdate = null
