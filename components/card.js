@@ -40,9 +40,11 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
     if(blob)
     player.src = window.URL.createObjectURL(blob)
   },[blob])
+
   useEffect(()=>{
+
     if(!time||!blob||!player)return
-    player.currentTime = time[index].timeSeconds
+    (player.currentTime = time[index].timeSeconds)
     if(player.paused)
     player.play()
     player.ontimeupdate = ()=>{
