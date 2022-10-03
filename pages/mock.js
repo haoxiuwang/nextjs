@@ -1,12 +1,14 @@
 import {useState} from "react"
-
+import Progress from "../components/progress"
 export default function Mock() {
-  const [detail,setDetail] = useState(false)
-  var rnd = Math.floor(Math.random()*3)
+  return (
+    <div onClick={(e)=>{
+      var {clientX,target} = e
+      var {offsetWidth,offsetLeft} = target
+      var x = clientX-offsetLeft
+      console.log(e);
+    }} className="fixed inset-20 bg-sky-100">
 
-  return(
-  <div className="">
-    
-  </div>
+    </div>
   )
 }
