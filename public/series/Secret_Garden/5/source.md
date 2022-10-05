@@ -1,89 +1,85 @@
-At first each day which passed by for Mary Lennox was exactly like the others. Every morning she awoke in her tapestried room and found Martha kneeling upon the hearth building her fire; every morning she ate her breakfast in the nursery which had nothing amusing in it; and after each breakfast she gazed out of the window across to the huge moor which seemed to spread out on all sides and climb up to the sky, and after she had stared for a while she realized that if she did not go out she would have to stay in and do nothing—and so she went out. She did not know that this was the best thing she could have done, and she did not know that, when she began to walk quickly or even run along the paths and down the avenue, she was stirring her slow blood and making herself stronger by fighting with the wind which swept down from the moor. She ran only to make herself warm, and she hated the wind which rushed at her face and roared and held her back as if it were some giant she could not see. But the big breaths of rough fresh air blown over the heather filled her lungs with something which was good for her whole thin body and whipped some red color into her cheeks and brightened her dull eyes when she did not know anything about it.
+The next day the rain poured down in torrents again, and when Mary looked out of her window the moor was almost hidden by gray mist and cloud. There could be no going out today.
 
-But after a few days spent almost entirely out of doors she wakened one morning knowing what it was to be hungry, and when she sat down to her breakfast she did not glance disdainfully at her porridge and push it away, but took up her spoon and began to eat it and went on eating it until her bowl was empty.
+“What do you do in your cottage when it rains like this?” she asked Martha.
 
-“Tha’ got on well enough with that this mornin’, didn’t tha’?” said Martha.
+“Try to keep from under each other’s feet mostly,” Martha answered. “Eh! there does seem a lot of us then. Mother’s a good-tempered woman but she gets fair moithered. The biggest ones goes out in th’ cow-shed and plays there. Dickon he doesn’t mind th’ wet. He goes out just th’ same as if th’ sun was shinin’. He says he sees things on rainy days as doesn’t show when it’s fair weather. He once found a little fox cub half drowned in its hole and he brought it home in th’ bosom of his shirt to keep it warm. Its mother had been killed nearby an’ th’ hole was swum out an’ th’ rest o’ th’ litter was dead. He’s got it at home now. He found a half-drowned young crow another time an’ he brought it home, too, an’ tamed it. It’s named Soot because it’s so black, an’ it hops an’ flies about with him everywhere.”
 
-“It tastes nice today,” said Mary, feeling a little surprised herself.
+The time had come when Mary had forgotten to resent Martha’s familiar talk. She had even begun to find it interesting and to be sorry when she stopped or went away. The stories she had been told by her Ayah when she lived in India had been quite unlike those Martha had to tell about the moorland cottage which held fourteen people who lived in four little rooms and never had quite enough to eat. The children seemed to tumble about and amuse themselves like a litter of rough, good-natured collie puppies. Mary was most attracted by the mother and Dickon. When Martha told stories of what “mother” said or did they always sounded comfortable.
 
-“It’s th’ air of th’ moor that’s givin’ thee stomach for tha’ victuals,” answered Martha. “It’s lucky for thee that tha’s got victuals as well as appetite. There’s been twelve in our cottage as had th’ stomach an’ nothin’ to put in it. You go on playin’ you out o’ doors every day an’ you’ll get some flesh on your bones an’ you won’t be so yeller.”
+“If I had a raven or a fox cub I could play with it,” said Mary. “But I have nothing.”
 
-“I don’t play,” said Mary. “I have nothing to play with.”
+Martha looked perplexed.
 
-“Nothin’ to play with!” exclaimed Martha. “Our children plays with sticks and stones. They just runs about an’ shouts an’ looks at things.” Mary did not shout, but she looked at things. There was nothing else to do. She walked round and round the gardens and wandered about the paths in the park. Sometimes she looked for Ben Weatherstaff, but though several times she saw him at work he was too busy to look at her or was too surly. Once when she was walking toward him he picked up his spade and turned away as if he did it on purpose.
+“Can tha’ knit?” she asked.
 
-One place she went to oftener than to any other. It was the long walk outside the gardens with the walls round them. There were bare flower-beds on either side of it and against the walls ivy grew thickly. There was one part of the wall where the creeping dark green leaves were more bushy than elsewhere. It seemed as if for a long time that part had been neglected. The rest of it had been clipped and made to look neat, but at this lower end of the walk it had not been trimmed at all.
+“No,” answered Mary.
 
-A few days after she had talked to Ben Weatherstaff, Mary stopped to notice this and wondered why it was so. She had just paused and was looking up at a long spray of ivy swinging in the wind when she saw a gleam of scarlet and heard a brilliant chirp, and there, on the top of the wall, perched Ben Weatherstaff’s robin redbreast, tilting forward to look at her with his small head on one side.
+“Can tha’ sew?”
 
-“Oh!” she cried out, “is it you—is it you?” And it did not seem at all queer to her that she spoke to him as if she were sure that he would understand and answer her.
+“No.”
 
-He did answer. He twittered and chirped and hopped along the wall as if he were telling her all sorts of things. It seemed to Mistress Mary as if she understood him, too, though he was not speaking in words. It was as if he said:
+“Can tha’ read?”
 
-“Good morning! Isn’t the wind nice? Isn’t the sun nice? Isn’t everything nice? Let us both chirp and hop and twitter. Come on! Come on!”
+“Yes.”
 
-Mary began to laugh, and as he hopped and took little flights along the wall she ran after him. Poor little thin, sallow, ugly Mary—she actually looked almost pretty for a moment.
+“Then why doesn’t tha read somethin’, or learn a bit o’ spellin’? Tha’st old enough to be learnin’ thy book a good bit now.”
 
-“I like you! I like you!” she cried out, pattering down the walk; and she chirped and tried to whistle, which last she did not know how to do in the least. But the robin seemed to be quite satisfied and chirped and whistled back at her. At last he spread his wings and made a darting flight to the top of a tree, where he perched and sang loudly.
+“I haven’t any books,” said Mary. “Those I had were left in India.”
 
-That reminded Mary of the first time she had seen him. He had been swinging on a tree-top then and she had been standing in the orchard. Now she was on the other side of the orchard and standing in the path outside a wall—much lower down—and there was the same tree inside.
+“That’s a pity,” said Martha. “If Mrs. Medlock’d let thee go into th’ library, there’s thousands o’ books there.”
 
-“It’s in the garden no one can go into,” she said to herself. “It’s the garden without a door. He lives in there. How I wish I could see what it is like!”
+Mary did not ask where the library was, because she was suddenly inspired by a new idea. She made up her mind to go and find it herself. She was not troubled about Mrs. Medlock. Mrs. Medlock seemed always to be in her comfortable housekeeper’s sitting-room downstairs. In this queer place one scarcely ever saw anyone at all. In fact, there was no one to see but the servants, and when their master was away they lived a luxurious life below stairs, where there was a huge kitchen hung about with shining brass and pewter, and a large servants’ hall where there were four or five abundant meals eaten every day, and where a great deal of lively romping went on when Mrs. Medlock was out of the way.
 
-She ran up the walk to the green door she had entered the first morning. Then she ran down the path through the other door and then into the orchard, and when she stood and looked up there was the tree on the other side of the wall, and there was the robin just finishing his song and beginning to preen his feathers with his beak.
+Mary’s meals were served regularly, and Martha waited on her, but no one troubled themselves about her in the least. Mrs. Medlock came and looked at her every day or two, but no one inquired what she did or told her what to do. She supposed that perhaps this was the English way of treating children. In India she had always been attended by her Ayah, who had followed her about and waited on her, hand and foot. She had often been tired of her company. Now she was followed by nobody and was learning to dress herself because Martha looked as though she thought she was silly and stupid when she wanted to have things handed to her and put on.
 
-“It is the garden,” she said. “I am sure it is.”
+“Hasn’t tha’ got good sense?” she said once, when Mary had stood waiting for her to put on her gloves for her. “Our Susan Ann is twice as sharp as thee an’ she’s only four year’ old. Sometimes tha’ looks fair soft in th’ head.”
 
-She walked round and looked closely at that side of the orchard wall, but she only found what she had found before—that there was no door in it. Then she ran through the kitchen-gardens again and out into the walk outside the long ivy-covered wall, and she walked to the end of it and looked at it, but there was no door; and then she walked to the other end, looking again, but there was no door.
+Mary had worn her contrary scowl for an hour after that, but it made her think several entirely new things.
 
-“It’s very queer,” she said. “Ben Weatherstaff said there was no door and there is no door. But there must have been one ten years ago, because Mr. Craven buried the key.”
+She stood at the window for about ten minutes this morning after Martha had swept up the hearth for the last time and gone downstairs. She was thinking over the new idea which had come to her when she heard of the library. She did not care very much about the library itself, because she had read very few books; but to hear of it brought back to her mind the hundred rooms with closed doors. She wondered if they were all really locked and what she would find if she could get into any of them. Were there a hundred really? Why shouldn’t she go and see how many doors she could count? It would be something to do on this morning when she could not go out. She had never been taught to ask permission to do things, and she knew nothing at all about authority, so she would not have thought it necessary to ask Mrs. Medlock if she might walk about the house, even if she had seen her.
 
-This gave her so much to think of that she began to be quite interested and feel that she was not sorry that she had come to Misselthwaite Manor. In India she had always felt hot and too languid to care much about anything. The fact was that the fresh wind from the moor had begun to blow the cobwebs out of her young brain and to waken her up a little.
+She opened the door of the room and went into the corridor, and then she began her wanderings. It was a long corridor and it branched into other corridors and it led her up short flights of steps which mounted to others again. There were doors and doors, and there were pictures on the walls. Sometimes they were pictures of dark, curious landscapes, but oftenest they were portraits of men and women in queer, grand costumes made of satin and velvet. She found herself in one long gallery whose walls were covered with these portraits. She had never thought there could be so many in any house. She walked slowly down this place and stared at the faces which also seemed to stare at her. She felt as if they were wondering what a little girl from India was doing in their house. Some were pictures of children—little girls in thick satin frocks which reached to their feet and stood out about them, and boys with puffed sleeves and lace collars and long hair, or with big ruffs around their necks. She always stopped to look at the children, and wonder what their names were, and where they had gone, and why they wore such odd clothes. There was a stiff, plain little girl rather like herself. She wore a green brocade dress and held a green parrot on her finger. Her eyes had a sharp, curious look.
 
-She stayed out of doors nearly all day, and when she sat down to her supper at night she felt hungry and drowsy and comfortable. She did not feel cross when Martha chattered away. She felt as if she rather liked to hear her, and at last she thought she would ask her a question. She asked it after she had finished her supper and had sat down on the hearth-rug before the fire.
+“Where do you live now?” said Mary aloud to her. “I wish you were here.”
 
-“Why did Mr. Craven hate the garden?” she said.
+Surely no other little girl ever spent such a queer morning. It seemed as if there was no one in all the huge rambling house but her own small self, wandering about upstairs and down, through narrow passages and wide ones, where it seemed to her that no one but herself had ever walked. Since so many rooms had been built, people must have lived in them, but it all seemed so empty that she could not quite believe it true.
 
-She had made Martha stay with her and Martha had not objected at all. She was very young, and used to a crowded cottage full of brothers and sisters, and she found it dull in the great servants’ hall downstairs where the footman and upper-housemaids made fun of her Yorkshire speech and looked upon her as a common little thing, and sat and whispered among themselves. Martha liked to talk, and the strange child who had lived in India, and been waited upon by “blacks,” was novelty enough to attract her.
+It was not until she climbed to the second floor that she thought of turning the handle of a door. All the doors were shut, as Mrs. Medlock had said they were, but at last she put her hand on the handle of one of them and turned it. She was almost frightened for a moment when she felt that it turned without difficulty and that when she pushed upon the door itself it slowly and heavily opened. It was a massive door and opened into a big bedroom. There were embroidered hangings on the wall, and inlaid furniture such as she had seen in India stood about the room. A broad window with leaded panes looked out upon the moor; and over the mantel was another portrait of the stiff, plain little girl who seemed to stare at her more curiously than ever.
 
-She sat down on the hearth herself without waiting to be asked.
+“Perhaps she slept here once,” said Mary. “She stares at me so that she makes me feel queer.”
 
-“Art tha’ thinkin’ about that garden yet?” she said. “I knew tha’ would. That was just the way with me when I first heard about it.”
+After that she opened more doors and more. She saw so many rooms that she became quite tired and began to think that there must be a hundred, though she had not counted them. In all of them there were old pictures or old tapestries with strange scenes worked on them. There were curious pieces of furniture and curious ornaments in nearly all of them.
 
-“Why did he hate it?” Mary persisted.
+In one room, which looked like a lady’s sitting-room, the hangings were all embroidered velvet, and in a cabinet were about a hundred little elephants made of ivory. They were of different sizes, and some had their mahouts or palanquins on their backs. Some were much bigger than the others and some were so tiny that they seemed only babies. Mary had seen carved ivory in India and she knew all about elephants. She opened the door of the cabinet and stood on a footstool and played with these for quite a long time. When she got tired she set the elephants in order and shut the door of the cabinet.
 
-Martha tucked her feet under her and made herself quite comfortable.
+In all her wanderings through the long corridors and the empty rooms, she had seen nothing alive; but in this room she saw something. Just after she had closed the cabinet door she heard a tiny rustling sound. It made her jump and look around at the sofa by the fireplace, from which it seemed to come. In the corner of the sofa there was a cushion, and in the velvet which covered it there was a hole, and out of the hole peeped a tiny head with a pair of frightened eyes in it.
 
-“Listen to th’ wind wutherin’ round the house,” she said. “You could bare stand up on the moor if you was out on it tonight.”
+Mary crept softly across the room to look. The bright eyes belonged to a little gray mouse, and the mouse had eaten a hole into the cushion and made a comfortable nest there. Six baby mice were cuddled up asleep near her. If there was no one else alive in the hundred rooms there were seven mice who did not look lonely at all.
 
-Mary did not know what “wutherin’” meant until she listened, and then she understood. It must mean that hollow shuddering sort of roar which rushed round and round the house as if the giant no one could see were buffeting it and beating at the walls and windows to try to break in. But one knew he could not get in, and somehow it made one feel very safe and warm inside a room with a red coal fire.
+“If they wouldn’t be so frightened I would take them back with me,” said Mary.
 
-“But why did he hate it so?” she asked, after she had listened. She intended to know if Martha did.
+She had wandered about long enough to feel too tired to wander any farther, and she turned back. Two or three times she lost her way by turning down the wrong corridor and was obliged to ramble up and down until she found the right one; but at last she reached her own floor again, though she was some distance from her own room and did not know exactly where she was.
 
-Then Martha gave up her store of knowledge.
+“I believe I have taken a wrong turning again,” she said, standing still at what seemed the end of a short passage with tapestry on the wall. “I don’t know which way to go. How still everything is!”
 
-“Mind,” she said, “Mrs. Medlock said it’s not to be talked about. There’s lots o’ things in this place that’s not to be talked over. That’s Mr. Craven’s orders. His troubles are none servants’ business, he says. But for th’ garden he wouldn’t be like he is. It was Mrs. Craven’s garden that she had made when first they were married an’ she just loved it, an’ they used to ’tend the flowers themselves. An’ none o’ th’ gardeners was ever let to go in. Him an’ her used to go in an’ shut th’ door an’ stay there hours an’ hours, readin’ and talkin’. An’ she was just a bit of a girl an’ there was an old tree with a branch bent like a seat on it. An’ she made roses grow over it an’ she used to sit there. But one day when she was sittin’ there th’ branch broke an’ she fell on th’ ground an’ was hurt so bad that next day she died. Th’ doctors thought he’d go out o’ his mind an’ die, too. That’s why he hates it. No one’s never gone in since, an’ he won’t let anyone talk about it.”
+It was while she was standing here and just after she had said this that the stillness was broken by a sound. It was another cry, but not quite like the one she had heard last night; it was only a short one, a fretful childish whine muffled by passing through walls.
 
-Mary did not ask any more questions. She looked at the red fire and listened to the wind “wutherin’.” It seemed to be “wutherin’” louder than ever.
+“It’s nearer than it was,” said Mary, her heart beating rather faster. “And it is crying.”
 
-At that moment a very good thing was happening to her. Four good things had happened to her, in fact, since she came to Misselthwaite Manor. She had felt as if she had understood a robin and that he had understood her; she had run in the wind until her blood had grown warm; she had been healthily hungry for the first time in her life; and she had found out what it was to be sorry for someone.
+She put her hand accidentally upon the tapestry near her, and then sprang back, feeling quite startled. The tapestry was the covering of a door which fell open and showed her that there was another part of the corridor behind it, and Mrs. Medlock was coming up it with her bunch of keys in her hand and a very cross look on her face.
 
-But as she was listening to the wind she began to listen to something else. She did not know what it was, because at first she could scarcely distinguish it from the wind itself. It was a curious sound—it seemed almost as if a child were crying somewhere. Sometimes the wind sounded rather like a child crying, but presently Mistress Mary felt quite sure this sound was inside the house, not outside it. It was far away, but it was inside. She turned round and looked at Martha.
+“What are you doing here?” she said, and she took Mary by the arm and pulled her away. “What did I tell you?”
 
-“Do you hear anyone crying?” she said.
+“I turned round the wrong corner,” explained Mary. “I didn’t know which way to go and I heard someone crying.” She quite hated Mrs. Medlock at the moment, but she hated her more the next.
 
-Martha suddenly looked confused.
+“You didn’t hear anything of the sort,” said the housekeeper. “You come along back to your own nursery or I’ll box your ears.”
 
-“No,” she answered. “It’s th’ wind. Sometimes it sounds like as if someone was lost on th’ moor an’ wailin’. It’s got all sorts o’ sounds.”
+And she took her by the arm and half pushed, half pulled her up one passage and down another until she pushed her in at the door of her own room.
 
-“But listen,” said Mary. “It’s in the house—down one of those long corridors.”
+“Now,” she said, “you stay where you’re told to stay or you’ll find yourself locked up. The master had better get you a governess, same as he said he would. You’re one that needs someone to look sharp after you. I’ve got enough to do.”
 
-And at that very moment a door must have been opened somewhere downstairs; for a great rushing draft blew along the passage and the door of the room they sat in was blown open with a crash, and as they both jumped to their feet the light was blown out and the crying sound was swept down the far corridor so that it was to be heard more plainly than ever.
+She went out of the room and slammed the door after her, and Mary went and sat on the hearth-rug, pale with rage. She did not cry, but ground her teeth.
 
-“There!” said Mary. “I told you so! It is someone crying—and it isn’t a grown-up person.”
+“There was someone crying—there was—there was!” she said to herself.
 
-Martha ran and shut the door and turned the key, but before she did it they both heard the sound of a door in some far passage shutting with a bang, and then everything was quiet, for even the wind ceased “wutherin’” for a few moments.
-
-“It was th’ wind,” said Martha stubbornly. “An’ if it wasn’t, it was little Betty Butterworth, th’ scullery-maid. She’s had th’ toothache all day.”
-
-But something troubled and awkward in her manner made Mistress Mary stare very hard at her. She did not believe she was speaking the truth.
+She had heard it twice now, and sometime she would find out. She had found out a great deal this morning. She felt as if she had been on a long journey, and at any rate she had had something to amuse her all the time, and she had played with the ivory elephants and had seen the gray mouse and its babies in their nest in the velvet cushion.
