@@ -1,464 +1,574 @@
-CHAPTER XIV
-
 A YOUNG RAJAH
+The moor was hidden in mist when the morning came, and the rain had not stopped pouring down.
 
+There could be no going out of doors.
 
-The moor was hidden in mist when the morning came and the rain had not
-stopped pouring down. There could be no going out of doors. Martha was
-so busy that Mary had no opportunity of talking to her, but in the
-afternoon she asked her to come and sit with her in the nursery. She
-came bringing the stocking she was always knitting when she was doing
-nothing else.
+Martha was so busy that Mary had no opportunity of talking to her, but in the afternoon she asked her to come and sit with her in the nursery.
 
-"What's the matter with thee?" she asked as soon as they sat down. "Tha'
-looks as if tha'd somethin' to say."
+She came bringing the stocking she was always knitting when she was doing nothing else.
 
-"I have. I have found out what the crying was," said Mary.
+“What’s the matter with you?” she asked as soon as they sat down.
 
-Martha let her knitting drop on her knee and gazed at her with startled
-eyes.
+“You looks as if you'd something to say.”
 
-"Tha' hasn't!" she exclaimed. "Never!"
+“I have. I have found out what the crying was,” said Mary.
 
-"I heard it in the night," Mary went on. "And I got up and went to see
-where it came from. It was Colin. I found him."
+Martha let her knitting drop on her knee and gazed at her with startled eyes.
 
-Martha's face became red with fright.
+“You hasn’t!” she exclaimed. “Never!”
 
-"Eh! Miss Mary!" she said half crying. "Tha' shouldn't have done
-it--tha' shouldn't! Tha'll get me in trouble. I never told thee nothin'
-about him--but tha'll get me in trouble. I shall lose my place and
-what'll mother do!"
+“I heard it in the night,” Mary went on.
 
-"You won't lose your place," said Mary. "He was glad I came. We talked
-and talked and he said he was glad I came."
+“And I got up and went to see where it came from. It was Colin. I found him.”
 
-"Was he?" cried Martha. "Art tha' sure? Tha' doesn't know what he's like
-when anything vexes him. He's a big lad to cry like a baby, but when
-he's in a passion he'll fair scream just to frighten us. He knows us
-daren't call our souls our own."
+Martha’s face became red with fright. “Eh! Miss Mary!” she said half crying.
 
-"He wasn't vexed," said Mary. "I asked him if I should go away and he
-made me stay. He asked me questions and I sat on a big footstool and
-talked to him about India and about the robin and gardens. He wouldn't
-let me go. He let me see his mother's picture. Before I left him I sang
-him to sleep."
+“You shouldn’t have done it, You shouldn’t! you'll get me in trouble.
+
+I never told you nothing about him, but you'll get me in trouble.
+
+I shall lose my place and what’ll mother do!”
+
+“You won’t lose your place,” said Mary.
+
+“He was glad I came. We talked and talked and he said he was glad I came.”
+
+“Was he?” cried Martha.
+
+“Are you sure? You don’t know what he’s like when anything vexes him.
+
+He’s a big lad to cry like a baby, but when he’s in a passion he’ll fair scream just to frighten us.
+
+He knows we daren’t call our souls our own.”
+
+“He wasn’t vexed,” said Mary.
+
+“I asked him if I should go away and he made me stay.
+
+He asked me questions and I sat on a big footstool and talked to him about India and about the robin and gardens.
+
+He wouldn’t let me go. He let me see his mother’s picture.
+
+Before I left him I sang him to sleep.”
 
 Martha fairly gasped with amazement.
 
-"I can scarcely believe thee!" she protested. "It's as if tha'd walked
-straight into a lion's den. If he'd been like he is most times he'd have
-throwed himself into one of his tantrums and roused th' house. He won't
-let strangers look at him."
+“I can scarcely believe you!” she protested.
 
-"He let me look at him. I looked at him all the time and he looked at
-me. We stared!" said Mary.
+“It’s as if you'd walked straight into a lion’s den.
 
-"I don't know what to do!" cried agitated Martha. "If Mrs. Medlock finds
-out, she'll think I broke orders and told thee and I shall be packed
-back to mother."
+If he’d been like he is most times he’d have throwed himself into one of his tantrums and roused the house.
 
-"He is not going to tell Mrs. Medlock anything about it yet. It's to be
-a sort of secret just at first," said Mary firmly. "And he says
-everybody is obliged to do as he pleases."
+He won’t let strangers look at him.”
 
-"Aye, that's true enough--th' bad lad!" sighed Martha, wiping her
-forehead with her apron.
+“He let me look at him. I looked at him all the time and he looked at me. We stared!” said Mary.
 
-"He says Mrs. Medlock must. And he wants me to come and talk to him
-every day. And you are to tell me when he wants me."
+“I don’t know what to do!” cried agitated Martha.
 
-"Me!" said Martha; "I shall lose my place--I shall for sure!"
+“If Mrs Medlock finds out, she’ll think I broke orders, and told you, and I shall be packed back to mother.”
 
-"You can't if you are doing what he wants you to do and everybody is
-ordered to obey him," Mary argued.
+“He is not going to tell Mrs Medlock anything about it yet.
 
-"Does tha' mean to say," cried Martha with wide open eyes, "that he was
-nice to thee!"
+It’s to be a sort of secret just at first,” said Mary firmly.
 
-"I think he almost liked me," Mary answered.
+“And he says everybody is obliged to do as he pleases.”
 
-"Then tha' must have bewitched him!" decided Martha, drawing a long
-breath.
+“Aye, that’s true enough, the bad lad!” sighed Martha, wiping her forehead with her apron.
 
-"Do you mean Magic?" inquired Mary. "I've heard about Magic in India,
-but I can't make it. I just went into his room and I was so surprised
-to see him I stood and stared. And then he turned round and stared at
-me. And he thought I was a ghost or a dream and I thought perhaps he
-was. And it was so queer being there alone together in the middle of the
-night and not knowing about each other. And we began to ask each other
-questions. And when I asked him if I must go away he said I must not."
+“He says Mrs Medlock must. And he wants me to come and talk to him every day. And you are to tell me when he wants me.”
 
-"Th' world's comin' to a end!" gasped Martha.
+“Me!” said Martha; “I shall lose my place, I shall for sure!”
 
-"What is the matter with him?" asked Mary.
+“You can't if you are doing what he wants you to do and everybody is ordered to obey him,” Mary argued.
 
-"Nobody knows for sure and certain," said Martha. "Mr. Craven went off
-his head like when he was born. Th' doctors thought he'd have to be put
-in a 'sylum. It was because Mrs. Craven died like I told you. He
-wouldn't set eyes on th' baby. He just raved and said it'd be another
-hunchback like him and it'd better die."
+“Does you mean to say,” cried Martha with wide open eyes, “that he was nice to you!”
 
-"Is Colin a hunchback?" Mary asked. "He didn't look like one."
+“I think he almost liked me,” Mary answered.
 
-"He isn't yet," said Martha. "But he began all wrong. Mother said that
-there was enough trouble and raging in th' house to set any child wrong.
-They was afraid his back was weak an' they've always been takin' care of
-it--keepin' him lyin' down and not lettin' him walk. Once they made him
-wear a brace but he fretted so he was downright ill. Then a big doctor
-came to see him an' made them take it off. He talked to th' other doctor
-quite rough--in a polite way. He said there'd been too much medicine and
-too much lettin' him have his own way."
+“Then you must have bewitched him!” decided Martha, drawing a long breath.
 
-"I think he's a very spoiled boy," said Mary.
+“Do you mean Magic?” inquired Mary.
 
-"He's th' worst young nowt as ever was!" said Martha. "I won't say as he
-hasn't been ill a good bit. He's had coughs an' colds that's nearly
-killed him two or three times. Once he had rheumatic fever an' once he
-had typhoid. Eh! Mrs. Medlock did get a fright then. He'd been out of
-his head an' she was talkin' to th' nurse, thinkin' he didn't know
-nothin', an' she said, 'He'll die this time sure enough, an' best thing
-for him an' for everybody.' An' she looked at him an' there he was with
-his big eyes open, starin' at her as sensible as she was herself. She
-didn't know what'd happen but he just stared at her an' says, 'You give
-me some water an' stop talkin'.'"
+“I’ve heard about Magic in India, but I can't make it.
 
-"Do you think he will die?" asked Mary.
+I just went into his room and I was so surprised to see him I stood and stared.
 
-"Mother says there's no reason why any child should live that gets no
-fresh air an' doesn't do nothin' but lie on his back an' read
-picture-books an' take medicine. He's weak and hates th' trouble o'
-bein' taken out o' doors, an' he gets cold so easy he says it makes him
-ill."
+And then he turned round and stared at me.
+
+And he thought I was a ghost or a dream and I thought perhaps he was.
+
+And it was so queer being there alone together in the middle of the night and not knowing about each other.
+
+And we began to ask each other questions.
+
+And when I asked him if I must go away he said I must not.”
+
+“the world’s coming to a end!” gasped Martha.
+
+“What is the matter with him?” asked Mary.
+
+“Nobody knows for sure and certain,” said Martha.
+
+“Mr Craven went off his head like when he was born.
+
+the doctors thought he’d have to be put in a asylum.
+
+It was because Mrs Craven died like I told you.
+
+He wouldn’t set eyes on the baby. He just raved and said it’d be another hunchback like him and it’d better die.”
+
+“Is Colin a hunchback?” Mary asked.
+
+“He didn’t look like one.”
+
+“He isn’t yet,” said Martha.
+
+“But he began all wrong. Mother said that there was enough trouble and raging in the house to set any child wrong.
+
+They was afraid his back was weak and they’ve always been taking care of it, keeping him lying down and not letting him walk.
+
+Once they made him wear a brace but he fretted so he was downright ill.
+
+Then a big doctor came to see him and made them take it off.
+
+He talked to the other doctor quite rough, in a polite way.
+
+He said there’d been too much medicine and too much letting him have his own way.”
+
+“I think he’s a very spoiled boy,” said Mary.
+
+“He’s the worst young nowt as ever was!” said Martha.
+
+“I won’t say as he hasn’t been ill a good bit.
+
+He’s had coughs and colds that’s nearly killed him two or three times.
+
+Once he had rheumatic fever and once he had typhoid. Eh! Mrs Medlock did get a fright then.
+
+He’d been out of his head and she was talking to the nurse, thinking he didn’t know nothing,
+
+and she said, ‘He’ll die this time sure enough, and best thing for him and for everybody.’
+
+and she looked at him and there he was with his big eyes open, staring at her as sensible as she was herself.
+
+She didn’t know what’d happen, but he just stared at her and says, ‘You give me some water and stop talking.’”
+
+“Do you think he will die?” asked Mary.
+
+“Mother says there’s no reason why any child should live like that, gets no fresh air and doesn’t do nothing, but lie on his back and read picture-books and take medicine.
+
+He’s weak and hates the trouble of being taken out of doors, and he gets cold so easy, he says it makes him ill.”
 
 Mary sat and looked at the fire.
 
-"I wonder," she said slowly, "if it would not do him good to go out into
-a garden and watch things growing. It did me good."
+“I wonder,” she said slowly, “if it would not do him good to go out into a garden and watch things growing. It did me good.”
 
-"One of th' worst fits he ever had," said Martha, "was one time they
-took him out where the roses is by the fountain. He'd been readin' in a
-paper about people gettin' somethin' he called 'rose cold' an' he began
-to sneeze an' said he'd got it an' then a new gardener as didn't know
-th' rules passed by an' looked at him curious. He threw himself into a
-passion an' he said he'd looked at him because he was going to be a
-hunchback. He cried himself into a fever an' was ill all night."
+“One of the worst fits he ever had,” said Martha, “was one time they took him out where the roses is by the fountain.
 
-"If he ever gets angry at me, I'll never go and see him again," said
-Mary.
+He’d been reading in a paper about people getting something he called ‘rose cold’ and he began to sneeze and said he’d got it
 
-"He'll have thee if he wants thee," said Martha. "Tha' may as well know
-that at th' start."
+and then a new gardener as didn’t know the rules passed by and looked at him curious.
+
+He threw himself into a passion and he said he’d looked at him because he was going to be a hunchback.
+
+He cried himself into a fever and was ill all night.”
+
+“If he ever gets angry at me, I’ll never go and see him again,” said Mary.
+
+“He’ll have you if he wants you,” said Martha. “You may as well know that at the start.”
 
 Very soon afterward a bell rang and she rolled up her knitting.
 
-"I dare say th' nurse wants me to stay with him a bit," she said. "I
-hope he's in a good temper."
+“I dare say the nurse wants me to stay with him a bit,” she said.
 
-She was out of the room about ten minutes and then she came back with a
-puzzled expression.
+“I hope he’s in a good temper.”
 
-"Well, tha' has bewitched him," she said. "He's up on his sofa with his
-picture-books. He's told the nurse to stay away until six o'clock. I'm
-to wait in the next room. Th' minute she was gone he called me to him
-an' says, 'I want Mary Lennox to come and talk to me, and remember
-you're not to tell any one.' You'd better go as quick as you can."
+She was out of the room about ten minutes and then she came back with a puzzled expression.
 
-Mary was quite willing to go quickly. She did not want to see Colin as
-much as she wanted to see Dickon, but she wanted to see him very much.
+“Well, you have bewitched him,” she said.
 
-There was a bright fire on the hearth when she entered his room, and in
-the daylight she saw it was a very beautiful room indeed. There were
-rich colors in the rugs and hangings and pictures and books on the walls
-which made it look glowing and comfortable even in spite of the gray sky
-and falling rain. Colin looked rather like a picture himself. He was
-wrapped in a velvet dressing-gown and sat against a big brocaded
-cushion. He had a red spot on each cheek.
+“He’s up on his sofa with his picture-books.
 
-"Come in," he said. "I've been thinking about you all morning."
+He’s told the nurse to stay away until six o'clock. I’m to wait in the next room. the minute she was gone he called me to him and says,
 
-"I've been thinking about you, too," answered Mary. "You don't know how
-frightened Martha is. She says Mrs. Medlock will think she told me about
-you and then she will be sent away."
+‘I want Mary Lennox to come and talk to me, and remember you’re not to tell anyone.’ You’d better go as quick as you can.”
 
-He frowned.
+Mary was quite willing to go quickly.
 
-"Go and tell her to come here," he said. "She is in the next room."
+She did not want to see Colin as much as she wanted to see Dickon; but she wanted to see him very much.
 
-Mary went and brought her back. Poor Martha was shaking in her shoes.
-Colin was still frowning.
+There was a bright fire on the hearth when she entered his room, and in the daylight she saw it was a very beautiful room indeed.
 
-"Have you to do what I please or have you not?" he demanded.
+There were rich colors in the rugs and hangings and pictures and books on the walls
 
-"I have to do what you please, sir," Martha faltered, turning quite red.
+which made it look glowing and comfortable even in spite of the gray sky and falling rain.
 
-"Has Medlock to do what I please?"
+Colin looked rather like a picture himself.
 
-"Everybody has, sir," said Martha.
+He was wrapped in a velvet dressing-gown and sat against a big brocaded cushion.
 
-"Well, then, if I order you to bring Miss Mary to me, how can Medlock
-send you away if she finds it out?"
+He had a red spot on each cheek.
 
-"Please don't let her, sir," pleaded Martha.
+“Come in,” he said.
 
-"I'll send her away if she dares to say a word about such a thing,"
-said Master Craven grandly. "She wouldn't like that, I can tell you."
+“I’ve been thinking about you all morning.”
 
-"Thank you, sir," bobbing a curtsy, "I want to do my duty, sir."
+“I’ve been thinking about you, too,” answered Mary.
 
-"What I want is your duty," said Colin more grandly still. "I'll take
-care of you. Now go away."
+“You don’t know how frightened Martha is.
 
-When the door closed behind Martha, Colin found Mistress Mary gazing at
-him as if he had set her wondering.
+She says Mrs Medlock will think she told me about you and then she will be sent away.”
 
-"Why do you look at me like that?" he asked her. "What are you thinking
-about?"
+He frowned. “Go and tell her to come here,” he said. “She is in the next room.”
 
-"I am thinking about two things."
+Mary went and brought her back. Poor Martha was shaking in her shoes. Colin was still frowning.
 
-"What are they? Sit down and tell me."
+“Have you to do what I please or have you not?” he demanded.
 
-"This is the first one," said Mary, seating herself on the big stool.
-"Once in India I saw a boy who was a Rajah. He had rubies and emeralds
-and diamonds stuck all over him. He spoke to his people just as you
-spoke to Martha. Everybody had to do everything he told them--in a
-minute. I think they would have been killed if they hadn't."
+“I have to do what you please, sir,” Martha faltered, turning quite red.
 
-"I shall make you tell me about Rajahs presently," he said, "but first
-tell me what the second thing was."
+“Has Medlock to do what I please?”
 
-"I was thinking," said Mary, "how different you are from Dickon."
+“Everybody has, sir,” said Martha.
 
-"Who is Dickon?" he said. "What a queer name!"
+“Well, then, if I order you to bring Miss Mary to me, how can Medlock send you away if she finds it out?”
 
-She might as well tell him, she thought. She could talk about Dickon
-without mentioning the secret garden. She had liked to hear Martha talk
-about him. Besides, she longed to talk about him. It would seem to bring
-him nearer.
+“Please don’t let her, sir,” pleaded Martha.
 
-"He is Martha's brother. He is twelve years old," she explained. "He is
-not like any one else in the world. He can charm foxes and squirrels and
-birds just as the natives in India charm snakes. He plays a very soft
-tune on a pipe and they come and listen."
+“I’ll send her away if she dares to say a word about such a thing,” said Master Craven grandly.
 
-There were some big books on a table at his side and he dragged one
-suddenly toward him.
+“She wouldn’t like that, I can tell you.”
 
-"There is a picture of a snake-charmer in this," he exclaimed. "Come and
-look at it."
+“Thank you, sir,” bobbing a curtsy, “I want to do my duty, sir.”
 
-The book was a beautiful one with superb colored illustrations and he
-turned to one of them.
+“What I want is your duty” said Colin more grandly still.
 
-"Can he do that?" he asked eagerly.
+“I’ll take care of you. Now go away.”
 
-"He played on his pipe and they listened," Mary explained. "But he
-doesn't call it Magic. He says it's because he lives on the moor so much
-and he knows their ways. He says he feels sometimes as if he was a bird
-or a rabbit himself, he likes them so. I think he asked the robin
-questions. It seemed as if they talked to each other in soft chirps."
+When the door closed behind Martha, Colin found Mistress Mary gazing at him as if he had set her wondering.
 
-Colin lay back on his cushion and his eyes grew larger and larger and
-the spots on his cheeks burned.
+“Why do you look at me like that?” he asked her.
 
-"Tell me some more about him," he said.
+“What are you thinking about?”
 
-"He knows all about eggs and nests," Mary went on. "And he knows where
-foxes and badgers and otters live. He keeps them secret so that other
-boys won't find their holes and frighten them. He knows about everything
-that grows or lives on the moor."
+“I am thinking about two things.”
 
-"Does he like the moor?" said Colin. "How can he when it's such a great,
-bare, dreary place?"
+“What are they? Sit down and tell me.”
 
-"It's the most beautiful place," protested Mary. "Thousands of lovely
-things grow on it and there are thousands of little creatures all busy
-building nests and making holes and burrows and chippering or singing
-or squeaking to each other. They are so busy and having such fun under
-the earth or in the trees or heather. It's their world."
+“This is the first one,” said Mary, seating herself on the big stool.
 
-"How do you know all that?" said Colin, turning on his elbow to look at
-her.
+“Once in India I saw a boy who was a Rajah.
 
-"I have never been there once, really," said Mary suddenly remembering.
-"I only drove over it in the dark. I thought it was hideous. Martha told
-me about it first and then Dickon. When Dickon talks about it you feel
-as if you saw things and heard them and as if you were standing in the
-heather with the sun shining and the gorse smelling like honey--and all
-full of bees and butterflies."
+He had rubies and emeralds and diamonds stuck all over him.
 
-"You never see anything if you are ill," said Colin restlessly. He
-looked like a person listening to a new sound in the distance and
-wondering what it was.
+He spoke to his people just as you spoke to Martha.
 
-"You can't if you stay in a room," said Mary.
+Everybody had to do everything he told them, in a minute.
 
-"I couldn't go on the moor," he said in a resentful tone.
+I think they would have been killed if they hadn’t.”
+
+“I shall make you tell me about Rajahs presently,” he said, “but first tell me what the second thing was.”
+
+“I was thinking,” said Mary, “how different you are from Dickon.”
+
+“Who is Dickon?” he said.
+
+“What a queer name!”
+
+She might as well tell him, she thought she could talk about Dickon without mentioning the secret garden.
+
+She had liked to hear Martha talk about him.
+
+Besides, she longed to talk about him.
+
+It would seem to bring him nearer.
+
+“He is Martha’s brother.
+
+He is twelve years old,” she explained.
+
+“He is not like anyone else in the world.
+
+He can charm foxes and squirrels and birds just as the natives in India charm snakes.
+
+He plays a very soft tune on a pipe and they come and listen.”
+
+There were some big books on a table at his side and he dragged one suddenly toward him.
+
+“There is a picture of a snake-charmer in this,” he exclaimed.
+
+“Come and look at it.”
+
+The book was a beautiful one with superb colored illustrations and he turned to one of them.
+
+“Can he do that?” he asked eagerly.
+
+“He played on his pipe and they listened,” Mary explained.
+
+“But he doesn’t call it Magic.
+
+He says it’s because he lives on the moor so much and he knows their ways.
+
+He says he feels sometimes as if he was a bird or a rabbit himself, he likes them so.
+
+I think he asked the robin questions.
+
+It seemed as if they talked to each other in soft chirps.”
+
+Colin lay back on his cushion and his eyes grew larger and larger and the spots on his cheeks burned.
+
+“Tell me some more about him,” he said.
+
+“He knows all about eggs and nests,” Mary went on.
+
+“And he knows where foxes and badgers and otters live.
+
+He keeps them secret so that other boys won’t find their holes and frighten them.
+
+He knows about everything that grows or lives on the moor.”
+
+“Does he like the moor?” said Colin.
+
+“How can he when it’s such a great, bare, dreary place?”
+
+“It’s the most beautiful place,” protested Mary.
+
+“Thousands of lovely things grow on it
+
+and there are thousands of little creatures all busy building nests and making holes and burrows and chippering or singing or squeaking to each other.
+
+They are so busy and having such fun under the earth or in the trees or heather. It’s their world.”
+
+“How do you know all that?” said Colin, turning on his elbow to look at her.
+
+“I have never been there once, really,” said Mary suddenly remembering.
+
+“I only drove over it in the dark. I thought it was hideous. Martha told me about it first and then Dickon.
+
+When Dickon talks about it you feel as if you saw things and heard them
+
+and as if you were standing in the heather with the sun shining and the gorse smelling like honey, and all full of bees and butterflies.”
+
+“You never see anything if you are ill,” said Colin restlessly.
+
+He looked like a person listening to a new sound in the distance and wondering what it was.
+
+“You can't if you stay in a room,” said Mary.
+
+“I couldn’t go on the moor,” he said in a resentful tone.
 
 Mary was silent for a minute and then she said something bold.
 
-"You might--sometime."
+“You might, sometime.”
 
 He moved as if he were startled.
 
-"Go on the moor! How could I? I am going to die."
+“Go on the moor! How could I? I am going to die.”
 
-"How do you know?" said Mary unsympathetically. She didn't like the way
-he had of talking about dying. She did not feel very sympathetic. She
-felt rather as if he almost boasted about it.
+“How do you know?” said Mary unsympathetically.
 
-"Oh, I've heard it ever since I remember," he answered crossly. "They
-are always whispering about it and thinking I don't notice. They wish I
-would, too."
+She didn’t like the way he had of talking about dying.
 
-Mistress Mary felt quite contrary. She pinched her lips together.
+She did not feel very sympathetic.
 
-"If they wished I would," she said, "I wouldn't. Who wishes you would?"
+She felt rather as if he almost boasted about it.
 
-"The servants--and of course Dr. Craven because he would get
-Misselthwaite and be rich instead of poor. He daren't say so, but he
-always looks cheerful when I am worse. When I had typhoid fever his face
-got quite fat. I think my father wishes it, too."
+“Oh, I’ve heard it ever since I remember,” he answered crossly.
 
-"I don't believe he does," said Mary quite obstinately.
+“They are always whispering about it and thinking I don’t notice.
+
+They wish I would, too.”
+
+Mistress Mary felt quite contrary.
+
+She pinched her lips together.
+
+“If they wished I would,” she said, “I wouldn’t.
+
+Who wishes you would?”
+
+“The servants, and of course Dr. Craven because he would get Misselthwaite and be rich instead of poor.
+
+He daren’t say so, but he always looks cheerful when I am worse.
+
+When I had typhoid fever his face got quite fat.
+
+I think my father wishes it, too.”
+
+“I don’t believe he does,” said Mary quite obstinately.
 
 That made Colin turn and look at her again.
 
-"Don't you?" he said.
+“Don’t you?” he said.
 
-And then he lay back on his cushion and was still, as if he were
-thinking. And there was quite a long silence. Perhaps they were both of
-them thinking strange things children do not usually think of.
+And then he lay back on his cushion and was still, as if he were thinking.
 
-"I like the grand doctor from London, because he made them take the iron
-thing off," said Mary at last. "Did he say you were going to die?"
+And there was quite a long silence.
 
-"No."
+Perhaps they were both of them thinking strange things children do not usually think of.
 
-"What did he say?"
+“I like the grand doctor from London, because he made them take the iron thing off,” said Mary at last “Did he say you were going to die?”
 
-"He didn't whisper," Colin answered. "Perhaps he knew I hated
-whispering. I heard him say one thing quite aloud. He said, 'The lad
-might live if he would make up his mind to it. Put him in the humor.' It
-sounded as if he was in a temper."
+“No.”
 
-"I'll tell you who would put you in the humor, perhaps," said Mary
-reflecting. She felt as if she would like this thing to be settled one
-way or the other. "I believe Dickon would. He's always talking about
-live things. He never talks about dead things or things that are ill.
-He's always looking up in the sky to watch birds flying--or looking down
-at the earth to see something growing. He has such round blue eyes and
-they are so wide open with looking about. And he laughs such a big laugh
-with his wide mouth--and his cheeks are as red--as red as cherries."
+“What did he say?”
 
-She pulled her stool nearer to the sofa and her expression quite changed
-at the remembrance of the wide curving mouth and wide open eyes.
+“He didn’t whisper,” Colin answered.
 
-"See here," she said. "Don't let us talk about dying; I don't like it.
-Let us talk about living. Let us talk and talk about Dickon. And then we
-will look at your pictures."
+“Perhaps he knew I hated whispering.
 
-It was the best thing she could have said. To talk about Dickon meant to
-talk about the moor and about the cottage and the fourteen people who
-lived in it on sixteen shillings a week--and the children who got fat on
-the moor grass like the wild ponies. And about Dickon's mother--and the
-skipping-rope--and the moor with the sun on it--and about pale green
-points sticking up out of the black sod. And it was all so alive that
-Mary talked more than she had ever talked before--and Colin both talked
-and listened as he had never done either before. And they both began to
-laugh over nothings as children will when they are happy together. And
-they laughed so that in the end they were making as much noise as if
-they had been two ordinary healthy natural ten-year-old
-creatures--instead of a hard, little, unloving girl and a sickly boy who
-believed that he was going to die.
+I heard him say one thing quite aloud.
 
-They enjoyed themselves so much that they forgot the pictures and they
-forgot about the time. They had been laughing quite loudly over Ben
-Weatherstaff and his robin and Colin was actually sitting up as if he
-had forgotten about his weak back when he suddenly remembered
-something.
+He said, ‘The lad might live if he would make up his mind to it.
 
-"Do you know there is one thing we have never once thought of," he said.
-"We are cousins."
+Put him in the humor.’ It sounded as if he was in a temper.”
 
-It seemed so queer that they had talked so much and never remembered
-this simple thing that they laughed more than ever, because they had got
-into the humor to laugh at anything. And in the midst of the fun the
-door opened and in walked Dr. Craven and Mrs. Medlock.
+“I’ll tell you who would put you in the humor, perhaps,” said Mary reflecting.
 
-Dr. Craven started in actual alarm and Mrs. Medlock almost fell back
-because he had accidentally bumped against her.
+She felt as if she would like this thing to be settled one way or the other.
 
-"Good Lord!" exclaimed poor Mrs. Medlock, with her eyes almost starting
-out of her head. "Good Lord!"
+“I believe Dickon would.
 
-"What is this?" said Dr. Craven, coming forward. "What does it mean?"
+He’s always talking about live things.
 
-Then Mary was reminded of the boy Rajah again. Colin answered as if
-neither the doctor's alarm nor Mrs. Medlock's terror were of the
-slightest consequence. He was as little disturbed or frightened as if an
-elderly cat and dog had walked into the room.
+He never talks about dead things or things that are ill.
 
-"This is my cousin, Mary Lennox," he said. "I asked her to come and talk
-to me. I like her. She must come and talk to me whenever I send for
-her."
+He’s always looking up in the sky to watch birds flying, or looking down at the earth to see something growing.
 
-Dr. Craven turned reproachfully to Mrs. Medlock.
+He has such round blue eyes and they are so wide open with looking about.
 
-"Oh, sir," she panted. "I don't know how it's happened. There's not a
-servant on the place that'd dare to talk--they all have their orders."
+And he laughs such a big laugh with his wide mouth, and his cheeks are as red, as red as cherries.”
 
-"Nobody told her anything," said Colin, "she heard me crying and found
-me herself. I am glad she came. Don't be silly, Medlock."
+She pulled her stool nearer to the sofa and her expression quite changed at the remembrance of the wide curving mouth and wide open eyes.
 
-Mary saw that Dr. Craven did not look pleased, but it was quite plain
-that he dare not oppose his patient. He sat down by Colin and felt his
-pulse.
+“See here,” she said.
 
-"I am afraid there has been too much excitement. Excitement is not good
-for you, my boy," he said.
+“Don’t let us talk about dying; I don’t like it.
 
-"I should be excited if she kept away," answered Colin, his eyes
-beginning to look dangerously sparkling. "I am better. She makes me
-better. The nurse must bring up her tea with mine. We will have tea
-together."
+Let us talk about living.
 
-Mrs. Medlock and Dr. Craven looked at each other in a troubled way, but
-there was evidently nothing to be done.
+Let us talk and talk about Dickon.
 
-"He does look rather better, sir," ventured Mrs. Medlock.
-"But"--thinking the matter over--"he looked better this morning before
-she came into the room."
+And then we will look at your pictures.”
 
-"She came into the room last night. She stayed with me a long time. She
-sang a Hindustani song to me and it made me go to sleep," said Colin. "I
-was better when I wakened up. I wanted my breakfast. I want my tea now.
-Tell nurse, Medlock."
+It was the best thing she could have said.
 
-Dr. Craven did not stay very long. He talked to the nurse for a few
-minutes when she came into the room and said a few words of warning to
-Colin. He must not talk too much; he must not forget that he was ill; he
-must not forget that he was very easily tired. Mary thought that there
-seemed to be a number of uncomfortable things he was not to forget.
+To talk about Dickon meant to talk about the moor and about the cottage and the fourteen people who lived in it on sixteen shillings a week,
 
-Colin looked fretful and kept his strange black-lashed eyes fixed on Dr.
-Craven's face.
+and the children who got fat on the moor grass like the wild ponies.
 
-"I want to forget it," he said at last. "She makes me forget it. That
-is why I want her."
+And about Dickon’s mother, and the skipping-rope, and the moor with the sun on it, and about pale green points sticking up out of the black sod.
 
-Dr. Craven did not look happy when he left the room. He gave a puzzled
-glance at the little girl sitting on the large stool. She had become a
-stiff, silent child again as soon as he entered and he could not see
-what the attraction was. The boy actually did look brighter,
-however--and he sighed rather heavily as he went down the corridor.
+And it was all so alive that Mary talked more than she had ever talked before, and Colin both talked and listened as he had never done either before.
 
-"They are always wanting me to eat things when I don't want to," said
-Colin, as the nurse brought in the tea and put it on the table by the
-sofa. "Now, if you'll eat I will. Those muffins look so nice and hot.
-Tell me about Rajahs."
+And they both began to laugh over nothings as children will when they are happy together.
 
+And they laughed so that in the end they were making as much noise as if they had been two ordinary healthy natural ten-year-old creatures,
 
+instead of a hard, little, unloving girl and a sickly boy who believed that he was going to die.
 
+They enjoyed themselves so much that they forgot the pictures and they forgot about the time.
 
+They had been laughing quite loudly over Ben Weatherstaff and his robin,
+
+and Colin was actually sitting up as if he had forgotten about his weak back, when he suddenly remembered something.
+
+“Do you know there is one thing we have never once thought of,” he said.
+
+“We are cousins.”
+
+It seemed so queer that they had talked so much and never remembered this simple thing that they laughed more than ever,
+
+because they had got into the humor to laugh at anything.
+
+And in the midst of the fun the door opened and in walked Dr. Craven and Mrs Medlock.
+
+Dr. Craven started in actual alarm and Mrs Medlock almost fell back because he had accidentally bumped against her.
+
+“Good Lord!” exclaimed poor Mrs Medlock with her eyes almost starting out of her head.
+
+“Good Lord!”
+
+“What is this?” said Dr. Craven, coming forward.
+
+“What does it mean?”
+
+Then Mary was reminded of the boy Rajah again.
+
+Colin answered as if neither the doctor’s alarm nor Mrs Medlock’s terror were of the slightest consequence.
+
+He was as little disturbed or frightened as if an elderly cat and dog had walked into the room.
+
+“This is my cousin, Mary Lennox,” he said.
+
+“I asked her to come and talk to me. I like her. She must come and talk to me whenever I send for her.”
+
+Dr. Craven turned reproachfully to Mrs Medlock.
+
+“Oh, sir” she panted.
+
+“I don’t know how it’s happened.
+
+There’s not a servant on the place you'd dare to talk, they all have their orders.”
+
+“Nobody told her anything,” said Colin.
+
+“She heard me crying and found me herself. I am glad she came. Don’t be silly, Medlock.”
+
+Mary saw that Dr. Craven did not look pleased, but it was quite plain that he dare not oppose his patient.
+
+He sat down by Colin and felt his pulse.
+
+“I am afraid there has been too much excitement.
+
+Excitement is not good for you, my boy,” he said.
+
+“I should be excited if she kept away,” answered Colin, his eyes beginning to look dangerously sparkling.
+
+“I am better. She makes me better.
+
+The nurse must bring up her tea with mine.
+
+We will have tea together.”
+
+Mrs Medlock and Dr. Craven looked at each other in a troubled way, but there was evidently nothing to be done.
+
+“He does look rather better, sir,” ventured Mrs Medlock.
+
+“But”, thinking the matter over, “he looked better this morning before she came into the room.”
+
+“She came into the room last night.
+
+She stayed with me a long time.
+
+She sang a Hindustani song to me and it made me go to sleep,” said Colin.
+
+“I was better when I wakened up.
+
+I wanted my breakfast.
+
+I want my tea now. Tell nurse, Medlock.”
+
+Dr. Craven did not stay very long.
+
+He talked to the nurse for a few minutes when she came into the room and said a few words of warning to Colin.
+
+He must not talk too much; he must not forget that he was ill; he must not forget that he was very easily tired.
+
+Mary thought that there seemed to be a number of uncomfortable things he was not to forget.
+
+Colin looked fretful and kept his strange black-lashed eyes fixed on Dr. Craven’s face.
+
+“I want to forget it,” he said at last. “She makes me forget it. That is why I want her.”
+
+Dr. Craven did not look happy when he left the room.
+
+He gave a puzzled glance at the little girl sitting on the large stool.
+
+She had become a stiff, silent child again as soon as he entered and he could not see what the attraction was.
+
+The boy actually did look brighter, however, and he sighed rather heavily as he went down the corridor.
+
+“They are always wanting me to eat things when I don’t want to,” said Colin, as the nurse brought in the tea and put it on the table by the sofa.
+
+“Now, if you’ll eat I will. Those muffins look so nice and hot. Tell me about Rajahs.”

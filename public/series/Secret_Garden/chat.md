@@ -1,5 +1,7 @@
 th’ - the
 tha’ - you
+tha’a
+tha’ art - you are
 tha’rt - you're
 an’ - and
 in’  - ing

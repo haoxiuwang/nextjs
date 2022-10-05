@@ -1,7 +1,3 @@
-CHAPTER IV.
-MARTHA
-
-
 When she opened her eyes in the morning it was because a young housemaid had come into her room to light the fire and was kneeling on the hearth-rug raking out the cinders noisily.
 
 Mary lay and watched her for a few moments and then began to look about the room.
@@ -26,19 +22,19 @@ Martha, the young housemaid, who had just risen to her feet, looked and pointed 
 
 “Yes.”
 
-“That’s th’ moor,” with a good-natured grin.
+“That’s the moor,” with a good-natured grin.
 
-“Does tha’ like it?”
+“Does you like it?”
 
 “No,” answered Mary.
 
 “I hate it.”
 
-“That’s because tha’rt not used to it,” Martha said, going back to her hearth.
+“That’s because yourt not used to it,” Martha said, going back to her hearth.
 
-“Tha’ thinks it’s too big an’ bare now.
+“you thinks it’s too big and bare now.
 
-But tha’ will like it.”
+But you will like it.”
 
 “Do you?” inquired Mary.
 
@@ -48,13 +44,13 @@ But tha’ will like it.”
 
 It’s none bare.
 
-It’s covered wi’ growin’ things as smells sweet.
+It’s covered with growing things as smells sweet.
 
-It’s fair lovely in spring an’ summer when th’ gorse an’ broom an’ heather’s in flower.
+It’s fair lovely in spring and summer when the gorse and broom and heather’s in flower.
 
-It smells o’ honey an’ there’s such a lot o’ fresh air—an’ th’ sky looks so high an’ th’ bees an’ skylarks makes such a nice noise hummin’ an’ singin’.
+It smells of honey and there’s such a lot of fresh air—and the sky looks so high and the bees and skylarks makes such a nice noise humming and singing.
 
-Eh! I wouldn’t live away from th’ moor for anythin’.”
+Eh! I wouldn’t live away from the moor for anything.”
 
 Mary listened to her with a grave, puzzled expression.
 
@@ -78,19 +74,19 @@ Martha sat up on her heels, with her blacking-brush in her hand, and laughed, wi
 
 “Eh! I know that,” she said.
 
-“If there was a grand Missus at Misselthwaite I should never have been even one of th’ under housemaids.
+“If there was a grand Missus at Misselthwaite I should never have been even one of the under housemaids.
 
 I might have been let to be scullerymaid but I’d never have been let upstairs.
 
-I’m too common an’ I talk too much Yorkshire.
+I’m too common and I talk too much Yorkshire.
 
 But this is a funny house for all it’s so grand.
 
-Seems like there’s neither Master nor Mistress except Mr Pitcher an’ Mr Medlock.
+Seems like there’s neither Master nor Mistress except Mr Pitcher and Mr Medlock.
 
-Mr Craven, he won’t be troubled about anythin’ when he’s here, an’ he’s nearly always away.
+Mr Craven, he won’t be troubled about anything when he’s here, and he’s nearly always away.
 
-Mr Medlock gave me th’ place out o’ kindness.
+Mr Medlock gave me the place out of kindness.
 
 She told me she could never have done it if Misselthwaite had been like other big houses.”
 
@@ -100,9 +96,9 @@ Martha began to rub her grate again.
 
 “I’m Mr Medlock’s servant,” she said stoutly.
 
-“An’ she’s Mr Craven’s—but I’m to do the housemaid’s work up here an’ wait on you a bit.
+“and she’s Mr Craven’s—but I’m to do the housemaid’s work up here and wait on you a bit.
 
-But you won’t need much waitin’ on.”
+But you won’t need much waiting on.”
 
 “Who is going to dress me?” demanded Mary.
 
@@ -110,15 +106,15 @@ Martha sat up on her heels again and stared.
 
 She spoke in broad Yorkshire in her amazement.
 
-“Canna’ tha’ dress thysen!” she said.
+“cannot you dress cannot!” she said.
 
 “What do you mean? I don’t understand your language,” said Mary.
 
 “Eh! I forgot,” Martha said.
 
-“Mr Medlock told me I’d have to be careful or you wouldn’t know what I was sayin’.
+“Mr Medlock told me I’d have to be careful or you wouldn’t know what I was saying.
 
-I mean can’t you put on your own clothes?”
+I mean candt you put on your own clothes?”
 
 “No,” answered Mary, quite indignantly.
 
@@ -126,13 +122,13 @@ I mean can’t you put on your own clothes?”
 
 My Ayah dressed me, of course.”
 
-“Well,” said Martha, evidently not in the least aware that she was impudent, “it’s time tha’ should learn.
+“Well,” said Martha, evidently not in the least aware that she was impudent, “it’s time you should learn.
 
-Tha’ cannot begin younger.
+you cannot begin younger.
 
-It’ll do thee good to wait on thysen a bit.
+It’ll do you good to wait on cannot a bit.
 
-My mother always said she couldn’t see why grand people’s children didn’t turn out fair fools—what with nurses an’ bein’ washed an’ dressed an’ took out to walk as if they was puppies!”
+My mother always said she couldn’t see why grand people’s children didn’t turn out fair fools—what with nurses and being washed and dressed and took out to walk as if they was puppies!”
 
 “It is different in India,” said Mistress Mary disdainfully.
 
@@ -142,9 +138,9 @@ But Martha was not at all crushed.
 
 “Eh! I can see it’s different,” she answered almost sympathetically.
 
-“I dare say it’s because there’s such a lot o’ blacks there instead o’ respectable white people.
+“I dare say it’s because there’s such a lot of blacks there instead of respectable white people.
 
-When I heard you was comin’ from India I thought you was a black too.”
+When I heard you was coming from India I thought you was a black too.”
 
 Mary sat up in bed furious.
 
@@ -156,23 +152,23 @@ You—you daughter of a pig!”
 
 Martha stared and looked hot.
 
-“Who are you callin’ names?” she said.
+“Who are you calling names?” she said.
 
 “You needn’t be so vexed.
 
-That’s not th’ way for a young lady to talk.
+That’s not the way for a young lady to talk.
 
-I’ve nothin’ against th’ blacks.
+I’ve nothing against the blacks.
 
 When you read about ’em in tracts they’re always very religious.
 
-You always read as a black’s a man an’ a brother.
+You always read as a black’s a man and a brother.
 
-I’ve never seen a black an’ I was fair pleased to think I was goin’ to see one close.
+I’ve never seen a black and I was fair pleased to think I was going to see one close.
 
-When I come in to light your fire this mornin’ I crep’ up to your bed an’ pulled th’ cover back careful to look at you.
+When I come in to light your fire this morning I crep’ up to your bed and pulled the cover back careful to look at you.
 
-An’ there you was,” disappointedly, “no more black than me—for all you’re so yeller.”
+and there you was,” disappointedly, “no more black than me—for all you’re so yeller.”
 
 Mary did not even try to control her rage and humiliation.
 
@@ -194,11 +190,11 @@ She went to the bed and bent over her.
 
 I didn’t know you’d be vexed.
 
-I don’t know anythin’ about anythin’—just like you said.
+I don’t know anything about anything—just like you said.
 
 I beg your pardon, Miss.
 
-Do stop cryin’.”
+Do stop crying.”
 
 There was something comforting and really friendly in her queer Yorkshire speech and sturdy way which had a good effect on Mary.
 
@@ -206,15 +202,15 @@ She gradually ceased crying and became quiet.
 
 Martha looked relieved.
 
-“It’s time for thee to get up now,” she said.
+“It’s time for you to get up now,” she said.
 
-“Mr Medlock said I was to carry tha’ breakfast an’ tea an’ dinner into th’ room next to this.
+“Mr Medlock said I was to carry you breakfast and tea and dinner into the room next to this.
 
-It’s been made into a nursery for thee.
+It’s been made into a nursery for you.
 
-I’ll help thee on with thy clothes if tha’ll get out o’ bed.
+I’ll help you on with thy clothes if youll get out of bed.
 
-If th’ buttons are at th’ back tha’ cannot button them up tha’self.”
+If the buttons are at the back you cannot button them up youself.”
 
 When Mary at last decided to get up, the clothes Martha took from the wardrobe were not the ones she had worn when she arrived the night before with Mr Medlock.
 
@@ -226,11 +222,11 @@ She looked the thick white wool coat and dress over, and added with cool approva
 
 “Those are nicer than mine.”
 
-“These are th’ ones tha’ must put on,” Martha answered.
+“These are the ones you must put on,” Martha answered.
 
 “Mr Craven ordered Mr Medlock to get ’em in London.
 
-He said ‘I won’t have a child dressed in black wanderin’ about like a lost soul,’ he said.
+He said ‘I won’t have a child dressed in black wandering about like a lost soul,’ he said.
 
 ‘It’d make the place sadder than it is.
 
@@ -246,7 +242,7 @@ The dressing process was one which taught them both something.
 
 Martha had “buttoned up” her little sisters and brothers but she had never seen a child who stood still and waited for another person to do things for her as if she had neither hands nor feet of her own.
 
-“Why doesn’t tha’ put on tha’ own shoes?” she said when Mary quietly held out her foot.
+“Why doesn’t you put on you own shoes?” she said when Mary quietly held out her foot.
 
 “My Ayah did it,” answered Mary, staring.
 
@@ -262,29 +258,29 @@ If Martha had been a well-trained fine young lady’s maid she would have been m
 
 She was, however, only an untrained Yorkshire rustic who had been brought up in a moorland cottage with a swarm of little brothers and sisters who had never dreamed of doing anything but waiting on themselves and on the younger ones who were either babies in arms or just learning to totter about and tumble over things.
 
-If Mary Lennox had been a child who was ready to be amused she would perhaps have laughed at Martha’s readiness to talk, but Mary only listened to her coldly and wondered at her freedom of manner.
+If Mary Lennox had been a child who was ready to be amused she would perhaps have laughed at Maryous readiness to talk, but Mary only listened to her coldly and wondered at her freedom of manner.
 
 At first she was not at all interested, but gradually, as the girl rattled on in her good-tempered, homely way, Mary began to notice what she was saying.
 
 “Eh! you should see ’em all,” she said.
 
-“There’s twelve of us an’ my father only gets sixteen shilling a week.
+“There’s twelve of us and my father only gets sixteen shilling a week.
 
 I can tell you my mother’s put to it to get porridge for ’em all.
 
-They tumble about on th’ moor an’ play there all day an’ mother says th’ air of th’ moor fattens ’em.
+They tumble about on the moor and play there all day and mother says the air of the moor fattens ’em.
 
-She says she believes they eat th’ grass same as th’ wild ponies do.
+She says she believes they eat the grass same as the wild ponies do.
 
 Our Dickon, he’s twelve years old and he’s got a young pony he calls his own.”
 
 “Where did he get it?” asked Mary.
 
-“He found it on th’ moor with its mother when it was a little one an’ he began to make friends with it an’ give it bits o’ bread an’ pluck young grass for it.
+“He found it on the moor with its mother when it was a little one and he began to make friends with it and give it bits of bread and pluck young grass for it.
 
-And it got to like him so it follows him about an’ it lets him get on its back.
+And it got to like him so it follows him about and it lets him get on its back.
 
-Dickon’s a kind lad an’ animals likes him.”
+Dickon’s a kind lad and animals likes him.”
 
 Mary had never possessed an animal pet of her own and had always thought she should like one.
 
@@ -300,19 +296,19 @@ But she had always had a very small appetite, and she looked with something more
 
 “I don’t want it,” she said.
 
-“Tha’ doesn’t want thy porridge!” Martha exclaimed incredulously.
+“you doesn’t want thy porridge!” Martha exclaimed incredulously.
 
 “No.”
 
-“Tha’ doesn’t know how good it is.
+“you doesn’t know how good it is.
 
-Put a bit o’ treacle on it or a bit o’ sugar.”
+Put a bit of treacle on it or a bit of sugar.”
 
 “I don’t want it,” repeated Mary.
 
 “Eh!” said Martha.
 
-“I can’t abide to see good victuals go to waste.
+“I candt abide to see good victuals go to waste.
 
 If our children was at this table they’d clean it bare in five minutes.”
 
@@ -322,33 +318,33 @@ If our children was at this table they’d clean it bare in five minutes.”
 
 “Because they scarce ever had their stomachs full in their lives.
 
-They’re as hungry as young hawks an’ foxes.”
+They’re as hungry as young hawks and foxes.”
 
 “I don’t know what it is to be hungry,” said Mary, with the indifference of ignorance.
 
 Martha looked indignant.
 
-“Well, it would do thee good to try it.
+“Well, it would do you good to try it.
 
 I can see that plain enough,” she said outspokenly.
 
-“I’ve no patience with folk as sits an’ just stares at good bread an’ meat.
+“I’ve no patience with folk as sits and just stares at good bread and meat.
 
-My word! don’t I wish Dickon and Phil an’ Jane an’ th’ rest of ’em had what’s here under their pinafores.”
+My word! don’t I wish Dickon and Phil and Jane and the rest of ’em had what’s here under their pinafores.”
 
 “Why don’t you take it to them?” suggested Mary.
 
 “It’s not mine,” answered Martha stoutly.
 
-“An’ this isn’t my day out.
+“and this isn’t my day out.
 
-I get my day out once a month same as th’ rest.
+I get my day out once a month same as the rest.
 
-Then I go home an’ clean up for mother an’ give her a day’s rest.”
+Then I go home and clean up for mother and give her a day’s rest.”
 
 Mary drank some tea and ate a little toast and some marmalade.
 
-“You wrap up warm an’ run out an’ play you,” said Martha.
+“You wrap up warm and run out and play you,” said Martha.
 
 “It’ll do you good and give you some stomach for your meat.”
 
@@ -358,7 +354,7 @@ There were gardens and paths and big trees, but everything looked dull and wintr
 
 “Out? Why should I go out on a day like this?”
 
-“Well, if tha’ doesn’t go out tha’lt have to stay in, an’ what has tha’ got to do?”
+“Well, if you doesn’t go out yoult have to stay in, and what has you got to do?”
 
 Mary glanced about her.
 
@@ -376,13 +372,13 @@ Martha stared.
 
 “You’ll have to learn to play like other children does when they haven’t got sisters and brothers.
 
-Our Dickon goes off on th’ moor by himself an’ plays for hours.
+Our Dickon goes off on the moor by himself and plays for hours.
 
-That’s how he made friends with th’ pony.
+That’s how he made friends with the pony.
 
-He’s got sheep on th’ moor that knows him, an’ birds as comes an’ eats out of his hand.
+He’s got sheep on the moor that knows him, and birds as comes and eats out of his hand.
 
-However little there is to eat, he always saves a bit o’ his bread to coax his pets.”
+However little there is to eat, he always saves a bit of his bread to coax his pets.”
 
 It was really this mention of Dickon which made Mary decide to go out, though she was not aware of it.
 
@@ -392,9 +388,9 @@ They would be different from the birds in India and it might amuse her to look a
 
 Martha found her coat and hat for her and a pair of stout little boots and she showed her her way downstairs.
 
-“If tha’ goes round that way tha’ll come to th’ gardens,” she said, pointing to a gate in a wall of shrubbery.
+“If you goes round that way youll come to the gardens,” she said, pointing to a gate in a wall of shrubbery.
 
-“There’s lots o’ flowers in summer-time, but there’s nothin’ bloomin’ now.” She seemed to hesitate a second before she added, “One of th’ gardens is locked up.
+“There’s lots of flowers in summer-time, but there’s nothing blooming now.” She seemed to hesitate a second before she added, “One of the gardens is locked up.
 
 No one has been in it for ten years.”
 
@@ -408,7 +404,7 @@ He won’t let no one go inside.
 
 It was her garden.
 
-He locked th’ door an’ dug a hole and buried th’ key.
+He locked the door and dug a hole and buried the key.
 
 There’s Mr Medlock’s bell ringing—I must run.”
 
@@ -454,17 +450,17 @@ He had a surly old face, and did not seem at all pleased to see her—but then s
 
 “What is this place?” she asked.
 
-“One o’ th’ kitchen-gardens,” he answered.
+“One of the kitchen-gardens,” he answered.
 
 “What is that?” said Mary, pointing through the other green door.
 
 “Another of ’em,” shortly.
 
-“There’s another on t’other side o’ th’ wall an’ there’s th’ orchard t’other side o’ that.”
+“There’s another on t’other side of the wall and there’s the orchard t’other side of that.”
 
 “Can I go in them?” asked Mary.
 
-“If tha’ likes.
+“If you likes.
 
 But there’s nowt to see.”
 
@@ -522,11 +518,11 @@ He took no notice of her and so at last she spoke to him.
 
 “I have been into the other gardens,” she said.
 
-“There was nothin’ to prevent thee,” he answered crustily.
+“There was nothing to prevent you,” he answered crustily.
 
 “I went into the orchard.”
 
-“There was no dog at th’ door to bite thee,” he answered.
+“There was no dog at the door to bite you,” he answered.
 
 “There was no door there into the other garden,” said Mary.
 
@@ -556,11 +552,11 @@ She heard a soft little rushing flight through the air—and it was the bird wit
 
 “Here he is,” chuckled the old man, and then he spoke to the bird as if he were speaking to a child.
 
-“Where has tha’ been, tha’ cheeky little beggar?” he said.
+“Where has you been, you cheeky little beggar?” he said.
 
-“I’ve not seen thee before today.
+“I’ve not seen you before today.
 
-Has tha begun tha’ courtin’ this early in th’ season? Tha’rt too forrad.”
+Has tha begun you courting this early in the season? yourt too forrad.”
 
 The bird put his tiny head on one side and looked up at him with his soft bright eye which was like a black dewdrop.
 
@@ -578,19 +574,19 @@ He had a tiny plump body and a delicate beak, and slender delicate legs.
 
 I’ve knowed him ever since he was a fledgling.
 
-He come out of th’ nest in th’ other garden an’ when first he flew over th’ wall he was too weak to fly back for a few days an’ we got friendly.
+He come out of the nest in the other garden and when first he flew over the wall he was too weak to fly back for a few days and we got friendly.
 
-When he went over th’ wall again th’ rest of th’ brood was gone an’ he was lonely an’ he come back to me.”
+When he went over the wall again the rest of the brood was gone and he was lonely and he come back to me.”
 
 “What kind of a bird is he?” Mary asked.
 
-“Doesn’t tha’ know? He’s a robin redbreast an’ they’re th’ friendliest, curiousest birds alive.
+“Doesn’t you know? He’s a robin redbreast and they’re the friendliest, curiousest birds alive.
 
 They’re almost as friendly as dogs—if you know how to get on with ’em.
 
-Watch him peckin’ about there an’ lookin’ round at us now an’ again.
+Watch him pecking about there and looking round at us now and again.
 
-He knows we’re talkin’ about him.”
+He knows we’re talking about him.”
 
 It was the queerest thing in the world to see the old fellow.
 
@@ -600,13 +596,13 @@ He looked at the plump little scarlet-waistcoated bird as if he were both proud 
 
 “He likes to hear folk talk about him.
 
-An’ curious—bless me, there never was his like for curiosity an’ meddlin’.
+and curious—bless me, there never was his like for curiosity and meddling.
 
-He’s always comin’ to see what I’m plantin’.
+He’s always coming to see what I’m planting.
 
-He knows all th’ things Mester Craven never troubles hissel’ to find out.
+He knows all the things Mester Craven never troubles hissel’ to find out.
 
-He’s th’ head gardener, he is.”
+He’s the head gardener, he is.”
 
 The robin hopped about busily pecking the soil and now and then stopped and looked at them a little.
 
@@ -618,11 +614,11 @@ The queer feeling in her heart increased.
 
 “Where did the rest of the brood fly to?” she asked.
 
-“There’s no knowin’.
+“There’s no knowing.
 
-The old ones turn ’em out o’ their nest an’ make ’em fly an’ they’re scattered before you know it.
+The old ones turn ’em out of their nest and make ’em fly and they’re scattered before you know it.
 
-This one was a knowin’ one an’ he knew he was lonely.”
+This one was a knowing one and he knew he was lonely.”
 
 Mistress Mary went a step nearer to the robin and looked at him very hard.
 
@@ -634,13 +630,13 @@ She seemed to find it out when the robin looked at her and she looked at the rob
 
 The old gardener pushed his cap back on his bald head and stared at her a minute.
 
-“Art tha’ th’ little wench from India?” he asked.
+“Art you the little wench from India?” he asked.
 
 Mary nodded.
 
-“Then no wonder tha’rt lonely.
+“Then no wonder yourt lonely.
 
-Tha’lt be lonlier before tha’s done,” he said.
+yoult be lonlier before yous done,” he said.
 
 He began to dig again, driving his spade deep into the rich black garden soil while the robin hopped about very busily employed.
 
@@ -650,7 +646,7 @@ He stood up to answer her.
 
 “Ben Weatherstaff,” he answered, and then he added with a surly chuckle, “I’m lonely mysel’ except when he’s with me,” and he jerked his thumb toward the robin.
 
-“He’s th’ only friend I’ve got.”
+“He’s the only friend I’ve got.”
 
 “I have no friends at all,” said Mary.
 
@@ -660,11 +656,11 @@ My Ayah didn’t like me and I never played with anyone.”
 
 It is a Yorkshire habit to say what you think with blunt frankness, and old Ben Weatherstaff was a Yorkshire moor man.
 
-“Tha’ an’ me are a good bit alike,” he said.
+“you and me are a good bit alike,” he said.
 
-“We was wove out of th’ same cloth.
+“We was wove out of the same cloth.
 
-We’re neither of us good lookin’ an’ we’re both of us as sour as we look.
+We’re neither of us good looking and we’re both of us as sour as we look.
 
 We’ve got the same nasty tempers, both of us, I’ll warrant.”
 
@@ -684,9 +680,9 @@ Ben Weatherstaff laughed outright.
 
 “What did he do that for?” asked Mary.
 
-“He’s made up his mind to make friends with thee,” replied Ben.
+“He’s made up his mind to make friends with you,” replied Ben.
 
-“Dang me if he hasn’t took a fancy to thee.”
+“Dang me if he hasn’t took a fancy to you.”
 
 “To me?” said Mary, and she moved toward the little tree softly and looked up.
 
@@ -694,19 +690,19 @@ Ben Weatherstaff laughed outright.
 
 “Would you?” And she did not say it either in her hard little voice or in her imperious Indian voice, but in a tone so soft and eager and coaxing that Ben Weatherstaff was as surprised as she had been when she heard him whistle.
 
-“Why,” he cried out, “tha’ said that as nice an’ human as if tha’ was a real child instead of a sharp old woman.
+“Why,” he cried out, “you said that as nice and human as if you was a real child instead of a sharp old woman.
 
-Tha’ said it almost like Dickon talks to his wild things on th’ moor.”
+you said it almost like Dickon talks to his wild things on the moor.”
 
 “Do you know Dickon?” Mary asked, turning round rather in a hurry.
 
 “Everybody knows him.
 
-Dickon’s wanderin’ about everywhere.
+Dickon’s wandering about everywhere.
 
-Th’ very blackberries an’ heather-bells knows him.
+the very blackberries and heather-bells knows him.
 
-I warrant th’ foxes shows him where their cubs lies an’ th’ skylarks doesn’t hide their nests from him.”
+I warrant the foxes shows him where their cubs lies and the skylarks doesn’t hide their nests from him.”
 
 Mary would have liked to ask some more questions.
 
@@ -722,9 +718,9 @@ He had made his visit and had other things to do.
 
 “He lives there,” said old Ben.
 
-“He came out o’ th’ egg there.
+“He came out of the egg there.
 
-If he’s courtin’, he’s makin’ up to some young madam of a robin that lives among th’ old rose-trees there.”
+If he’s courting, he’s making up to some young madam of a robin that lives among the old rose-trees there.”
 
 “Rose-trees,” said Mary.
 
@@ -746,13 +742,13 @@ Ben drove his spade deep and looked as uncompanionable as he had looked when she
 
 “There must be.”
 
-“None as anyone can find, an’ none as is anyone’s business.
+“None as anyone can find, and none as is anyone’s business.
 
-Don’t you be a meddlesome wench an’ poke your nose where it’s no cause to go.
+Don’t you be a meddlesome wench and poke your nose where it’s no cause to go.
 
 Here, I must go on with my work.
 
-Get you gone an’ play you.
+Get you gone and play you.
 
 I’ve no more time.”
 
