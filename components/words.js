@@ -28,7 +28,7 @@ export default function Words({height,texts,index,str,setFav,_key}) {
   },[local])
   useEffect(()=>setNotes([]),[word.en])
 
-  if(isLocal)return(<LocalL {...{local,texts}}/>)
+  if(isLocal)return(<LocalL {...{local,texts,setIsLocal}}/>)
   return (
       <div ref={ref2} className="h-full m-3 mt-16">
         <div className="fixed left-3 top-3 right-3 flex place-content-between">
