@@ -11,6 +11,7 @@ export default function Home() {
       return res.json()
     })
     .then(function (data) {
+      // var meta = localStorage.setItem('meta_json',JSON.stringify(data))
       setList(data)
     })
   },[])

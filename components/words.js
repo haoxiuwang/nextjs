@@ -1,7 +1,7 @@
 
 import {useState, useEffect, useRef} from "react"
 
-// import getWords from '../libs/helper'
+import LocalL from '../components/local'
 export default function Words({height,texts,index,str,setFav,_key}) {
   //_key = "_series_Mom_01x12_0"
   _key = _key.replaceAll("/","_")
@@ -11,6 +11,7 @@ export default function Words({height,texts,index,str,setFav,_key}) {
   const [word,setWord] = useState({en:"",zh:""})
   const [notes,setNotes] = useState([])
   const [local,setLocal] = useState([])
+  const [isLocal,setIsLocal] = useState(false)
   const [count,setCount] = useState(6)
   const ref1 = useRef(null)
   const ref2 = useRef(null)
@@ -27,7 +28,7 @@ export default function Words({height,texts,index,str,setFav,_key}) {
   },[local])
   useEffect(()=>setNotes([]),[word.en])
 
-
+  if(isLocal)return(<LocalL {...{local,texts}}/>)
   return (
       <div ref={ref2} className="h-full m-3 mt-16">
         <div className="fixed left-3 top-3 right-3 flex place-content-between">
@@ -101,10 +102,20 @@ export default function Words({height,texts,index,str,setFav,_key}) {
         </div>)}
         <div className="mt-6 pointer-events-auto w-full rounded-lg bg-white p-4 text-[1rem] leading-5 shadow-xl shadow-black/5 hover:bg-slate-50 ring-2 ring-skey-600">
           <div className="flex justify-between">
-            <div className="font-medium text-slate-900">{mem?"全部收藏":"本语句收藏"}</div>
+            <div className="font-medium text-slate-900 flex">
+            <span>{mem?"全部收藏":"本语句收藏"}</span>
             <svg onClick={()=>setMem(!mem)} className="h-5 w-5 flex-none" fill="none"><path fillRule="evenodd" clipRule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.707-9.293a1 1 0 0 0-1.414-1.414L9 10.586 7.707 9.293a1 1 0 0 0-1.414 1.414l2 2a1 1 0 0 0 1.414 0l4-4Z" fill={mem?"#38c3f8":"#aaa"}></path></svg>
+            </div>
+            <div className="flex">
+              <svg onClick={()=>setIsLocal(true)} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrows-fullscreen" viewBox="0 0 16 16">
+                <path fillRule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707zm0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707zm-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707z"/>
+              </svg>
+            </div>
           </div>
           <div className="mt-1 text-slate-700 select-none">
+
+
+
             <ul className="block">
             {
               local.map((item,i)=>{
