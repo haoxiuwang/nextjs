@@ -9,6 +9,7 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
   const [fz,setFz] = useState(false)
   const [fav,setFav] = useState(false)
   const [player,setPlayer] = useState(null)
+  const [mute,setMute] = useState(false)
   useEffect(()=>{
     if(!player)
     setPlayer(new Audio())
@@ -42,7 +43,11 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
   },[blob])
 
   useEffect(()=>{
-
+    if(mute){
+      player.pause()
+      player.ontimeupdate = null
+      return
+    }
     if(!time||!blob||!player)return
     (player.currentTime = time[index].timeSeconds)
     if(player.paused)
@@ -73,7 +78,10 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
   console.log({serie});
   return(
     <div>
-      <div  className="z-50 fixed right-14 bottom-14 flex space-x-4  place-content-center">
+      <div  className="z-50 fixed inset-x-3 flex-wrap bottom-14 flex  place-content-around">
+      <button onClick={()=>{
+        setMute(!mute)
+      }} className="button-17 ">{mute?"解除":"静音"}</button>
       <button onClick={()=>{
         window.open(`${path}/${part}.mp3`,"_blank")
         }} className="button-17 ">播放</button>
