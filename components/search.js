@@ -11,13 +11,13 @@ export default function Search({setSearch,parts}) {
         setList(parts.reduce((arr,part,i)=>{
 
           var _arr = part.filter((item,m)=>{
-            return item.en.indexOf(e.target.value)>-1
+            return item.en.toLowerCase().indexOf(e.target.value.toLowerCase())>-1
           })
 
           if(_arr.length>0){
-            console.log({arr,_arr});
+
             var _x = [...arr,..._arr]
-            // console.log({_x});
+
             return _x
           }
           else return[...arr]
