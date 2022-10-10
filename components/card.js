@@ -2,6 +2,7 @@ import {useEffect,useState,useCallback} from 'react'
 import Progress from "./progress"
 import Swipe from "./swipe"
 import Words from "./words"
+import Search from "./search"
 export default function Card({height,serie,season,episode,count,path,dir_name,part,texts,setPart,setParts,parts}) {
   const [index,setIndex] = useState(0)
   var value = (100*(1-index/texts.length))+"%"
@@ -10,6 +11,7 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
   const [fav,setFav] = useState(false)
   const [player,setPlayer] = useState(null)
   const [mute,setMute] = useState(false)
+  const [search,setSearch] = useState(false)
   useEffect(()=>{
     if(!player)
     setPlayer(new Audio())
@@ -70,18 +72,22 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
   if (error1||error2)return(<div style={{height}} className="flex place-content-center place-items-center">time and audio data error...</div>)
 
   var props = {height,auto,setAuto,fz,setFz,index,setIndex,time,repeat,setRepeat,texts,fav,setFav,serie,_key:path+"_"+part}
-
+  console.log({search});
+  if(search)return(<Search {...{parts,setSearch}}/>)
   if(fav)
   return(<div>
     <Words {...{height,texts,index,str:texts[index].en,setFav,_key:path+"_"+part,setAuto}}/>
   </div>)
-  console.log({serie});
+
   return(
     <div>
       <div  className="z-50 fixed inset-x-3 flex-wrap bottom-14 flex  place-content-around">
       <button onClick={()=>{
         setMute(!mute)
       }} className="button-17 ">{mute?"解除":"静音"}</button>
+      <button onClick={()=>{
+        setSearch(true)
+      }} className="button-17 ">搜索</button>
       <button onClick={()=>{
         window.open(`${path}/${part}.mp3`,"_blank")
         }} className="button-17 ">播放</button>
