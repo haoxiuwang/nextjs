@@ -5,7 +5,8 @@ export default function Search({setSearch,parts}) {
   const [list,setList] = useState([])
   console.log({list});
   return (
-    <div className="fixed inset-0 bg-sky-100">
+    <div onContextMenu={()=>setSearch(false)} className="fixed inset-0 bg-sky-100">
+      <div className="m-3">
       <input className="appearance-none w-full border-2 border-solid border-slate-300 text-base text-sky-600 placeholder:text-slate-600 focus:outline-none sm:text-sm sm:leading-6" onBlur={(e)=>{
         setList(parts.reduce((arr,part,i)=>{
 
@@ -23,6 +24,7 @@ export default function Search({setSearch,parts}) {
         },[]))
         setWord(e.target.value)
       }}/>
+      </div>
       <ul className="m-3">
         {
           list.length>0&&list.map((item,i)=>(
