@@ -27,8 +27,8 @@ export default function LocalL({local,texts,setIsLocal}) {
             <li onClick={()=>{
               if(item.index!==undefined)
               setIndex(item.index)
-            }} key={i} className="block space-y-4">
-              <span className="semibold">{item.en+": "}</span><span>{item.zh}</span>
+            }} key={i} className={`block space-y-4 border-b-2 border-sky-600/30 border-solid`}>
+              <span className={`semibold `}>{item.en+": "}</span><span>{item.zh}</span>
             </li>
             )
           })
