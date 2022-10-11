@@ -5,9 +5,10 @@ export default function Search({setSearch,parts}) {
   const [list,setList] = useState([])
   console.log({list});
   return (
-    <div onContextMenu={()=>setSearch(false)} className="fixed inset-0 bg-sky-100">
-      <div className="m-3">
-      <input className="appearance-none w-full border-2 border-solid border-slate-300 text-base text-sky-600 placeholder:text-slate-600 focus:outline-none sm:text-sm sm:leading-6" onBlur={(e)=>{
+    <div onContextMenu={()=>setSearch(false)} className="fixed inset-0 bg-sky-100 overflow-y-auto">
+      <div className="p-6 bg-white">
+      <div className="h-14 p-3 flex place-content-center place-items-center border-2 border-solid border-slate-300">
+      <input type="text" autoFocus="autofocus" className="appearance-none w-full text-base text-sky-600 placeholder:text-slate-600 focus:outline-none sm:text-sm sm:leading-6" onBlur={(e)=>{
         setList(parts.reduce((arr,part,i)=>{
 
           var _arr = part.filter((item,m)=>{
@@ -24,6 +25,7 @@ export default function Search({setSearch,parts}) {
         },[]))
         setWord(e.target.value)
       }}/>
+      </div>
       </div>
       <ul className="m-3">
         {
