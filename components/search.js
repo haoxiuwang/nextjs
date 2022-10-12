@@ -2,8 +2,8 @@ import {useState} from "react"
 
 export default function Search({setSearch,parts}) {
   const [word,setWord] = useState("")
-  const [list,setList] = useState([])
-  console.log({list});
+  const [list,setList] = useState(parts.reduce((arr,part,i)=>[...arr,...part.filter((item,m)=>true)],[]))
+
   return (
     <div onContextMenu={()=>setSearch(false)} className="fixed inset-0 bg-sky-100 overflow-y-auto">
       <div className="p-6 bg-white">
