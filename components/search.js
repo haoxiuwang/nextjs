@@ -12,6 +12,7 @@ export default function Search({setSearch,parts}) {
         setList(parts.reduce((arr,part,i)=>{
 
           var _arr = part.filter((item,m)=>{
+            if(e.target.value.length==0)return true
             return item.en.toLowerCase().indexOf(e.target.value.toLowerCase())>-1
           })
 
