@@ -66,13 +66,13 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
   },[index,repeat,auto])
 
   const [auto,setAuto] = useState(false)
-
+  const [font,setFont] = useState(2)
   if (!time||!blob)return(<div style={{height}} className="flex place-content-center place-items-center">loading data...</div>)
 
   if (error1||error2)return(<div style={{height}} className="flex place-content-center place-items-center">time and audio data error...</div>)
 
-  var props = {height,auto,setAuto,fz,setFz,index,setIndex,time,repeat,setRepeat,texts,fav,setFav,serie,_key:path+"_"+part}
-  console.log({search});
+  var props = {height,auto,setAuto,fz,setFz,index,setIndex,time,repeat,setRepeat,texts,fav,setFav,serie,_key:path+"_"+part,font}
+
   if(search)return(<Search {...{parts,setSearch}}/>)
   if(fav)
   return(<div>
@@ -89,8 +89,14 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
         setSearch(true)
       }} className="button-17 ">搜索</button>
       <button onClick={()=>{
-        window.open(`${path}/${part}.mp3`,"_blank")
-        }} className="button-17 ">播放</button>
+        var f = font
+        f++
+        f = f>3?0:f
+        setFont(f)
+      }} className="button-17 ">{font<1?"小号":font<2?"中号":font<3?"大号":"特大"}</button>
+      <button onClick={()=>{
+          window.open(`${path}/${part}.mp3`,"_blank")
+          }} className="button-17 ">播放</button>
       <button onClick={()=>{
           player.pause()
           player.ontimeupdate = null

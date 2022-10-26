@@ -1,6 +1,6 @@
 import {useRef,useEffect,useState} from "react"
 import Progress from './progress'
-export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repeat,setRepeat,texts,back,fav,setFav,serie,_key}) {
+export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repeat,setRepeat,texts,back,fav,setFav,serie,_key,font}) {
   const card = useRef(null)
   const [lang,setLang] = useState(true)
   const [local,setLocal] = useState([])
@@ -55,7 +55,7 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
 
   }} onContextMenu={(e)=>setFav(true)} ref={card} className="fixed inset-0 flex place-content-center place-items-center m-3 select-none">
     <div>
-      <div style={{transform:`rotate(-${rnd}deg)`}} className={`relative p-3 py-10 m-auto w-[20rem] md:w-[25rem] text-center bg-sky-200 border-solid rounded border-sky-400 border-1 ${auto?"text-lg":""}` }>
+      <div style={{transform:`rotate(-${rnd}deg)`,fontSize:font<1?"16px":font<2?"20px":font<3?"25px":"30px"}} className={`relative p-3 py-10 m-auto w-[20rem] md:w-[25rem] text-center bg-sky-200 border-solid rounded border-sky-400 border-1` }>
         {lang?en:zh}
       </div>
       {_local.length>0&&(<div style={{transform:`rotate(-${rnd2}deg)`}} className={`relative p-3 py-10 m-3 w-[20rem] md:w-[25rem] text-center bg-sky-100 border-solid rounded border-sky-400 border-1`}>
