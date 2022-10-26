@@ -58,7 +58,7 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
       <div style={{transform:`rotate(-${rnd}deg)`}} className={`relative p-3 py-10 m-auto w-[20rem] md:w-[25rem] text-center bg-sky-200 border-solid rounded border-sky-400 border-1 ${auto?"text-lg":""}` }>
         {lang?en:zh}
       </div>
-      {auto||_local.length>0&&(<div style={{transform:`rotate(-${rnd2}deg)`}} className={`relative p-3 py-10 m-3 w-[20rem] md:w-[25rem] text-center bg-sky-100 border-solid rounded border-sky-400 border-1`}>
+      {_local.length>0&&(<div style={{transform:`rotate(-${rnd2}deg)`}} className={`relative p-3 py-10 m-3 w-[20rem] md:w-[25rem] text-center bg-sky-100 border-solid rounded border-sky-400 border-1`}>
         {
           _local.map((item,i)=>{
           return(
