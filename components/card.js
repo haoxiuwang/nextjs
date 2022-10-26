@@ -94,9 +94,7 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
         f = f>3?0:f
         setFont(f)
       }} className="button-17 ">{font<1?"小号":font<2?"中号":font<3?"大号":"特大"}</button>
-      <button onClick={()=>{
-          window.open(`${path}/${part}.mp3`,"_blank")
-          }} className="button-17 ">播放</button>
+      
       <button onClick={()=>{
           player.pause()
           player.ontimeupdate = null
