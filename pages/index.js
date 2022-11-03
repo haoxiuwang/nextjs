@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 import Episode from "../components/episode.js"
+import Storage from "../components/storage.js"
 import Link from "next/link"
 import Image from 'next/image'
 
@@ -19,6 +20,8 @@ export default function Home() {
   if(selected)
   return (<Episode {...{...selected,setSelected}} />)
   return (
+    <div>
+
     <div className="select-none">
       <div className="mt-[50px] mx-[25px] font-bold">
         <h3>Listening List</h3>
@@ -60,6 +63,7 @@ export default function Home() {
         )}
       )}
       </div>
+    </div>
     </div>
   )
 }

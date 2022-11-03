@@ -51,7 +51,7 @@ export default function Episode({ serie,season,episode,count,path,dir_name,setSe
   var flex = `${center} h-[${height}px]`
   if (!parts)return(<div style={{height:height+"px"}} className={flex}>loading text data...</div>)
   if (error0)return(<div style={{height:height+"px"}} className={flex}>loading text data error...</div>)
-
+  console.log({parts});
   if(index==-1){
   return (
   <div className="fixed inset-0  select-none" style={{minHeight:height+"px"}}>
