@@ -84,8 +84,8 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
 
   return(
     <div>
-      <div className="z-50 h-full fixed left-2 inset0-y-0 flex-wrap flex flex-col  place-content-center place-items-center">
-      <button className="button-17" onClick={()=>{
+      <div className="z-50 h-full fixed left-2 inset0-y-0 flex-wrap flex flex-col space-y-2  place-content-center place-items-center">
+      <button className="p-2" onClick={()=>{
         setMute(!mute)
       }} >{mute?(<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-volume-off-fill" viewBox="0 0 16 16">
   <path d="M10.717 3.55A.5.5 0 0 1 11 4v8a.5.5 0 0 1-.812.39L7.825 10.5H5.5A.5.5 0 0 1 5 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06z"/>
@@ -94,7 +94,7 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
 </svg>)}</button>
       <button onClick={()=>{
         setSearch(true)
-      }} className="button-17"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+      }} className="p-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
   <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
 </svg></button>
       <button onClick={()=>{
@@ -102,20 +102,20 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
         f++
         f = f>3?0:f
         setFont(f)
-      }} className="button-17 ">{font<1?"S":font<2?"M":font<3?"B":"B+"}</button>
+      }} className="p-2 ">{font<1?"S":font<2?"M":font<3?"B":"B+"}</button>
 
       <button onClick={()=>{
           player.pause()
           player.ontimeupdate = null
           player.src = null
           setPart(-1)
-        }} className="button-17 "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-return-left" viewBox="0 0 16 16">
+        }} className="p-2 "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-return-left" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5z"/>
 </svg></button>
         <button onClick={(e)=>{
           e.stopPropagation()
           setAuto(!auto)
-        }} className={`button-17 ${auto?"current":""}`} >{auto?(<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-repeat-1" viewBox="0 0 16 16">
+        }} className={`p-2 ${auto?"current":""}`} >{auto?(<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-repeat-1" viewBox="0 0 16 16">
   <path d="M11 4v1.466a.25.25 0 0 0 .41.192l2.36-1.966a.25.25 0 0 0 0-.384l-2.36-1.966a.25.25 0 0 0-.41.192V3H5a5 5 0 0 0-4.48 7.223.5.5 0 0 0 .896-.446A4 4 0 0 1 5 4h6Zm4.48 1.777a.5.5 0 0 0-.896.446A4 4 0 0 1 11 12H5.001v-1.466a.25.25 0 0 0-.41-.192l-2.36 1.966a.25.25 0 0 0 0 .384l2.36 1.966a.25.25 0 0 0 .41-.192V13h6a5 5 0 0 0 4.48-7.223Z"/>
   <path d="M9 5.5a.5.5 0 0 0-.854-.354l-1.75 1.75a.5.5 0 1 0 .708.708L8 6.707V10.5a.5.5 0 0 0 1 0v-5Z"/>
 </svg>):(<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-repeat" viewBox="0 0 16 16">
