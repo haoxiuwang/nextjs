@@ -1,9 +1,11 @@
-import {useEffect,useState,useCallback} from 'react'
+import {useEffect,useState,useCallback,useRef} from 'react'
 import Progress from "./progress"
 import Swipe from "./swipe"
 import Words from "./words"
 import Search from "./search"
 export default function Card({height,serie,season,episode,count,path,dir_name,part,texts,setPart,setParts,parts}) {
+  const [side,setSide] = useState(true)
+
   const [index,setIndex] = useState(0)
   var value = (100*(1-index/texts.length))+"%"
   const [repeat,setRepeat] = useState(false)
@@ -67,7 +69,7 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
         player.pause()
     }
   },[index,repeat,auto])
-  console.log({blob,time});
+
   const [auto,setAuto] = useState(false)
   const [font,setFont] = useState(2)
   if (!time||!blob)return(<div style={{height}} className="flex place-content-center place-items-center">loading data...</div>)
@@ -84,7 +86,7 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
 
   return(
     <div>
-      <div className="z-50 h-full fixed left-2 inset0-y-0 flex-wrap flex flex-col space-y-5  place-content-center place-items-center">
+      <div onContextMenu={(e)=>{setSide(!side)}} className={`z-50 h-full fixed ${side?"left-2":"right-2"} inset0-y-0 flex-wrap flex flex-col space-y-5  place-content-center place-items-center`}>
       <button className="" onClick={()=>{
         setMute(!mute)
       }} >{mute?(<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mic" viewBox="0 0 16 16">

@@ -63,7 +63,7 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
           _local.map((item,i)=>{
           return(
             <div key={i}>
-              <span className="text-semibold">{item.en}</span>
+              <span className="text-semibold">{item.en}</span>:
               <span>{item.zh}</span>
             </div>
           )})
