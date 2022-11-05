@@ -63,8 +63,8 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
           _local.map((item,i)=>{
           return(
             <div className="mb-2 text-left leading-none" key={i}>
-              <div className="text-bold ">{item.en}</div>
-              <div>{item.zh}</div>
+              <span className="text-bold ">[{item.en}]</span>
+              <span>{item.zh}</span>
             </div>
           )})
         }
