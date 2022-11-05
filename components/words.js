@@ -116,7 +116,7 @@ export default function Words({height,texts,index,str,setFav,_key}) {
 
 
 
-            <ul className="block">
+            <ul className="block text-left">
             {
               local.map((item,i)=>{
                 if(!mem&&item.index!=index)return
@@ -126,7 +126,7 @@ export default function Words({height,texts,index,str,setFav,_key}) {
                   arr.splice(i,1)
                   setLocal(arr)
                 }} _key={i} className="block space-y-4">
-                  <div className="semibold">{item.en}</div><div>{item.zh}</div>
+                  <div className="bold">{item.en}</div><div>{item.zh}</div>
                 </li>
                 )
               })
