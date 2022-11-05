@@ -125,8 +125,8 @@ export default function Words({height,texts,index,str,setFav,_key}) {
                   var arr = [...local]
                   arr.splice(i,1)
                   setLocal(arr)
-                }} _key={i} className="block space-y-4">
-                  <div className="bold">{item.en}</div><div>{item.zh}</div>
+                }} _key={i} className="mb-2 block leading-none">
+                  <div className="text-bold">{item.en}</div><div>{item.zh}</div>
                 </li>
                 )
               })
