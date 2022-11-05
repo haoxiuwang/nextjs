@@ -86,7 +86,7 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
 
   return(
     <div>
-      <div onContextMenu={(e)=>{setSide(!side)}} className={`z-50 h-full fixed ${side?"left-2":"right-2"} inset0-y-0 flex-wrap flex flex-col space-y-5  place-content-center place-items-center`}>
+      <div onContextMenu={(e)=>{setSide(!side)}} className={`z-50 h-full fixed select-none ${side?"left-2":"right-2"} inset0-y-0 flex-wrap flex flex-col space-y-5  place-content-center place-items-center`}>
       <button className="" onClick={()=>{
         setMute(!mute)
       }} >{mute?(<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mic" viewBox="0 0 16 16">
