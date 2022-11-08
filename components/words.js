@@ -126,7 +126,7 @@ export default function Words({height,texts,index,str,setFav,_key}) {
                   arr.splice(i,1)
                   setLocal(arr)
                 }} _key={i} className="mb-2 block leading-none">
-                  <span className="text-bold">{item.en}: </span><span>{item.zh}</span>
+                  <span className="font-semibold">{item.en}: </span><span>{item.zh}</span>
                 </li>
                 )
               })
