@@ -60,10 +60,10 @@ export default function Card({height,serie,season,episode,count,path,dir_name,pa
     if(player.paused)
     player.play()
     player.ontimeupdate = ()=>{
-      if(index==time.length-1&&player.currentTime>(player.duration-0.3)){
+      if(index==time.length-1&&player.currentTime>(player.duration-0.7)){
         if(auto)setIndex(0)
       }
-      if(index<time.length-1&&player.currentTime>(time[index+1].timeSeconds-0.3))
+      if(index<time.length-1&&player.currentTime>(time[index+1].timeSeconds-0.7))
         if(auto)setIndex(index+1)
         else
         player.pause()
