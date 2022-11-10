@@ -4,6 +4,7 @@ export default function Local() {
   const [local,setLocal] = useState(null);
   const download = useRef(null)
   const [fresh,setFresh] = useState(false)
+  const input = useRef(null)
   useEffect(()=>{
     setLocal({...localStorage})
   },[fresh])
@@ -33,31 +34,7 @@ export default function Local() {
           _download.click()
         }}>保存</div>
         <div className="rounded bg-slate-100 py-2 px-5" onClick={()=>{
-          window.showOpenFilePicker()
-          .then(([fileHandle])=>fileHandle.getFile())
-          .then((file)=> new Promise((resolve)=>{
-            var reader = new FileReader()
-            reader.readAsText(file)
-            reader.onload = function (event) {
-              resolve(event.target.result)
-            }})
-          ,(err)=>{console.log(err)})
-          .then((buf)=>{
-            if(!buf)return
-            var _local = JSON.parse(buf)
-
-            var keys = Object.keys(_local)
-
-            keys.forEach((key, i) => {
-              if(typeof(_local[key])!="string"){
-                alert("alert!")
-                return
-              }
-              localStorage.setItem(key,_local[key])
-            });
-            setFresh(!fresh)
-          })
-
+          input.current.click()
         }}>加载</div>
         <div className="rounded border-solid border-2 border-bg-slate-100 py-2 px-5" onClick={()=>{
           Object.keys(local).forEach((item, i) => {
@@ -66,6 +43,31 @@ export default function Local() {
           setFresh(!fresh)
         }}>清除</div>
       </div>
+      <input className="hidden" type="file" ref={input} onChange={()=>{
+        var file = input.current.files[0]
+        new Promise((resolve)=>{
+          var reader = new FileReader()
+          reader.readAsText(file)
+          reader.onload = function (event) {
+            resolve(event.target.result)
+          }})
+        .then((buf)=>{
+          if(!buf)return
+          var _local = JSON.parse(buf)
+
+          var keys = Object.keys(_local)
+
+          keys.forEach((key, i) => {
+            if(typeof(_local[key])!="string"){
+              alert("alert!")
+              return
+            }
+            localStorage.setItem(key,_local[key])
+          });
+          setFresh(!fresh)
+        })
+
+      }}/>
       <a className="hidden" ref={download}>download</a>
     </div>
   )
