@@ -34,15 +34,16 @@ export default function Local() {
         }}>保存</div>
         <div className="rounded bg-slate-100 py-2 px-5" onClick={()=>{
           window.showOpenFilePicker()
-          .then(([fileHandle])=>fileHandle.getFile(),()=>console.log("err"))
-          .then((file)=>new Promise((resolve)=>{
+          .then(([fileHandle])=>fileHandle.getFile())
+          .then((file)=> new Promise((resolve)=>{
             var reader = new FileReader()
             reader.readAsText(file)
             reader.onload = function (event) {
               resolve(event.target.result)
-            }
-          })
+            }})
+          ,(err)=>{console.log(err)})
           .then((buf)=>{
+            if(!buf)return
             var _local = JSON.parse(buf)
 
             var keys = Object.keys(_local)
@@ -55,10 +56,10 @@ export default function Local() {
               localStorage.setItem(key,_local[key])
             });
             setFresh(!fresh)
-          }))
+          })
 
         }}>加载</div>
-        <div onClick={()=>{
+        <div className="rounded border-solid border-2 border-bg-slate-100 py-2 px-5" onClick={()=>{
           Object.keys(local).forEach((item, i) => {
             localStorage.removeItem(item)
           });
