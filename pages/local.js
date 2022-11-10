@@ -3,16 +3,24 @@ import {useState,useEffect,useRef} from "react"
 export default function Local() {
   const [local,setLocal] = useState(null);
   const download = useRef(null)
+  const [fresh,setFresh] = useState(false)
+  useEffect(()=>{
+    setLocal({...localStorage})
+  },[fresh])
+  console.log(local);
   return(
     <div className="fixed inset-0 flex space-y-5 flex-col place-content-center place-items-center">
-      <div>
+      <div className="h-[50%] m-5 bg-slate-100 p-5">
         {
-          Object.keys(local).map((key,i)=>(
-          <div>{key}</div>
-          <div>JSON.stringify({local[key]})</div>
-        ))
-      }
-      </div>
+          local&&Object.keys(local).map((k,i)=>(
+            <div key={k} className="mb-5 text-left">
+              <div className="font-bold">{k}</div>
+              <div>{local[k]}</div>
+            </div>
+          ))
+        }
+        </div>
+
       <div className="text-center">把网页数据保存到本地文件“local.md”,或把"local.md"文件上传到网页。</div>
       <div className="space-x-3 flex place-content-center place-items-center">
         <div className="rounded bg-slate-100 py-2 px-5" onClick={()=>{
@@ -29,27 +37,33 @@ export default function Local() {
           .then(([fileHandle])=>fileHandle.getFile(),()=>console.log("err"))
           .then((file)=>new Promise((resolve)=>{
             var reader = new FileReader()
-            reader.readAsArrayBuffer(file)
+            reader.readAsText(file)
             reader.onload = function (event) {
               resolve(event.target.result)
             }
           })
           .then((buf)=>{
-            var _local = new TextDecoder("utf-8").decode(buf)
-            _local = JSON.parse(local)
-            setLocal(_local)
-            // var keys = Object.keys(local)
-            // console.log(keys);
-            // keys.forEach((key, i) => {
-            //   console.log(key,local[key]);
-            //   return
-            //   setItem(key,local[key])
-            // });
+            var _local = JSON.parse(buf)
 
+            var keys = Object.keys(_local)
+
+            keys.forEach((key, i) => {
+              if(typeof(_local[key])!="string"){
+                alert("alert!")
+                return
+              }
+              localStorage.setItem(key,_local[key])
+            });
+            setFresh(!fresh)
           }))
 
         }}>加载</div>
-
+        <div onClick={()=>{
+          Object.keys(local).forEach((item, i) => {
+            localStorage.removeItem(item)
+          });
+          setFresh(!fresh)
+        }}>清除</div>
       </div>
       <a className="hidden" ref={download}>download</a>
     </div>
