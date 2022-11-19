@@ -53,7 +53,7 @@ export default function ({height,auto,setAuto,fz,setFz,index,setIndex,time,repea
     // if(distance>20)setIndex(index==0?index:index-1)
     // else if(distance<-20)setIndex(index==texts.length-1?index:index+1)
 
-  }} onContextMenu={(e)=>setFav(true)} ref={card} className="fixed z-1 inset-0 flex place-content-center place-items-center m-3 select-none">
+  }} onContextMenu={(e)=>setFav(true)} ref={card} className="h-full flex place-content-center place-items-center m-3 select-none">
     <div>
       <div style={{transform:`rotate(-${rnd}deg)`,fontSize:font<1?"16px":font<2?"20px":font<3?"25px":"30px"}} className={`relative p-3 py-10 m-auto w-[20rem] md:w-[25rem] text-center bg-sky-200 border-solid rounded border-sky-400 border-1` }>
         {lang?en:zh}
